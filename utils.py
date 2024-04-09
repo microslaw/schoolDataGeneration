@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import faker as fk
-
+import os
 
 defaultCityDistricts = [
     "Wejherowo",
@@ -114,3 +114,7 @@ def generateNames(count, genderCol):
 def generateSurnames(count):
     return [faker.last_name() for _ in range(count)]
 
+def mkdir(path):
+    if not os.path.exists(path):
+        os.makedirs(path)
+    print(f"Directory {path} already exists")
