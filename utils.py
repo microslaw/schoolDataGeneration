@@ -20,6 +20,25 @@ defaultCityDistricts = [
 ]
 
 
+defaultCityDistrictsTrendDict = {
+
+    "Wejherowo" : 70,
+    "Redlowo" : 40,
+    "Orlowo" :35,
+    "Reda" :55,
+    "Gdynia centrum": 50,
+    "Gdansk centrum": 20,
+    "Zaspa" : 20,
+    "Jasien" : 40,
+    "Orunia" : 30,
+    "Przymorze" : 25,
+    "Wrzeszcz" : 15,
+    "Stocznia" : 10,
+    "Lostowice" : 60,
+}
+
+
+
 defaultSpecializations = {
     "Mathematical": ["Mathematics", "Physics", "Informatics"],
     "Humanistic": ["Polish", "Psychology", "History"],
