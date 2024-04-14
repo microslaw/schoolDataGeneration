@@ -137,3 +137,7 @@ def mkdir(path):
     if not os.path.exists(path):
         os.makedirs(path)
     print(f"Directory {path} already exists")
+
+
+def getKeyByValue(d, value):
+    return [k for k, v in d.items() if v == value][0]

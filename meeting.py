@@ -1,9 +1,8 @@
 import pandas as pd
 import random
-import numpy as np
 import time
 from datetime import timedelta, datetime
-from utils import generateDates
+from utils import generateDates, getKeyByValue
 from itertools import product
 
 
@@ -17,14 +16,34 @@ def isRoomFree(df, room, startHour, endHour):
     return True
 
 
-def isClassFree(df, cID, startHour, endHour):
-    df = df[df["cID"] == cID]
-    df = df[df["EndHour"] > startHour]
-    df = df[df["StartHour"] < endHour]
+def getAllRoomsCombinations(rooms, schoolStart, schoolEnd):
+    rooms = list(rooms)
+    freeRooms = {hour: rooms.copy() for hour in range(schoolStart, schoolEnd + 1)}
+    for hour, rooms in freeRooms.items():
+        random.shuffle(rooms)
+        freeRooms[hour] = rooms
+    return freeRooms
 
-    if len(df) > 0:
-        return False
-    return True
+def getFreeRoom(freeRooms, startHour):
+    freeRoomsList = freeRooms[startHour]
+    if len(freeRoomsList) > 0:
+        return freeRoomsList.pop()
+    return None
+
+def getAllTeachersCombinations(teachers, schoolStart, schoolEnd):
+    freeTeachers = {hour: teachers.copy() for hour in range(schoolStart, schoolEnd + 1)}
+    for hour, teachers in freeTeachers.items():
+        random.shuffle(teachers)
+        freeTeachers[hour] = set(teachers)
+    return freeTeachers
+
+def getFreeTeacher(freeTeachers, startHour, teachersNeeded):
+    freeTeachersSet = freeTeachers[startHour]
+    freeTeachersSet = freeTeachersSet.intersection(teachersNeeded)
+    if len(freeTeachersSet) > 0:
+        return freeTeachersSet.pop()
+    return None
+
 
 
 def isTeacherFree(df, tID, startHour, endHour):
@@ -37,37 +56,72 @@ def isTeacherFree(df, tID, startHour, endHour):
     return True
 
 
-def scheduleClassDay(df, courses, aClass, aClassCourses, rooms, schoolStart, schoolEnd):
-    """
-    aClass is id of a class that has schedule made for them
-    aClassCourses is a list of courses that the class has
-    courses is a dataframe with all courses
-    """
+# def scheduleClassDay(df, courses, aClass, aClassCourses, rooms, schoolStart, schoolEnd):
+#     """
+#     aClass is id of a class that has schedule made for them
+#     aClassCourses is a list of courses that the class has
+#     courses is a dataframe with all courses
+#     """
 
-    schedule = pd.DataFrame(columns=["RoomNumber", "StartHour", "EndHour", "cID", "tID"])
-    start_times = range(schoolStart, schoolEnd + 1)
-    room_numbers = rooms["RoomNumber"].tolist()
-    combinations = list(product(start_times, room_numbers))
+#     schedule = pd.DataFrame(
+#         columns=["RoomNumber", "StartHour", "EndHour", "cID", "tID"]
+#     )
+#     start = schoolStart
+#     rooms = list(rooms["RoomNumber"].unique())
+#     freeRooms = getAllRoomsCombinations(rooms, schoolStart, schoolEnd)
 
-    random.shuffle(combinations)
-    courses = courses[courses["cID"].isin(aClassCourses)]
-    for index, row in courses[["cID", "tID"]].iterrows():
-        for start, room in combinations:
-            if (isRoomFree(df, room, start, start + 1) and
-                isClassFree(df, aClass, start, start + 1) and
-                isTeacherFree(df, row["tID"], start, start + 1)):
-                schedule.loc[len(schedule) + len(df)] = {
-                    "RoomNumber": room,
-                    "StartHour": start,
-                    "EndHour": start + 1,
-                    "cID": row["cID"],
-                    "tID": row["tID"],
-                }
-                break
+#     teachersCourses = [row for index, row in courses[["cID", "tID"]].iterrows()]
+#     freeTeachers = getAllTeachersCombinations(teachersCourses, schoolStart, schoolEnd)
+#     courses = courses[courses["cID"].isin(aClassCourses)]
+#     for index, row in courses[["cID", "tID"]].iterrows():
+#         if (
+#             isClassFree(df, aClass, start, start + 1)
+#             and isTeacherFree(df, row["tID"], start, start + 1)
+#         ):
+#             room = getFreeRoom(freeRooms, start)
+
+#             schedule.loc[len(schedule) + len(df)] = {
+#                 "RoomNumber": room,
+#                 "StartHour": start,
+#                 "EndHour": start + 1,
+#                 "cID": row["cID"],
+#                 "tID": row["tID"],
+#             }
+#             break
+#         else:
+#             start += 1
+#     return schedule
+
+def scheduleClassDay(df, teachersDict, roomsDict, schoolStart, schoolEnd, classCoursesTeachersDict):
+    schedule = pd.DataFrame(
+        columns=["RoomNumber", "StartHour", "EndHour", "cID", "tID"]
+    )
+    for hour in range(schoolStart, schoolEnd):
+        # for key, value in roomsDict.items():
+        #     print(key, value)
+        # input()
+        room = getFreeRoom(roomsDict, hour)
+        teacher = getFreeTeacher(teachersDict, hour, classCoursesTeachersDict.values())
+        if room is not None and teacher is not None:
+            cID = getKeyByValue(classCoursesTeachersDict, teacher)
+            schedule.loc[len(schedule) + len(df)] = {
+                "RoomNumber": room,
+                "StartHour": hour,
+                "EndHour": hour + 1,
+                "cID": cID,
+                "tID": teacher,
+            }
+
+            classCoursesTeachersDict.pop(cID)
         else:
-            print("No available schedule found for this course.")
-    return schedule
+            if room is None:
+                # print("No room available")
+                teachersDict[hour].append(teacher)
+            if teacher is None:
+                # print("No teacher available")
+                roomsDict[hour].append(room)
 
+    return schedule
 
 dfBase = pd.DataFrame(
     columns=[
@@ -108,38 +162,39 @@ def generate(
     )
     print(f"Starting at {datetime.fromtimestamp(time.time())}")
 
-    i = 0
+    i = 1
     for date in dates:
         dailySchedule = dailyScheduleBase.copy()
+        teachersSchedule = getAllTeachersCombinations(courses["tID"].unique(), schoolStart, schoolEnd)
+        roomsSchedule = getAllRoomsCombinations(rooms["RoomNumber"].unique(), schoolStart, schoolEnd)
+
         for index, row in classes.iterrows():
 
             singleClass = row["ClassName"]
             singleClassCourses = row["courses"]
+            singleClassCourses = {cID : tID for cID, tID in courses[["cID", "tID"]].values if cID in singleClassCourses}
 
             classSchedule = scheduleClassDay(
                 dailySchedule,
-                courses,
-                singleClass,
-                singleClassCourses,
-                rooms,
+                teachersSchedule,
+                roomsSchedule,
                 schoolStart,
                 schoolEnd,
+                singleClassCourses,
             )
 
             classSchedule["ClassName"] = singleClass
-            # print(singleClass)
             dailySchedule = pd.concat([dailySchedule, classSchedule])
         dailySchedule["Date"] = date
         df = pd.concat([df, dailySchedule])
+
+        snapshot = time.time()
+        etc = round((snapshot - startTimer) / i * (len(dates) - i))
+        timeClass = timedelta(seconds=etc)
+        time_string = str(timeClass)
+        print(f"|{startDate}|>>>|{str(date).split(" ")[0]}|>>>|{endDate}|", end="")
+        print(f"{str(round((i * 100)/len(dates),2)).ljust(3, '0')}%   ETC:{time_string}s")
         i += 1
-
-        if i % 10 == 0:
-            snapshot = time.time()
-            etc = round((snapshot - startTimer) / i * (len(dates) - i))
-
-            timeClass = timedelta(seconds=etc)
-            time_string = str(timeClass)
-            # print(f"|{startDate}|>>>|{str(date).split(" ")[0]}|>>>|{endDate}|  {round((i * 100)/len(dates),2)}%   ETC:{time_string}s")
 
     df["Date"] = pd.to_datetime(df["Date"]) + pd.to_timedelta(df["StartHour"], unit="h")
     df.reset_index(inplace=True, drop=True)
