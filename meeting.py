@@ -3,7 +3,7 @@ import random
 import time
 from datetime import timedelta, datetime
 from utils import generateDates, getKeyByValue
-from itertools import product
+from timer import *
 
 
 def isRoomFree(df, room, startHour, endHour):
@@ -41,7 +41,9 @@ def getFreeTeacher(freeTeachers, startHour, teachersNeeded):
     freeTeachersSet = freeTeachers[startHour]
     freeTeachersSet = freeTeachersSet.intersection(teachersNeeded)
     if len(freeTeachersSet) > 0:
-        return freeTeachersSet.pop()
+        toReturn = freeTeachersSet.pop()
+        freeTeachers[startHour].remove(toReturn)
+        return toReturn
     return None
 
 
@@ -100,8 +102,10 @@ def scheduleClassDay(df, teachersDict, roomsDict, schoolStart, schoolEnd, classC
         # for key, value in roomsDict.items():
         #     print(key, value)
         # input()
+        timer_schedulers.tic()
         room = getFreeRoom(roomsDict, hour)
         teacher = getFreeTeacher(teachersDict, hour, classCoursesTeachersDict.values())
+        timer_schedulers.toc()
         if room is not None and teacher is not None:
             cID = getKeyByValue(classCoursesTeachersDict, teacher)
             schedule.loc[len(schedule) + len(df)] = {
@@ -113,6 +117,8 @@ def scheduleClassDay(df, teachersDict, roomsDict, schoolStart, schoolEnd, classC
             }
 
             classCoursesTeachersDict.pop(cID)
+            if classCoursesTeachersDict == {}:
+                break
         else:
             if room is None:
                 # print("No room available")
@@ -164,9 +170,15 @@ def generate(
 
     i = 1
     for date in dates:
+        timer_combinations.tic()
         dailySchedule = dailyScheduleBase.copy()
         teachersSchedule = getAllTeachersCombinations(courses["tID"].unique(), schoolStart, schoolEnd)
         roomsSchedule = getAllRoomsCombinations(rooms["RoomNumber"].unique(), schoolStart, schoolEnd)
+        timer_combinations.toc()
+
+        timer_all_classes.tic()
+
+        classes
 
         for index, row in classes.iterrows():
 
@@ -174,6 +186,7 @@ def generate(
             singleClassCourses = row["courses"]
             singleClassCourses = {cID : tID for cID, tID in courses[["cID", "tID"]].values if cID in singleClassCourses}
 
+            timer_schedule_class_day.tic()
             classSchedule = scheduleClassDay(
                 dailySchedule,
                 teachersSchedule,
@@ -182,6 +195,7 @@ def generate(
                 schoolEnd,
                 singleClassCourses,
             )
+            timer_schedule_class_day.toc()
 
             classSchedule["ClassName"] = singleClass
             dailySchedule = pd.concat([dailySchedule, classSchedule])
@@ -195,6 +209,7 @@ def generate(
         print(f"|{startDate}|>>>|{str(date).split(" ")[0]}|>>>|{endDate}|", end="")
         print(f"{str(round((i * 100)/len(dates),2)).ljust(3, '0')}%   ETC:{time_string}s")
         i += 1
+        timer_all_classes.toc()
 
     df["Date"] = pd.to_datetime(df["Date"]) + pd.to_timedelta(df["StartHour"], unit="h")
     df.reset_index(inplace=True, drop=True)
@@ -202,4 +217,21 @@ def generate(
     df.rename(columns={"index": "mID"}, inplace=True)
 
     df = df[["mID", "Date", "RoomNumber", "cID", "ClassName", "StartHour", "EndHour"]]
+
+    print("\nTimer schedule class day:")
+    timer_schedule_class_day.stats()
+    timer_schedule_class_day.reset()
+
+    print("\nTimer all classes:")
+    timer_all_classes.stats()
+    timer_all_classes.reset()
+
+    print("\nTimer combinations:")
+    timer_combinations.stats()
+    timer_combinations.reset()
+
+    print("\nTimer schedulers:")
+    timer_schedulers.stats()
+    timer_schedulers.reset()
+
     return df
