@@ -40,7 +40,6 @@ def generate(
         lambda x: x[2:]
     )
     df["tID"] = np.random.choice(teachers["tID"], count * MaxSchoolYears)
-    # df.insert(0, "courses", [])
 
     df_homeroom_courses = pd.DataFrame()
 
@@ -111,14 +110,9 @@ def generate(
     for index, row in df.iterrows():
         row["courses"].extend(row["homeroomCourses"])
 
-    # df["courses"] = df["homeroomCourses"]
-
     df_homeroom_courses = df_homeroom_courses[["cID", "Name", "Year", "tID"]]
-
     df_all_courses = pd.concat([courses, df_homeroom_courses])
-
     df_all_courses = df_all_courses[df_all_courses["Year"] < MaxSchoolYears + 1]
-
     df = df[["ClassName", "Year", "Specialization", "tID", "courses"]]
 
     return df, df_all_courses

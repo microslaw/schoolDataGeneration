@@ -25,6 +25,7 @@ def generate(count, meetings, students, minScore=0, maxScore=50, resolution=1 / 
         )
     )
 
+    df = df.dropna()
     df = df[["sID", "mID", "Score"]]
 
     return df

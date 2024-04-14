@@ -113,17 +113,17 @@ def dictToKeyList(d):
 
 
 def generateGender(count, proportions=[0.45, 0.45, 0.1]):
-    return np.random.choice(["M", "F", "O"], size=count, p=proportions)
+    return np.random.choice(["Male", "Female", "Other"], size=count, p=proportions)
 
 
 def generateNames(count, genderCol):
     return [
         (
             faker.first_name_male()
-            if gender == "M"
+            if gender == "Male"
             else (
                 faker.first_name_female()
-                if gender == "F"
+                if gender == "Female"
                 else faker.first_name_nonbinary()
             )
         )
