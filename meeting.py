@@ -39,7 +39,10 @@ def getAllTeachersCombinations(teachers, schoolStart, schoolEnd):
 
 def getFreeTeacher(freeTeachers, startHour, teachersNeeded):
     freeTeachersSet = freeTeachers[startHour]
-    freeTeachersSet = freeTeachersSet.intersection(teachersNeeded)
+    freeTeachersList = list(freeTeachersSet.intersection(teachersNeeded))
+    random.shuffle(freeTeachersList)
+    freeTeachersSet = set(freeTeachersList)
+
     if len(freeTeachersSet) > 0:
         toReturn = freeTeachersSet.pop()
         freeTeachers[startHour].remove(toReturn)
@@ -169,7 +172,22 @@ def generate(
     print(f"Starting at {datetime.fromtimestamp(time.time())}")
 
     i = 1
+    courseYearDict = {year: {cID for cID in courses[courses["Year"] == year]["cID"]} for year in courses["Year"].unique()}
+
+    year = 1
+    present_classes = classes.copy()
+    present_classes["courses"] = present_classes.apply(lambda row: {cID for cID in row["courses"] if cID in courseYearDict[year + row["Year"]]}, axis=1)
+    prevDate = dates[0]
     for date in dates:
+
+        #if date is the last day before summer break, change the year
+        if date.month == 9 and prevDate.month == 6:
+            year += 1
+            present_classes = classes.copy()
+            present_classes["courses"] = present_classes.apply(lambda row: {cID for cID in row["courses"] if cID in courseYearDict[year + row["Year"]]}, axis=1)
+
+
+        prevDate = date
         timer_combinations.tic()
         dailySchedule = dailyScheduleBase.copy()
         teachersSchedule = getAllTeachersCombinations(courses["tID"].unique(), schoolStart, schoolEnd)
@@ -178,9 +196,8 @@ def generate(
 
         timer_all_classes.tic()
 
-        classes
 
-        for index, row in classes.iterrows():
+        for index, row in present_classes.iterrows():
 
             singleClass = row["ClassName"]
             singleClassCourses = row["courses"]
