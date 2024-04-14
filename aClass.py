@@ -58,8 +58,9 @@ def generate(
             [df_homeroom_courses, df_yearly_homeroom_courses]
         )
 
-
-    courses_age_dict = {year: courses[courses["Year"] == year] for year in range(1, MaxSchoolYears + 1)}
+    courses_age_dict = {
+        year: courses[courses["Year"] == year] for year in range(1, MaxSchoolYears + 1)
+    }
 
     def getRandomCourses(specialization, courses, courseCount, year):
         chosenPrefferedCourses = []
@@ -72,14 +73,18 @@ def generate(
             ]
             prefferedCourses = [
                 x
-                for x in np.random.choice(prefferedCourses["cID"], size=(courseCount // 2))
+                for x in np.random.choice(
+                    prefferedCourses["cID"], size=(courseCount // 2)
+                )
             ]
 
             normalCourses = [
                 x
                 for x in np.random.choice(
                     age_matching_courses["cID"],
-                    size=min(courseCount - (courseCount // 2), len(age_matching_courses)),
+                    size=min(
+                        courseCount - (courseCount // 2), len(age_matching_courses)
+                    ),
                     replace=False,
                 )
             ]
@@ -111,6 +116,9 @@ def generate(
     df_homeroom_courses = df_homeroom_courses[["cID", "Name", "Year", "tID"]]
 
     df_all_courses = pd.concat([courses, df_homeroom_courses])
+
+    df_all_courses = df_all_courses[df_all_courses["Year"] < MaxSchoolYears + 1]
+
     df = df[["ClassName", "Year", "Specialization", "tID", "courses"]]
 
     return df, df_all_courses

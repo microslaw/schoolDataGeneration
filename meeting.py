@@ -61,50 +61,13 @@ def isTeacherFree(df, tID, startHour, endHour):
     return True
 
 
-# def scheduleClassDay(df, courses, aClass, aClassCourses, rooms, schoolStart, schoolEnd):
-#     """
-#     aClass is id of a class that has schedule made for them
-#     aClassCourses is a list of courses that the class has
-#     courses is a dataframe with all courses
-#     """
-
-#     schedule = pd.DataFrame(
-#         columns=["RoomNumber", "StartHour", "EndHour", "cID", "tID"]
-#     )
-#     start = schoolStart
-#     rooms = list(rooms["RoomNumber"].unique())
-#     freeRooms = getAllRoomsCombinations(rooms, schoolStart, schoolEnd)
-
-#     teachersCourses = [row for index, row in courses[["cID", "tID"]].iterrows()]
-#     freeTeachers = getAllTeachersCombinations(teachersCourses, schoolStart, schoolEnd)
-#     courses = courses[courses["cID"].isin(aClassCourses)]
-#     for index, row in courses[["cID", "tID"]].iterrows():
-#         if (
-#             isClassFree(df, aClass, start, start + 1)
-#             and isTeacherFree(df, row["tID"], start, start + 1)
-#         ):
-#             room = getFreeRoom(freeRooms, start)
-
-#             schedule.loc[len(schedule) + len(df)] = {
-#                 "RoomNumber": room,
-#                 "StartHour": start,
-#                 "EndHour": start + 1,
-#                 "cID": row["cID"],
-#                 "tID": row["tID"],
-#             }
-#             break
-#         else:
-#             start += 1
-#     return schedule
 
 def scheduleClassDay(df, teachersDict, roomsDict, schoolStart, schoolEnd, classCoursesTeachersDict):
     schedule = pd.DataFrame(
         columns=["RoomNumber", "StartHour", "EndHour", "cID", "tID"]
     )
     for hour in range(schoolStart, schoolEnd):
-        # for key, value in roomsDict.items():
-        #     print(key, value)
-        # input()
+
         timer_schedulers.tic()
         room = getFreeRoom(roomsDict, hour)
         teacher = getFreeTeacher(teachersDict, hour, classCoursesTeachersDict.values())
@@ -124,10 +87,8 @@ def scheduleClassDay(df, teachersDict, roomsDict, schoolStart, schoolEnd, classC
                 break
         else:
             if room is None:
-                # print("No room available")
                 teachersDict[hour].append(teacher)
             if teacher is None:
-                # print("No teacher available")
                 roomsDict[hour].append(room)
 
     return schedule
@@ -157,7 +118,7 @@ dailyScheduleBase = pd.DataFrame(
 
 
 def generate(
-    count, courses, rooms, classes, startDate, endDate, schoolStart=7, schoolEnd=19
+    count, courses, rooms, classes, startDate, endDate, schoolStart=7, schoolEnd=19, maxSchoolYears=6
 ):
 
     dates = generateDates(startDate, endDate)
@@ -169,10 +130,13 @@ def generate(
     print(
         f"Generating schedule for {len(dates)} days between {startDate} and {endDate}"
     )
-    print(f"Starting at {datetime.fromtimestamp(time.time())}")
+    print(f"Starting at {datetime.fromtimestamp(time.time())}\n")
 
     i = 1
     courseYearDict = {year: {cID for cID in courses[courses["Year"] == year]["cID"]} for year in courses["Year"].unique()}
+    for non_existing_year in range(maxSchoolYears * 2):
+        if non_existing_year not in courseYearDict:
+            courseYearDict[non_existing_year] = {}
 
     year = 1
     present_classes = classes.copy()
@@ -235,20 +199,5 @@ def generate(
 
     df = df[["mID", "Date", "RoomNumber", "cID", "ClassName", "StartHour", "EndHour"]]
 
-    print("\nTimer schedule class day:")
-    timer_schedule_class_day.stats()
-    timer_schedule_class_day.reset()
-
-    print("\nTimer all classes:")
-    timer_all_classes.stats()
-    timer_all_classes.reset()
-
-    print("\nTimer combinations:")
-    timer_combinations.stats()
-    timer_combinations.reset()
-
-    print("\nTimer schedulers:")
-    timer_schedulers.stats()
-    timer_schedulers.reset()
 
     return df
