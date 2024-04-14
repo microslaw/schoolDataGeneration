@@ -58,12 +58,15 @@ def generate(
             [df_homeroom_courses, df_yearly_homeroom_courses]
         )
 
+
+    courses_age_dict = {year: courses[courses["Year"] == year] for year in range(1, MaxSchoolYears + 1)}
+
     def getRandomCourses(specialization, courses, courseCount, year):
         chosenPrefferedCourses = []
         chosenNormalCourses = []
 
         for course_year in range(year, MaxSchoolYears + 1):
-            age_matching_courses = courses[courses["Year"] == course_year]
+            age_matching_courses = courses_age_dict[course_year]
             prefferedCourses = age_matching_courses[
                 age_matching_courses["Name"].isin(specializations[specialization])
             ]
