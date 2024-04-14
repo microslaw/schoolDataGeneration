@@ -195,9 +195,10 @@ def generate(
     df["Date"] = pd.to_datetime(df["Date"]) + pd.to_timedelta(df["StartHour"], unit="h")
     df.reset_index(inplace=True, drop=True)
     df.reset_index(inplace=True)
+    df["MeetingDurationMinutes"] = random.randint(10, 60)
     df.rename(columns={"index": "mID"}, inplace=True)
 
-    df = df[["mID", "Date", "RoomNumber", "cID", "ClassName", "StartHour", "EndHour"]]
+    df = df[["mID", "Date", "RoomNumber", "cID", "ClassName", "StartHour", "EndHour", "MeetingDurationMinutes"]]
 
 
     return df
