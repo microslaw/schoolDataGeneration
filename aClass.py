@@ -3,7 +3,7 @@ import numpy as np
 import random
 import string
 from datetime import datetime
-from utils import dictToKeyList, defaultSpecializations
+from utils import dictToKeyList
 
 
 def addLetters(specializations):
@@ -21,30 +21,30 @@ now = datetime.now()
 
 def generate(
     count,
-    teachers,
-    courses,
-    courseCount=7,
-    MaxSchoolYears=6,
-    presentYear=now.year - 1 if now.month <= 10 else now.year,
-    specializations=defaultSpecializations,
+    courseCount,
+    maxSchoolYears,
+    presentYear,
+    specializations,
+    df_teachers,
+    df_courses,
 ):
 
     df = pd.DataFrame()
-    df.insert(0, "tmpID", range(count * MaxSchoolYears))
-    df["Year"] = (df["tmpID"] % MaxSchoolYears) + 1
+    df.insert(0, "tmpID", range(count * maxSchoolYears))
+    df["Year"] = (df["tmpID"] % maxSchoolYears) + 1
     df["Specialization"] = np.random.choice(
-        dictToKeyList(specializations), count * MaxSchoolYears
+        dictToKeyList(specializations), count * maxSchoolYears
     )
-    df["ClassName"] = numbersToLetters(df["tmpID"] // MaxSchoolYears)
+    df["ClassName"] = numbersToLetters(df["tmpID"] // maxSchoolYears)
     df["ClassName"] = df["ClassName"] + (presentYear - df["Year"]).astype(str).apply(
         lambda x: x[2:]
     )
-    df["tID"] = np.random.choice(teachers["tID"], count * MaxSchoolYears)
+    df["tID"] = np.random.choice(df_teachers["tID"], count * maxSchoolYears)
 
     df_homeroom_courses = pd.DataFrame()
 
-    id_start = len(courses)
-    for year in range(0, MaxSchoolYears):
+    id_start = len(df_courses)
+    for year in range(0, maxSchoolYears):
 
         df_yearly_homeroom_courses = pd.DataFrame()
         df_yearly_homeroom_courses.insert(0, "cID", range(id_start, id_start + len(df)))
@@ -58,14 +58,15 @@ def generate(
         )
 
     courses_age_dict = {
-        year: courses[courses["Year"] == year] for year in range(1, MaxSchoolYears + 1)
+        year: df_courses[df_courses["Year"] == year]
+        for year in range(1, maxSchoolYears + 1)
     }
 
     def getRandomCourses(specialization, courses, courseCount, year):
         chosenPrefferedCourses = []
         chosenNormalCourses = []
 
-        for course_year in range(year, MaxSchoolYears + 1):
+        for course_year in range(year, maxSchoolYears + 1):
             age_matching_courses = courses_age_dict[course_year]
             prefferedCourses = age_matching_courses[
                 age_matching_courses["Name"].isin(specializations[specialization])
@@ -91,9 +92,9 @@ def generate(
             chosenNormalCourses.extend(normalCourses)
         return chosenPrefferedCourses + chosenNormalCourses
 
-    for year in courses["Year"].unique():
+    for year in df_courses["Year"].unique():
         df.loc[df["Year"] == year, "courses"] = df["Specialization"].apply(
-            getRandomCourses, args=(courses, courseCount, year)
+            getRandomCourses, args=(df_courses, courseCount, year)
         )
 
     df["homeroomCourses"] = [
@@ -111,8 +112,8 @@ def generate(
         row["courses"].extend(row["homeroomCourses"])
 
     df_homeroom_courses = df_homeroom_courses[["cID", "Name", "Year", "tID"]]
-    df_all_courses = pd.concat([courses, df_homeroom_courses])
-    df_all_courses = df_all_courses[df_all_courses["Year"] < MaxSchoolYears + 1]
+    df_all_courses = pd.concat([df_courses, df_homeroom_courses])
+    df_all_courses = df_all_courses[df_all_courses["Year"] < maxSchoolYears + 1]
     df = df[["ClassName", "Year", "Specialization", "tID", "courses"]]
 
     return df, df_all_courses

@@ -4,14 +4,14 @@ import faker as fk
 import utils
 
 
-def generate(count, meetings,  students, courses, minScore=0, maxScore=20, resolution=1/4):
+def generate(count, minScore, maxScore, resolution, df_meetings,  df_students, df_courses,):
 
-    lastMeetings = utils.getLastClassesOfMonth(meetings)
-    homeRoomCourses = courses[courses["Name"] == "Homeroom"]
+    lastMeetings = utils.getLastClassesOfMonth(df_meetings)
+    homeRoomCourses = df_courses[df_courses["Name"] == "Homeroom"]
     surveyMeetings = lastMeetings[lastMeetings["cID"].isin(homeRoomCourses["cID"])]
     df = pd.DataFrame()
-    df["sID"] = students["sID"]
-    df["ClassName"] = students["ClassName"]
+    df["sID"] = df_students["sID"]
+    df["ClassName"] = df_students["ClassName"]
     df["mID"] = df["ClassName"].apply(lambda x: [y for y in surveyMeetings[surveyMeetings["ClassName"] == x]["mID"]])
     df = df.explode("mID")
     df["Score"] = np.random.randint(minScore/resolution, maxScore/resolution, size=len(df))*resolution
@@ -20,5 +20,10 @@ def generate(count, meetings,  students, courses, minScore=0, maxScore=20, resol
     df = df[["mID", "sID", "Score"]]
     df = df.dropna()
 
+    if count > len(df):
+        count = len(df)
+
+    if count > 0:
+        df = df.sample(n=count, replace=True)
 
     return df

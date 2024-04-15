@@ -1,16 +1,14 @@
 import pandas as pd
 import numpy as np
-from utils import defaultCourseNames
 
 
-def generate(count, teachers_df, MaxSchoolYears=6, courseNames=defaultCourseNames):
+def generate(count, df_teachers, maxSchoolYears, courseNames):
 
     df = pd.DataFrame()
     df.insert(0, "cID", range(count))
-    df["Name"] = np.random.choice(courseNames, size=count)
-    df["Year"] = np.random.randint(1, MaxSchoolYears+1, size=count)
-    df["tID"] = np.random.choice(teachers_df["tID"], size=count)
-
+    df["Year"] = np.random.randint(1, maxSchoolYears+1, size=count)
+    df["tID"] = np.random.choice(df_teachers["tID"], size=count)
+    df["Name"] = df["tID"].map(df_teachers.set_index("tID")["Subject"])
     df = df[["cID", "Name", "Year", "tID"]]
 
     return df

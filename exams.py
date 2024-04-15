@@ -3,14 +3,14 @@ import numpy as np
 import utils
 
 
-def generate(count, meetings, students, minScore=0, maxScore=50, resolution=1 / 4):
+def generate(count, minScore, maxScore, resolution, df_meetings, df_students, ):
 
-    examMeetings = utils.getLastClassesOfMonth(meetings)
+    examMeetings = utils.getLastClassesOfMonth(df_meetings)
     examMeetings = examMeetings[examMeetings["ClassName"] != "Homeroom"]
     df = pd.DataFrame()
-    df["sID"] = students["sID"]
-    df["iq"] = students["iq"]
-    df["ClassName"] = students["ClassName"]
+    df["sID"] = df_students["sID"]
+    df["iq"] = df_students["iq"]
+    df["ClassName"] = df_students["ClassName"]
     df["mID"] = df["ClassName"].apply(
         lambda x: [y for y in examMeetings[examMeetings["ClassName"] == x]["mID"]]
     )
@@ -24,6 +24,12 @@ def generate(count, meetings, students, minScore=0, maxScore=50, resolution=1 / 
             maxScore,
         )
     )
+
+    if count > len(df):
+        count = len(df)
+
+    if count > 0:
+        df = df.sample(n=count, replace=True)
 
     df = df.dropna()
     df = df[["sID", "mID", "Score"]]

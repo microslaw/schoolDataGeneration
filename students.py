@@ -1,9 +1,9 @@
 import pandas as pd
 import numpy as np
-from utils import defaultCityDistricts, faker, generateGender, generateNames, generateSurnames
+from utils import faker, generateGender, generateNames, generateSurnames
 
 
-def generate(count, classes, minAge=10, maxSchoolYear=6, cityDistricts=defaultCityDistricts):
+def generate(count, classes, minAge, cityDistricts):
     df = pd.DataFrame()
     df.insert(0, "sID", range(count))
     df["Gender"] = generateGender(count)

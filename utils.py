@@ -3,80 +3,7 @@ import numpy as np
 import faker as fk
 import os
 
-defaultCityDistricts = [
-    "Wejherowo",
-    "Redlowo",
-    "Orlowo",
-    "Reda",
-    "Gdynia centrum",
-    "Gdansk centrum",
-    "Zaspa",
-    "Jasien",
-    "Orunia",
-    "Przymorze",
-    "Wrzeszcz",
-    "Stocznia",
-    "Lostowice",
-]
 
-
-defaultCityDistrictsTrendDict = {
-
-    "Wejherowo" : 70,
-    "Redlowo" : 40,
-    "Orlowo" :35,
-    "Reda" :55,
-    "Gdynia centrum": 50,
-    "Gdansk centrum": 20,
-    "Zaspa" : 20,
-    "Jasien" : 40,
-    "Orunia" : 30,
-    "Przymorze" : 25,
-    "Wrzeszcz" : 15,
-    "Stocznia" : 10,
-    "Lostowice" : 60,
-}
-
-
-
-defaultSpecializations = {
-    "Mathematical": ["Mathematics", "Physics", "Informatics"],
-    "Humanistic": ["Polish", "Psychology", "History"],
-    "Scientific": ["Biology", "Chemistry", "Physics"],
-    "Linguistic": ["English", "German", "French"],
-    "Artistic": ["Art", "Music", "History"],
-    "Sport": ["PE", "Biology", "Physics"],
-}
-
-
-defaultCourseNames = [
-    "Mathematics",
-    "Polish",
-    "English",
-    "Physics",
-    "Chemistry",
-    "Biology",
-    "History",
-    "Geography",
-    "PE",
-    "Art",
-    "Music",
-    "Informatics",
-    "Religion",
-    "Ethics",
-    "Psychology",
-    "Sociology",
-    "Philosophy",
-    "Economics",
-    "German",
-    "French"
-]
-
-#specialization/course check
-for key,value in defaultSpecializations.items():
-    for course in value:
-        if course not in defaultCourseNames:
-            raise ValueError(f"Course {course} is not in defaultCourseNames")
 
 
 faker = fk.Faker()
@@ -141,3 +68,11 @@ def mkdir(path):
 
 def getKeyByValue(d, value):
     return [k for k, v in d.items() if v == value][0]
+
+def getSchoolYear(date):
+    year = int(date.split("-")[0])
+    month = int(date.split("-")[1])
+    if month < 9:
+        return year - 1
+    else:
+        return year

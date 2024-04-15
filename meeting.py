@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import random
 import time
 from datetime import timedelta, datetime
@@ -68,10 +69,8 @@ def scheduleClassDay(df, teachersDict, roomsDict, schoolStart, schoolEnd, classC
     )
     for hour in range(schoolStart, schoolEnd):
 
-        timer_schedulers.tic()
         room = getFreeRoom(roomsDict, hour)
         teacher = getFreeTeacher(teachersDict, hour, classCoursesTeachersDict.values())
-        timer_schedulers.toc()
         if room is not None and teacher is not None:
             cID = getKeyByValue(classCoursesTeachersDict, teacher)
             schedule.loc[len(schedule) + len(df)] = {
@@ -118,56 +117,53 @@ dailyScheduleBase = pd.DataFrame(
 
 
 def generate(
-    count, courses, rooms, classes, startDate, endDate, schoolStart=7, schoolEnd=19, maxSchoolYears=6
+    count,startDate, endDate, schoolStart, schoolEnd, maxSchoolYears,  df_courses, df_rooms, df_classes,
 ):
 
     dates = generateDates(startDate, endDate)
 
     df = dfBase.copy()
 
-    startTimer = time.time()
 
     print(
         f"Generating schedule for {len(dates)} days between {startDate} and {endDate}"
     )
-    print(f"Starting at {datetime.fromtimestamp(time.time())}\n")
+    print(f"Starting at {str(datetime.fromtimestamp(time.time())).split(".")[0]}\n")
 
     i = 1
-    courseYearDict = {year: {cID for cID in courses[courses["Year"] == year]["cID"]} for year in courses["Year"].unique()}
+    courseYearDict = {year: {cID for cID in df_courses[df_courses["Year"] == year]["cID"]} for year in df_courses["Year"].unique()}
     for non_existing_year in range(maxSchoolYears * 2):
         if non_existing_year not in courseYearDict:
             courseYearDict[non_existing_year] = {}
 
     year = 1
-    present_classes = classes.copy()
+    present_classes = df_classes.copy()
     present_classes["courses"] = present_classes.apply(lambda row: {cID for cID in row["courses"] if cID in courseYearDict[year + row["Year"]]}, axis=1)
-    prevDate = dates[0]
+    prevDate = dates.iloc[0]
+
+    startTimer = time.time()
     for date in dates:
 
         #if date is the last day before summer break, change the year
         if date.month == 9 and prevDate.month == 6:
             year += 1
-            present_classes = classes.copy()
+            present_classes = df_classes.copy()
             present_classes["courses"] = present_classes.apply(lambda row: {cID for cID in row["courses"] if cID in courseYearDict[year + row["Year"]]}, axis=1)
 
 
         prevDate = date
-        timer_combinations.tic()
         dailySchedule = dailyScheduleBase.copy()
-        teachersSchedule = getAllTeachersCombinations(courses["tID"].unique(), schoolStart, schoolEnd)
-        roomsSchedule = getAllRoomsCombinations(rooms["RoomNumber"].unique(), schoolStart, schoolEnd)
-        timer_combinations.toc()
+        teachersSchedule = getAllTeachersCombinations(df_courses["tID"].unique(), schoolStart, schoolEnd)
+        roomsSchedule = getAllRoomsCombinations(df_rooms["RoomNumber"].unique(), schoolStart, schoolEnd)
 
-        timer_all_classes.tic()
 
 
         for index, row in present_classes.iterrows():
 
             singleClass = row["ClassName"]
             singleClassCourses = row["courses"]
-            singleClassCourses = {cID : tID for cID, tID in courses[["cID", "tID"]].values if cID in singleClassCourses}
+            singleClassCourses = {cID : tID for cID, tID in df_courses[["cID", "tID"]].values if cID in singleClassCourses}
 
-            timer_schedule_class_day.tic()
             classSchedule = scheduleClassDay(
                 dailySchedule,
                 teachersSchedule,
@@ -176,7 +172,6 @@ def generate(
                 schoolEnd,
                 singleClassCourses,
             )
-            timer_schedule_class_day.toc()
 
             classSchedule["ClassName"] = singleClass
             dailySchedule = pd.concat([dailySchedule, classSchedule])
@@ -187,18 +182,28 @@ def generate(
         etc = round((snapshot - startTimer) / i * (len(dates) - i))
         timeClass = timedelta(seconds=etc)
         time_string = str(timeClass)
-        print(f"|{startDate}|>>>|{str(date).split(" ")[0]}|>>>|{endDate}|", end="")
-        print(f"{str(round((i * 100)/len(dates),2)).ljust(3, '0')}%   ETC:{time_string}s")
+        toPrint = f"|{startDate}|>>>|{str(date).split(" ")[0]}|>>>|{endDate}|"
+        toPrint += f"{str(round((i * 100)/len(dates),2)).ljust(3, '0')}%   ETC:{time_string}s   "
+        print(toPrint, end="\r")
         i += 1
-        timer_all_classes.toc()
+
+    print("\n")
+    print(f"Finished at {str(datetime.fromtimestamp(time.time())).split(".")[0]}\n")
+
 
     df["Date"] = pd.to_datetime(df["Date"]) + pd.to_timedelta(df["StartHour"], unit="h")
     df.reset_index(inplace=True, drop=True)
     df.reset_index(inplace=True)
-    df["MeetingDurationMinutes"] = random.randint(10, 60)
+    df["MeetingDurationMinutes"] = np.random.randint(10, 60)
     df.rename(columns={"index": "mID"}, inplace=True)
 
     df = df[["mID", "Date", "RoomNumber", "cID", "ClassName", "StartHour", "EndHour", "MeetingDurationMinutes"]]
+
+    if count > len(df):
+        count = len(df)
+
+    if count > 0:
+        df = df.sample(n=count, replace=True)
 
 
     return df

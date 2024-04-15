@@ -27,9 +27,6 @@ class Timer:
         self.total_calls = 0
         self.tic_time = 0
 
-timer_schedule_class_day = Timer()
 timer_total = Timer()
-timer_all_classes = Timer()
-timer_combinations = Timer()
-timer_schedulers = Timer()
+
 
