@@ -218,30 +218,3 @@ df_attendance = pd.read_csv(f"{path}/attendance.csv")
 
 
 
-
-#This block generates random updates for database
-
-path = "updates"
-
-mkdir(path)
-
-df = df_teachers.sample(n=15)
-df["CityDistrict2"] = df["CityDistrict"].apply(lambda x: np.random.choice([y for y in parameters.default_city_districts if y != x]))
-df["update"] = df.apply(lambda x: f"Update Teachers SET CityDistrict = '{x['CityDistrict2']}' WHERE tID = {x['tID']};", axis=1)
-df["update"].to_csv(f"{path}/updateTeachersCity.sql", index=False, header=False)
-
-df = df_students.sample(n=15)
-df["CityDistrict2"] = df["CityDistrict"].apply(lambda x: np.random.choice([y for y in parameters.default_city_districts if y != x]))
-df["update"] = df.apply(lambda x: f"Update Students SET CityDistrict = '{x['CityDistrict2']}' WHERE sID = {x['sID']};", axis=1)
-df["update"].to_csv(f"{path}/updateStudentsCity.sql", index=False, header=False)
-
-df = df_students.sample(n=15)
-df["ClassName2"] = df["ClassName"].apply(lambda x: np.random.choice([y for y in df_classes["ClassName"].unique() if y != x]))
-df["update"] = df.apply(lambda x: f"Update Students SET ClassName = '{x['ClassName']}' WHERE sID = {x['sID']};", axis=1)
-df["update"].to_csv(f"{path}/updateStudentsClass.sql", index=False, header=False)
-
-df = df_classes.sample(n=15)
-df["tID2"] = df["tID"].apply(lambda x: np.random.choice([y for y in df_classes["ClassName"].unique() if y != x]))
-df["update"] = df.apply(lambda x: f"Update Class SET tID = '{x['tID']}' WHERE ClassName = '{x['ClassName']}';", axis=1)
-df["update"].to_csv(f"{path}/updateClassesTeacher.sql", index=False, header=False)
-
