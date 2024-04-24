@@ -71,6 +71,10 @@ def generate(
             prefferedCourses = age_matching_courses[
                 age_matching_courses["Name"].isin(specializations[specialization])
             ]
+
+            if len(prefferedCourses) == 0:
+                prefferedCourses = age_matching_courses
+
             prefferedCourses = [
                 x
                 for x in np.random.choice(
