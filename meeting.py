@@ -128,7 +128,7 @@ def generate(
     print(
         f"Generating schedule for {len(dates)} days between {startDate} and {endDate}"
     )
-    print(f"Starting at {str(datetime.fromtimestamp(time.time())).split(".")[0]}\n")
+    # print(f"Starting at {str(datetime.fromtimestamp(time.time())).split(".")[0]}\n")
 
     i = 1
     courseYearDict = {year: {cID for cID in df_courses[df_courses["Year"] == year]["cID"]} for year in df_courses["Year"].unique()}
@@ -182,13 +182,13 @@ def generate(
         etc = round((snapshot - startTimer) / i * (len(dates) - i))
         timeClass = timedelta(seconds=etc)
         time_string = str(timeClass)
-        toPrint = f"|{startDate}|>>>|{str(date).split(" ")[0]}|>>>|{endDate}|"
-        toPrint += f"{str(round((i * 100)/len(dates),2)).ljust(3, '0')}%   ETC:{time_string}s   "
-        print(toPrint, end="\r")
+        # toPrint = f"|{startDate}|>>>|{str(date).split(" ")[0]}|>>>|{endDate}|"
+        # toPrint += f"{str(round((i * 100)/len(dates),2)).ljust(3, '0')}%   ETC:{time_string}s   "
+        # print(toPrint, end="\r")
         i += 1
 
     print("\n")
-    print(f"Finished at {str(datetime.fromtimestamp(time.time())).split(".")[0]}\n")
+    # print(f"Finished at {str(datetime.fromtimestamp(time.time())).split(".")[0]}\n")
 
 
     df["Date"] = pd.to_datetime(df["Date"]) + pd.to_timedelta(df["StartHour"], unit="h")

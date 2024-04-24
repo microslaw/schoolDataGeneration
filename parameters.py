@@ -1,8 +1,8 @@
-classroom_count = 357  # How many classrooms are there in the school
-teacher_count = 300  # How many teachers work in the school
-course_count = 300  # How many courses are there in the school
-class_count = 10  # How many classes per year are there in the school; If max_school_years = 6, will generate 60 classes
-student_count = 800  # How many students are there in the school
+classroom_count = 10  # How many classrooms are there in the school
+teacher_count = 10  # How many teachers work in the school
+course_count = 20  # How many courses are there in the school
+class_count = 3  # How many classes per year are there in the school; If max_school_years = 6, will generate 60 classes
+student_count = 20  # How many students are there in the school
 
 # Count's of tuples below are determined by different parameters. Setting count other than 0, will cutoff remaining tuples
 # This may break the integrity of the data
@@ -21,7 +21,7 @@ teacher_min_age = 25 # minimum age of a teacher
 teacher_max_age = 65 # maximum age of a teacher
 
 max_school_years = 6 # how many years a student can attend the school. Affects count of classes.
-course_per_class_count = 7 # how many courses a class can have
+course_per_class_count = 2 # how many courses a class can have
 
 student_min_age = 10    # minimum age of a student, that attends the youngest class
 # students_max_age is calculated as: students_min_age + max_school_years

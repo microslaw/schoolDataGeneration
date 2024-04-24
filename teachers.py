@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from utils import faker, generateGender, generateNames, generateSurnames
+from utils import faker, generateGender, generateNames, generateSurnames, generatePesel
 import parameters
 
 
@@ -17,6 +17,8 @@ def generate(count, minAge, maxAge, cityDistricts, subjects):
 
     df["Birthdate"] = [faker.date_of_birth(minimum_age=minAge, maximum_age=maxAge) for _ in range(count)]
 
-    df = df[["tID", "Name", "Surname", "CityDistrict", "Birthdate", "Gender", "Subject"]]
+    df["Pesel"] = df.apply(lambda x: generatePesel(birthdate=x["Birthdate"], gender=x["Gender"]), axis=1)
+
+    df = df[["tID", "Name", "Surname", "CityDistrict", "Birthdate", "Gender", "Subject", "Pesel"]]
 
     return df

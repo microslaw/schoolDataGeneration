@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import faker as fk
 import os
-
+import random
 
 
 
@@ -57,6 +57,8 @@ def generateNames(count, genderCol):
         for gender in genderCol
     ]
 
+
+
 def generateSurnames(count):
     return [faker.last_name() for _ in range(count)]
 
@@ -85,3 +87,23 @@ def addTrend(df, seedColumn, trendDict, scoreColumn, minScore, maxScore, resolut
 
     df[scoreColumn] = df.apply(lambda x: minScore if x[scoreColumn] < minScore else x[scoreColumn], axis=1)
     df[scoreColumn] = df.apply(lambda x: maxScore if x[scoreColumn] > maxScore else x[scoreColumn], axis=1)
+
+
+
+def generatePesel(birthdate, gender):
+    year, month, day = str(birthdate.year)[-2:], birthdate.month, birthdate.day
+
+    if birthdate.year >= 2000:
+        month += 20
+
+    pesel = f"{year}{month:02d}{day:02d}"
+
+    for _ in range(4):
+        pesel += str(random.randint(0, 9))
+
+    if gender == "Male":
+        pesel += str(random.choice([1, 3, 5, 7, 9]))
+    else:
+        pesel += str(random.choice([0, 2, 4, 6, 8]))
+
+    return pesel

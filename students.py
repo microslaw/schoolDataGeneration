@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from utils import faker, generateGender, generateNames, generateSurnames
+from utils import faker, generateGender, generateNames, generateSurnames, generatePesel
 
 
 def generate(count, classes, minAge, cityDistricts):
@@ -21,7 +21,9 @@ def generate(count, classes, minAge, cityDistricts):
     )
     df["iq"] = np.random.randint(70, 130, size=count)
 
+    df["Pesel"] = df.apply(lambda x: generatePesel(birthdate=x["Birthdate"], gender=x["Gender"]), axis=1)
 
-    df = df[["sID", "Name", "Surname", "CityDistrict", "Birthdate", "Gender", "ClassName", "iq"]]
+
+    df = df[["sID", "Name", "Surname", "CityDistrict", "Birthdate", "Gender", "ClassName", "iq", "Pesel"]]
 
     return df
