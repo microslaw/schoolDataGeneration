@@ -1,0 +1,115 @@
+StudentName,StudentSurname,sID,ClassName,StartHour,EndHour,CourseName,mID,TeacherName,TeacherSurname,tID,Excused,CatchUp,Late
+Samuel,Middleton,14,A18,7:00,8:00,Informatics,800,Michael,Clay,3,True,Read pages 1-10,False
+Tyler,Burton,0,A18,7:00,8:00,Informatics,1216,Michael,Clay,3,True,Read pages 21-30,True
+Gabriel,Mccoy,15,A18,7:00,8:00,Informatics,1440,Michael,Clay,3,True,Read pages 11-20,True
+Tyler,Burton,0,A18,7:00,8:00,Informatics,1856,Michael,Clay,3,True,Read pages 1-10,True
+Tyler,Burton,0,A18,7:00,8:00,Informatics,1952,Michael,Clay,3,True,Do tasks 5 and 7a from page 42,False
+Samuel,Middleton,14,A18,7:00,8:00,Informatics,1952,Michael,Clay,3,True,Write a summary of the chapter,False
+Gabriel,Mccoy,15,A18,7:00,8:00,Informatics,2016,Michael,Clay,3,True,None,False
+Samuel,Middleton,14,A18,7:00,8:00,Informatics,3808,Michael,Clay,3,True,Read pages 31-40,False
+Tyler,Burton,0,A18,7:00,8:00,Informatics,4160,Michael,Clay,3,True,Read pages 11-20,False
+Gabriel,Mccoy,15,A18,7:00,8:00,Informatics,5856,Michael,Clay,3,False,Read pages 21-30,False
+Tyler,Burton,0,A18,7:00,8:00,Informatics,6368,Michael,Clay,3,False,Do tasks 5 and 7a from page 42,True
+Samantha,Proctor,1,A17,8:00,9:00,Homeroom,2245,Michael,Clay,3,True,Do exercises 6-10,False
+Samantha,Proctor,1,A17,8:00,9:00,Homeroom,3557,Michael,Clay,3,True,Write a summary of the chapter,True
+Samantha,Proctor,1,A17,8:00,9:00,Homeroom,4549,Michael,Clay,3,True,Read pages 21-30,False
+Samantha,Proctor,1,A17,8:00,9:00,Homeroom,5381,Michael,Clay,3,True,Do exercises 1-5,False
+Stephanie,Ramirez,12,A15,9:00,10:00,Informatics,552,Michael,Clay,3,True,Do entire page 41,False
+Stephanie,Ramirez,12,A15,9:00,10:00,Informatics,872,Michael,Clay,3,False,None,False
+Stephanie,Ramirez,12,A15,9:00,10:00,Informatics,5512,Michael,Clay,3,False,None,False
+Joshua,Rogers,16,C15,11:00,12:00,Informatics,1978,Michael,Clay,3,False,Write a summary of the chapter,False
+Joshua,Rogers,16,C15,11:00,12:00,Informatics,3162,Michael,Clay,3,True,Do tasks 5 and 7a from page 42,False
+Gabriel,Mccoy,15,A18,8:00,9:00,English,129,Kimberly,Calhoun,4,True,Read pages 21-30,False
+Tyler,Burton,0,A18,8:00,9:00,English,737,Kimberly,Calhoun,4,True,Do entire page 41,False
+Gabriel,Mccoy,15,A18,8:00,9:00,English,2337,Kimberly,Calhoun,4,True,Do exercises 11-15,False
+Samuel,Middleton,14,A18,8:00,9:00,English,2657,Kimberly,Calhoun,4,False,Read pages 1-10,False
+Tyler,Burton,0,A18,8:00,9:00,English,3201,Kimberly,Calhoun,4,True,Do exercises 6-10,False
+Samuel,Middleton,14,A18,8:00,9:00,English,3745,Kimberly,Calhoun,4,True,Do exercises 11-15,False
+Tyler,Burton,0,A18,8:00,9:00,English,4513,Kimberly,Calhoun,4,True,Do entire page 41,False
+Tyler,Burton,0,A18,8:00,9:00,English,4769,Kimberly,Calhoun,4,True,Read pages 11-20,False
+Samuel,Middleton,14,A18,8:00,9:00,English,6369,Kimberly,Calhoun,4,True,Do exercises 1-5,False
+Whitney,Smith,4,C14,7:00,8:00,Homeroom,5309,Kimberly,Calhoun,4,False,Read pages 31-40,False
+Gabriel,Mccoy,15,A18,9:00,10:00,Ethics,770,Kristen,Griffin,6,True,Write a summary of the chapter,False
+Samuel,Middleton,14,A18,9:00,10:00,Ethics,4962,Kristen,Griffin,6,True,Read pages 31-40,False
+Tyler,Burton,0,A18,9:00,10:00,Ethics,6082,Kristen,Griffin,6,False,Write a summary of the chapter,False
+Gabriel,Mccoy,15,A18,10:00,11:00,Homeroom,515,Kristen,Griffin,6,False,Read pages 21-30,False
+Tyler,Burton,0,A18,10:00,11:00,Homeroom,3491,Kristen,Griffin,6,True,Do exercises 6-10,True
+Samuel,Middleton,14,A18,10:00,11:00,Homeroom,3491,Kristen,Griffin,6,True,None,False
+Tyler,Burton,0,A18,10:00,11:00,Homeroom,4355,Kristen,Griffin,6,True,Do exercises 1-5,False
+Steve,Austin,10,B14,7:00,8:00,Homeroom,815,Kristen,Griffin,6,True,Write a summary of the chapter,False
+Jeffrey,Oneill,6,B14,7:00,8:00,Homeroom,1071,Kristen,Griffin,6,False,None,True
+Jessica,Brooks,19,B14,7:00,8:00,Homeroom,1455,Kristen,Griffin,6,True,Do entire page 41,False
+Steve,Austin,10,B14,7:00,8:00,Homeroom,2191,Kristen,Griffin,6,False,Read pages 11-20,False
+Terri,Smith,11,B14,7:00,8:00,Homeroom,2735,Kristen,Griffin,6,True,Do exercises 6-10,False
+Jeffrey,Oneill,6,B14,7:00,8:00,Homeroom,4047,Kristen,Griffin,6,True,Do exercises 11-15,False
+Steve,Austin,10,B14,7:00,8:00,Homeroom,4783,Kristen,Griffin,6,False,Write a summary of the chapter,False
+Terri,Smith,11,B14,7:00,8:00,Homeroom,5135,Kristen,Griffin,6,True,Read pages 31-40,False
+Jeffrey,Oneill,6,B14,7:00,8:00,Homeroom,6063,Kristen,Griffin,6,True,Do tasks 5 and 7a from page 42,True
+Nicholas,Bell,13,C16,8:00,9:00,Ethics,1139,Kristen,Griffin,6,False,Do tasks 5 and 7a from page 42,False
+Nicholas,Bell,13,C16,8:00,9:00,Ethics,2067,Kristen,Griffin,6,False,Do exercises 11-15,False
+Nicholas,Bell,13,C16,8:00,9:00,Ethics,4435,Kristen,Griffin,6,True,None,False
+Samantha,Proctor,1,A17,7:00,8:00,Physics,1956,Stephanie,Lopez,5,False,Do exercises 6-10,False
+Samantha,Proctor,1,A17,7:00,8:00,Physics,5764,Stephanie,Lopez,5,False,Read pages 21-30,False
+Joshua,Jones,3,B17,8:00,9:00,Physics,2862,Stephanie,Lopez,5,True,Do tasks 5 and 7a from page 42,False
+Nicholas,Bell,13,C16,9:00,10:00,Homeroom,340,Stephanie,Lopez,5,False,Read pages 31-40,False
+Nicholas,Bell,13,C16,9:00,10:00,Homeroom,1684,Stephanie,Lopez,5,True,Do entire page 41,False
+Nicholas,Bell,13,C16,9:00,10:00,Homeroom,3476,Stephanie,Lopez,5,True,Read pages 21-30,True
+Nicholas,Bell,13,C16,9:00,10:00,Homeroom,5268,Stephanie,Lopez,5,True,Read pages 11-20,False
+Stephanie,Ramirez,12,A15,7:00,8:00,Chemistry,774,Teresa,Charles,8,False,Read pages 21-30,True
+Stephanie,Ramirez,12,A15,7:00,8:00,Chemistry,3526,Teresa,Charles,8,True,Do entire page 41,False
+Stephanie,Ramirez,12,A15,7:00,8:00,Chemistry,3878,Teresa,Charles,8,True,None,False
+Joshua,Rogers,16,C15,10:00,11:00,Chemistry,4121,Teresa,Charles,8,True,Do exercises 6-10,False
+Joshua,Rogers,16,C15,10:00,11:00,Chemistry,4665,Teresa,Charles,8,True,Read pages 31-40,False
+Jeffery,Foster,5,A14,8:00,9:00,Chemistry,3563,Teresa,Charles,8,False,Do exercises 6-10,False
+Jessica,Hayes,8,A14,8:00,9:00,Chemistry,3563,Teresa,Charles,8,False,Read pages 31-40,True
+Jeffery,Foster,5,A14,8:00,9:00,Chemistry,3595,Teresa,Charles,8,True,Write a summary of the chapter,False
+Jeffery,Foster,5,A14,8:00,9:00,Chemistry,4587,Teresa,Charles,8,True,Do exercises 1-5,False
+Jessica,Brooks,19,B14,9:00,10:00,Chemistry,560,Teresa,Charles,8,True,Do tasks 5 and 7a from page 42,False
+Jeffrey,Oneill,6,B14,9:00,10:00,Chemistry,1392,Teresa,Charles,8,True,Do exercises 6-10,True
+Jeffrey,Oneill,6,B14,9:00,10:00,Chemistry,1424,Teresa,Charles,8,False,Do entire page 41,True
+Jessica,Brooks,19,B14,9:00,10:00,Chemistry,1712,Teresa,Charles,8,True,Do exercises 11-15,True
+Jessica,Brooks,19,B14,9:00,10:00,Chemistry,2288,Teresa,Charles,8,True,Write a summary of the chapter,False
+Terri,Smith,11,B14,9:00,10:00,Chemistry,2960,Teresa,Charles,8,True,Read pages 21-30,False
+Steve,Austin,10,B14,9:00,10:00,Chemistry,3856,Teresa,Charles,8,True,Do tasks 5 and 7a from page 42,False
+Terri,Smith,11,B14,9:00,10:00,Chemistry,4048,Teresa,Charles,8,True,None,False
+Jessica,Brooks,19,B14,9:00,10:00,Chemistry,5488,Teresa,Charles,8,False,Do exercises 11-15,False
+Stephanie,Ramirez,12,A15,8:00,9:00,Sociology,1479,Derrick,Phillips,2,True,Read pages 21-30,False
+Stephanie,Ramirez,12,A15,8:00,9:00,Sociology,2791,Derrick,Phillips,2,True,Read pages 21-30,False
+Stephanie,Ramirez,12,A15,8:00,9:00,Sociology,6343,Derrick,Phillips,2,True,Read pages 31-40,False
+Stephanie,Ramirez,12,A15,8:00,9:00,Sociology,6375,Derrick,Phillips,2,False,Write a summary of the chapter,False
+Joshua,Rogers,16,C15,13:00,14:00,Sociology,1563,Derrick,Phillips,2,False,Do entire page 41,False
+Joshua,Rogers,16,C15,13:00,14:00,Sociology,5851,Derrick,Phillips,2,True,Write a summary of the chapter,False
+Jessica,Hayes,8,A14,7:00,8:00,Sociology,650,Derrick,Phillips,2,True,Do tasks 5 and 7a from page 42,False
+Jessica,Hayes,8,A14,7:00,8:00,Sociology,810,Derrick,Phillips,2,True,Do exercises 1-5,False
+Jeffery,Foster,5,A14,7:00,8:00,Sociology,3658,Derrick,Phillips,2,True,None,False
+Jessica,Hayes,8,A14,7:00,8:00,Sociology,4074,Derrick,Phillips,2,False,Read pages 1-10,False
+Jeffery,Foster,5,A14,7:00,8:00,Sociology,4330,Derrick,Phillips,2,False,Read pages 1-10,False
+Steve,Austin,10,B14,10:00,11:00,Sociology,81,Derrick,Phillips,2,False,Do exercises 1-5,False
+Jeffrey,Oneill,6,B14,10:00,11:00,Sociology,1265,Derrick,Phillips,2,True,Read pages 1-10,False
+Jeffrey,Oneill,6,B14,10:00,11:00,Sociology,1969,Derrick,Phillips,2,True,Do exercises 1-5,False
+Steve,Austin,10,B14,10:00,11:00,Sociology,3729,Derrick,Phillips,2,True,Read pages 21-30,False
+Jessica,Brooks,19,B14,10:00,11:00,Sociology,3889,Derrick,Phillips,2,True,Read pages 31-40,False
+Jessica,Brooks,19,B14,10:00,11:00,Sociology,4657,Derrick,Phillips,2,True,Do tasks 5 and 7a from page 42,True
+Jeffrey,Oneill,6,B14,10:00,11:00,Sociology,5521,Derrick,Phillips,2,True,Do exercises 11-15,False
+Whitney,Smith,4,C14,15:00,16:00,Sociology,767,Derrick,Phillips,2,True,Read pages 1-10,True
+Jeffery,Foster,5,A14,9:00,10:00,Homeroom,588,Derrick,Phillips,2,False,Do exercises 11-15,False
+Jeffery,Foster,5,A14,9:00,10:00,Homeroom,780,Derrick,Phillips,2,True,Read pages 11-20,False
+Jessica,Hayes,8,A14,9:00,10:00,Homeroom,3532,Derrick,Phillips,2,True,Do tasks 5 and 7a from page 42,False
+Jessica,Hayes,8,A14,9:00,10:00,Homeroom,4972,Derrick,Phillips,2,False,Do exercises 6-10,True
+Jeffery,Foster,5,A14,9:00,10:00,Homeroom,5836,Derrick,Phillips,2,False,Do exercises 11-15,True
+Nicholas,Bell,13,C16,11:00,12:00,Sociology,3126,Derrick,Phillips,2,True,Do tasks 5 and 7a from page 42,True
+Nicholas,Bell,13,C16,12:00,13:00,Sociology,1975,Derrick,Phillips,2,False,Do tasks 5 and 7a from page 42,True
+Joshua,Rogers,16,C15,14:00,15:00,Homeroom,860,Derrick,Phillips,2,False,Read pages 31-40,False
+Joshua,Rogers,16,C15,14:00,15:00,Homeroom,2428,Derrick,Phillips,2,True,Do exercises 1-5,True
+Sharon,Garrett,7,C15,14:00,15:00,Homeroom,3900,Derrick,Phillips,2,True,Read pages 31-40,False
+Joshua,Rogers,16,C15,14:00,15:00,Homeroom,4316,Derrick,Phillips,2,True,Do tasks 5 and 7a from page 42,False
+Joshua,Rogers,16,C15,14:00,15:00,Homeroom,4540,Derrick,Phillips,2,True,Read pages 1-10,False
+Stephanie,Ramirez,12,A15,10:00,11:00,Homeroom,169,Briana,Saunders,7,False,Write a summary of the chapter,False
+Stephanie,Ramirez,12,A15,10:00,11:00,Homeroom,5769,Briana,Saunders,7,False,Read pages 11-20,False
+Joshua,Jones,3,B17,7:00,8:00,Homeroom,3629,Briana,Saunders,7,True,Read pages 31-40,False
+Joshua,Jones,3,B17,7:00,8:00,Homeroom,5293,Briana,Saunders,7,True,Do exercises 1-5,False
+Nicholas,Bell,13,C16,13:00,14:00,Polish,408,Briana,Saunders,7,True,Read pages 21-30,False
+Nicholas,Bell,13,C16,13:00,14:00,Polish,5016,Briana,Saunders,7,True,None,False
+Nicholas,Bell,13,C16,7:00,8:00,English,466,Angel,Gillespie,1,True,Do exercises 1-5,True
+Nicholas,Bell,13,C16,7:00,8:00,English,2898,Angel,Gillespie,1,False,Do exercises 1-5,False
+Nicholas,Bell,13,C16,7:00,8:00,English,3218,Angel,Gillespie,1,True,Do tasks 5 and 7a from page 42,False

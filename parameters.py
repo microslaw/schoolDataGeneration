@@ -41,8 +41,8 @@ attendance_prob = 0.99 # probability of a student attending a meeting without be
 excused_prob = 0.7 # probability of a student recorded as not attending a meeting, has been excused
 late_prob = 0.2 # probability of a student recorded as not attending a meeting, but being late
 
-start_date = "2020-06-20" # first day of generated data
-end_date = "2020-09-10" # last day of generated data
+start_date = "2020-09-10" # first day of generated data
+end_date =  "2021-06-20" # last day of generated data
 
 
 default_city_districts = [

@@ -86,7 +86,7 @@ def scheduleClassDay(df, teachersDict, roomsDict, schoolStart, schoolEnd, classC
                 break
         else:
             if room is None:
-                teachersDict[hour].append(teacher)
+                teachersDict[hour].add(teacher)
             if teacher is None:
                 roomsDict[hour].append(room)
 

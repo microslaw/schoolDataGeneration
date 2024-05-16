@@ -107,3 +107,9 @@ def generatePesel(birthdate, gender):
         pesel += str(random.choice([0, 2, 4, 6, 8]))
 
     return pesel
+
+
+def splitDf(df):
+    mask = np.random.rand(len(df)) <0.5
+    return df[mask], df[~mask]
+
