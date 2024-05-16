@@ -1,5 +1,1016 @@
 StudentName,StudentSurname,sID,ClassName,StartHour,EndHour,CourseName,mID,TeacherName,TeacherSurname,tID,Excused,CatchUp,Late
-Gabriel,Mccoy,15,A18,7:00,8:00,Physics,493,Stephanie,Lopez,5,True,Write a summary of the chapter,False
-Terri,Smith,11,B14,15:00,16:00,Sociology,324,Derrick,Phillips,2,True,Do exercises 11-15,True
-Steve,Austin,10,B14,10:00,11:00,Chemistry,379,Teresa,Charles,8,True,Write a summary of the chapter,False
-Terri,Smith,11,B14,10:00,11:00,Chemistry,379,Teresa,Charles,8,False,None,False
+Kelly,White,59,A18,7:00,8:00,Mathematics,12,Brian,Walker,1,True,Do exercises 1-5,False
+Michael,Jones,12,B17,12:00,13:00,Geography,89,Theresa,Thomas,6,True,Do exercises 11-15,False
+Joshua,Vang,79,B17,13:00,14:00,English,90,Maria,Burke,9,True,Write a summary of the chapter,False
+Brooke,Sosa,51,B17,17:00,18:00,Music,94,Chase,Parrish,3,True,Read pages 11-20,True
+Joshua,Vang,79,B17,18:00,19:00,Geography,95,Matthew,Brown,4,True,None,False
+Sharon,Barton,52,A15,17:00,18:00,History,178,Amy,Bell,11,False,Do exercises 6-10,False
+Lisa,Haynes,83,B17,8:00,9:00,English,205,Mary,Williams,8,False,Read pages 21-30,False
+Kristin,Price,16,B17,18:00,19:00,Geography,215,Matthew,Brown,4,True,Do exercises 1-5,False
+Joshua,Vang,79,B17,18:00,19:00,Geography,215,Matthew,Brown,4,False,Read pages 11-20,False
+Barry,Guerra,61,A15,9:00,10:00,Mathematics,290,Brian,Walker,1,True,None,True
+Logan,Gonzalez,25,B16,18:00,19:00,PE,347,Jackson,Shelton,18,True,Do tasks 5 and 7a from page 42,False
+Justin,Christian,35,A18,16:00,17:00,French,381,Wendy,Lowery,10,False,Do entire page 41,False
+Kimberly,Davis,98,A16,12:00,13:00,History,401,Amy,Bell,11,False,Do exercises 11-15,False
+Barry,Guerra,61,A15,13:00,14:00,Ethics,414,Linda,Henry,2,True,Do exercises 11-15,True
+Loretta,Welch,41,B19,14:00,15:00,Music,427,Chase,Parrish,3,False,Read pages 31-40,True
+Michael,Jones,12,B17,18:00,19:00,English,455,Marcus,Gonzalez,16,False,Read pages 1-10,False
+David,Hansen,50,B15,14:00,15:00,Economics,475,Monique,Jones,15,True,Read pages 21-30,False
+Michael,Green,99,A16,10:00,11:00,Geography,519,Theresa,Thomas,6,True,Write a summary of the chapter,False
+Nancy,Gutierrez,74,A18,11:00,12:00,French,616,Wendy,Lowery,10,True,Do entire page 41,True
+Barry,Guerra,61,A15,9:00,10:00,Mathematics,650,Brian,Walker,1,True,Read pages 21-30,True
+Mindy,Vasquez,90,A15,12:00,13:00,English,653,Mary,Williams,8,True,None,False
+Michael,Jones,12,B17,18:00,19:00,English,695,Marcus,Gonzalez,16,True,None,False
+Brenda,Mccormick,70,A19,8:00,9:00,Ethics,721,Linda,Henry,2,True,Read pages 31-40,False
+Nicole,Bennett,60,A15,10:00,11:00,Chemistry,771,Wanda,Berry,7,True,Read pages 21-30,False
+Misty,Johnson,31,B18,11:00,12:00,PE,796,Jackson,Shelton,18,True,Write a summary of the chapter,True
+David,Hansen,50,B15,12:00,13:00,Homeroom,833,Maria,Burke,9,True,Read pages 1-10,False
+Becky,Moreno,46,A19,15:00,16:00,Geography,848,Theresa,Thomas,6,True,None,True
+Michael,Green,99,A16,18:00,19:00,Art,887,Brittany,Jones,14,True,Read pages 31-40,False
+Michael,Trujillo,28,B19,14:00,15:00,Music,907,Chase,Parrish,3,False,Do exercises 6-10,True
+Brianna,Parks,29,C19,16:00,17:00,PE,959,Stephanie,Pope,0,False,Read pages 31-40,False
+Sharon,Barton,52,A15,16:00,17:00,English,1017,Maria,Burke,9,True,Do exercises 11-15,True
+Michael,Trujillo,28,B19,8:00,9:00,Geography,1021,Theresa,Thomas,6,True,None,True
+Keith,Romero,72,B19,11:00,12:00,Homeroom,1024,Theresa,Thomas,6,True,Do tasks 5 and 7a from page 42,True
+Jerome,Woods,9,B18,16:00,17:00,PE,1041,Jackson,Shelton,18,True,Do exercises 11-15,False
+Kristin,Price,16,B17,11:00,12:00,Mathematics,1048,Brian,Walker,1,False,None,False
+Javier,Vaughn,67,B15,7:00,8:00,English,1068,Mary,Williams,8,True,Do entire page 41,False
+Nancy,Gutierrez,74,A18,18:00,19:00,Geography,1103,Richard,Tapia,19,False,Do exercises 1-5,False
+Kimberly,Davis,98,A16,10:00,11:00,Geography,1119,Theresa,Thomas,6,True,Do tasks 5 and 7a from page 42,False
+Rachel,Manning,54,A16,11:00,12:00,French,1120,Wendy,Lowery,10,False,Do tasks 5 and 7a from page 42,False
+Kristin,Price,16,B17,10:00,11:00,English,1167,Maria,Burke,9,True,Do exercises 1-5,False
+Joshua,Vang,79,B17,16:00,17:00,Music,1173,Chase,Parrish,3,True,Write a summary of the chapter,False
+Justin,Christian,35,A18,11:00,12:00,PE,1216,Jackson,Shelton,18,True,Read pages 11-20,False
+Nancy,Gutierrez,74,A18,7:00,8:00,Mathematics,1332,Brian,Walker,1,False,Do exercises 6-10,False
+Justin,Christian,35,A18,16:00,17:00,French,1341,Wendy,Lowery,10,False,Read pages 11-20,False
+Keith,Romero,72,B19,12:00,13:00,Chemistry,1385,Wanda,Berry,7,False,Read pages 11-20,False
+Nicholas,Beck,43,B18,12:00,13:00,PE,1397,Jackson,Shelton,18,True,Do entire page 41,True
+Nancy,Gutierrez,74,A18,15:00,16:00,Geography,1460,Richard,Tapia,19,True,None,False
+Michael,Trujillo,28,B19,10:00,11:00,Geography,1503,Matthew,Brown,4,False,Do exercises 6-10,False
+Diana,Cameron,48,B18,7:00,8:00,Chemistry,1512,Wanda,Berry,7,True,Do exercises 6-10,False
+Joshua,Vang,79,B17,8:00,9:00,English,1525,Mary,Williams,8,True,Read pages 31-40,True
+Jessica,Perry,36,B17,18:00,19:00,English,1535,Marcus,Gonzalez,16,True,Read pages 21-30,True
+Casey,Morrison,57,A15,7:00,8:00,Geography,1608,Matthew,Brown,4,False,None,False
+Barry,Guerra,61,A15,9:00,10:00,Mathematics,1610,Brian,Walker,1,True,Do entire page 41,True
+Diana,Cameron,48,B18,18:00,19:00,PE,1643,Jackson,Shelton,18,False,None,False
+Keith,Romero,72,B19,10:00,11:00,Geography,1743,Matthew,Brown,4,True,Read pages 11-20,False
+Cassandra,Little,81,B19,11:00,12:00,Homeroom,1744,Theresa,Thomas,6,True,Do tasks 5 and 7a from page 42,False
+Keith,Romero,72,B19,16:00,17:00,German,1749,Gina,Cross,17,False,Do exercises 1-5,False
+Tonya,Butler,91,A18,7:00,8:00,Mathematics,1812,Brian,Walker,1,True,Do exercises 1-5,False
+Justin,Christian,35,A18,15:00,16:00,PE,1820,Jackson,Shelton,18,False,Do entire page 41,False
+Barry,Guerra,61,A15,9:00,10:00,Mathematics,1850,Brian,Walker,1,True,Do exercises 1-5,False
+Barry,Guerra,61,A15,13:00,14:00,Ethics,1854,Linda,Henry,2,False,Read pages 11-20,True
+Jerome,Woods,9,B18,18:00,19:00,French,1883,Wendy,Lowery,10,False,Do tasks 5 and 7a from page 42,False
+Lisa,Haynes,83,B17,9:00,10:00,Mathematics,1886,Shelia,Butler,5,True,Do tasks 5 and 7a from page 42,True
+Michael,Jones,12,B17,10:00,11:00,English,1887,Maria,Burke,9,True,Do exercises 1-5,False
+Javier,Vaughn,67,B15,10:00,11:00,History,1911,Amy,Bell,11,True,Do exercises 1-5,False
+Michael,Jones,12,B17,16:00,17:00,Music,2013,Chase,Parrish,3,True,Read pages 21-30,False
+James,Simon,37,A19,17:00,18:00,Biology,2050,Sara,Long,12,True,Do exercises 6-10,False
+Debra,Moreno,68,A15,14:00,15:00,Ethics,2095,Linda,Henry,2,False,None,False
+Misty,Johnson,31,B18,8:00,9:00,Homeroom,2113,Shelia,Butler,5,False,Do entire page 41,False
+Logan,Gonzalez,25,B16,13:00,14:00,History,2142,Amy,Bell,11,True,Write a summary of the chapter,False
+Kimberly,Davis,98,A16,13:00,14:00,Music,2202,Chase,Parrish,3,False,Do exercises 6-10,False
+Mindy,Vasquez,90,A15,10:00,11:00,Chemistry,2211,Wanda,Berry,7,True,Do exercises 1-5,False
+Debra,Moreno,68,A15,17:00,18:00,History,2218,Amy,Bell,11,False,Do exercises 11-15,False
+Cassandra,Little,81,B19,10:00,11:00,Geography,2223,Matthew,Brown,4,False,Read pages 11-20,True
+Brooke,Sosa,51,B17,14:00,15:00,Music,2251,Chase,Parrish,3,True,Read pages 1-10,True
+Casey,Morrison,57,A15,10:00,11:00,Chemistry,2331,Wanda,Berry,7,True,Read pages 11-20,False
+Diana,Cameron,48,B18,9:00,10:00,Geography,2354,Richard,Tapia,19,True,Read pages 31-40,False
+Michael,Jones,12,B17,15:00,16:00,Music,2492,Chase,Parrish,3,False,Read pages 21-30,False
+Mindy,Vasquez,90,A15,11:00,12:00,English,2572,Mary,Williams,8,False,Write a summary of the chapter,True
+Casey,Morrison,57,A15,17:00,18:00,History,2578,Amy,Bell,11,True,Read pages 1-10,False
+Brooke,Sosa,51,B17,7:00,8:00,Geography,2604,Theresa,Thomas,6,False,Do entire page 41,False
+Kristin,Price,16,B17,17:00,18:00,Music,2614,Chase,Parrish,3,True,Read pages 21-30,False
+Logan,Gonzalez,25,B16,16:00,17:00,Art,2625,Brittany,Jones,14,True,Read pages 21-30,False
+Nancy,Gutierrez,74,A18,11:00,12:00,French,2656,Wendy,Lowery,10,False,Do tasks 5 and 7a from page 42,True
+Michael,Green,99,A16,9:00,10:00,Geography,2678,Matthew,Brown,4,False,Read pages 31-40,False
+Kimberly,Davis,98,A16,18:00,19:00,Art,2687,Brittany,Jones,14,True,Do tasks 5 and 7a from page 42,False
+Cassandra,Little,81,B19,11:00,12:00,Homeroom,2704,Theresa,Thomas,6,False,Do exercises 11-15,False
+Loretta,Welch,41,B19,12:00,13:00,Chemistry,2705,Wanda,Berry,7,True,Do exercises 1-5,False
+Keith,Romero,72,B19,13:00,14:00,Biology,2706,Sara,Long,12,True,Read pages 21-30,False
+Nicholas,Beck,43,B18,17:00,18:00,Geography,2722,Matthew,Brown,4,True,Do exercises 6-10,True
+Barry,Guerra,61,A15,12:00,13:00,English,2813,Mary,Williams,8,True,Do exercises 11-15,True
+Michael,Trujillo,28,B19,9:00,10:00,PE,2822,Stephanie,Pope,0,True,Read pages 31-40,False
+Lisa,Haynes,83,B17,14:00,15:00,Music,2851,Gregory,Thompson,13,True,Do tasks 5 and 7a from page 42,False
+Javier,Vaughn,67,B15,18:00,19:00,Ethics,2879,Linda,Henry,2,True,Do exercises 6-10,True
+James,Simon,37,A19,12:00,13:00,Music,2885,Chase,Parrish,3,True,Do exercises 6-10,False
+Brenda,Mccormick,70,A19,16:00,17:00,Chemistry,2889,Wanda,Berry,7,False,Do entire page 41,False
+Casey,Morrison,57,A15,18:00,19:00,History,2939,Amy,Bell,11,False,Write a summary of the chapter,False
+Jerome,Woods,9,B18,9:00,10:00,PE,2954,Jackson,Shelton,18,True,Do exercises 1-5,False
+Lisa,Haynes,83,B17,18:00,19:00,Geography,2975,Matthew,Brown,4,True,Do exercises 1-5,False
+Becky,Moreno,46,A19,13:00,14:00,Geography,3006,Matthew,Brown,4,True,Do exercises 6-10,True
+Joshua,Vang,79,B17,13:00,14:00,English,3090,Maria,Burke,9,True,Do tasks 5 and 7a from page 42,False
+David,Hansen,50,B15,10:00,11:00,History,3111,Amy,Bell,11,False,Do exercises 11-15,False
+Nancy,Gutierrez,74,A18,8:00,9:00,Geography,3133,Matthew,Brown,4,True,Do exercises 11-15,False
+Kelly,White,59,A18,15:00,16:00,Geography,3140,Richard,Tapia,19,False,Write a summary of the chapter,False
+Michael,Green,99,A16,7:00,8:00,Music,3156,Chase,Parrish,3,False,Read pages 1-10,False
+Luke,Melendez,86,A16,9:00,10:00,Geography,3158,Matthew,Brown,4,False,Do tasks 5 and 7a from page 42,False
+Logan,Gonzalez,25,B16,7:00,8:00,French,3216,Wendy,Lowery,10,True,Read pages 21-30,False
+Javier,Vaughn,67,B15,14:00,15:00,Economics,3235,Monique,Jones,15,False,Do exercises 11-15,True
+Sharon,Barton,52,A15,7:00,8:00,Geography,3288,Matthew,Brown,4,True,Do exercises 1-5,False
+Barry,Guerra,61,A15,12:00,13:00,English,3293,Mary,Williams,8,True,None,False
+Misty,Johnson,31,B18,9:00,10:00,Geography,3314,Richard,Tapia,19,True,Do exercises 6-10,False
+Lisa,Haynes,83,B17,13:00,14:00,English,3330,Maria,Burke,9,True,Do exercises 11-15,False
+Brooke,Sosa,51,B17,15:00,16:00,Music,3332,Chase,Parrish,3,True,Read pages 1-10,False
+Tonya,Butler,91,A18,7:00,8:00,Mathematics,3372,Brian,Walker,1,True,Do exercises 6-10,True
+Nicole,Bennett,60,A15,10:00,11:00,Chemistry,3411,Wanda,Berry,7,True,Read pages 31-40,True
+Barry,Guerra,61,A15,11:00,12:00,English,3412,Mary,Williams,8,False,Do exercises 11-15,False
+Michael,Trujillo,28,B19,9:00,10:00,PE,3422,Stephanie,Pope,0,True,None,True
+William,Chambers,4,B18,15:00,16:00,Geography,3440,Richard,Tapia,19,True,Read pages 11-20,False
+Brooke,Sosa,51,B17,16:00,17:00,Geography,3453,Matthew,Brown,4,True,None,False
+Becky,Moreno,46,A19,18:00,19:00,Music,3491,Gregory,Thompson,13,False,Read pages 11-20,False
+Kimberly,Davis,98,A16,13:00,14:00,Music,3522,Chase,Parrish,3,True,None,False
+Sharon,Barton,52,A15,13:00,14:00,Ethics,3534,Linda,Henry,2,False,Do tasks 5 and 7a from page 42,False
+Keith,Romero,72,B19,11:00,12:00,Homeroom,3544,Theresa,Thomas,6,True,Do exercises 1-5,False
+Kristin,Price,16,B17,16:00,17:00,Music,3573,Chase,Parrish,3,True,Write a summary of the chapter,False
+Javier,Vaughn,67,B15,12:00,13:00,Mathematics,3593,Brian,Walker,1,True,Do exercises 11-15,False
+Sherry,Moses,18,A19,15:00,16:00,Geography,3608,Theresa,Thomas,6,False,Read pages 21-30,False
+Tonya,Butler,91,A18,18:00,19:00,PE,3623,Jackson,Shelton,18,False,Read pages 1-10,True
+Michael,Trujillo,28,B19,12:00,13:00,Chemistry,3665,Wanda,Berry,7,True,Read pages 1-10,True
+Sherry,Moses,18,A19,10:00,11:00,Ethics,3723,Linda,Henry,2,True,Do exercises 6-10,False
+Luke,Melendez,86,A16,9:00,10:00,Geography,3758,Matthew,Brown,4,False,Read pages 31-40,False
+Mindy,Vasquez,90,A15,7:00,8:00,Geography,3768,Matthew,Brown,4,False,Do exercises 1-5,False
+Todd,Williams,24,B15,7:00,8:00,English,3828,Mary,Williams,8,True,Do exercises 11-15,False
+Brenda,Mccormick,70,A19,11:00,12:00,Ethics,3844,Linda,Henry,2,True,Read pages 31-40,False
+Casey,Morrison,57,A15,8:00,9:00,Music,3889,Chase,Parrish,3,False,Read pages 11-20,False
+Debra,Moreno,68,A15,11:00,12:00,English,3892,Mary,Williams,8,False,Read pages 1-10,False
+Debra,Moreno,68,A15,12:00,13:00,English,3893,Mary,Williams,8,True,Read pages 11-20,True
+Debra,Moreno,68,A15,17:00,18:00,History,3898,Amy,Bell,11,True,Do exercises 11-15,False
+Jessica,Perry,36,B17,12:00,13:00,Geography,3929,Theresa,Thomas,6,False,Do entire page 41,False
+Casey,Morrison,57,A15,12:00,13:00,English,4013,Mary,Williams,8,True,Do exercises 6-10,False
+Douglas,Wade,85,B17,12:00,13:00,Geography,4049,Theresa,Thomas,6,True,Do exercises 6-10,False
+Michael,Jones,12,B17,13:00,14:00,English,4050,Maria,Burke,9,True,Read pages 11-20,False
+Kristin,Price,16,B17,15:00,16:00,Music,4052,Chase,Parrish,3,False,Read pages 1-10,False
+David,Hansen,50,B15,17:00,18:00,Chemistry,4078,Wanda,Berry,7,False,Write a summary of the chapter,False
+Justin,Christian,35,A18,15:00,16:00,Geography,4100,Richard,Tapia,19,True,Do exercises 11-15,False
+Javier,Vaughn,67,B15,12:00,13:00,Homeroom,4193,Maria,Burke,9,False,Do exercises 6-10,False
+Justin,Christian,35,A18,12:00,13:00,Ethics,4217,Linda,Henry,2,False,Read pages 31-40,True
+Luke,Melendez,86,A16,8:00,9:00,PE,4237,Stephanie,Pope,0,True,Read pages 11-20,True
+Nicole,Bennett,60,A15,15:00,16:00,Geography,4256,Richard,Tapia,19,False,Write a summary of the chapter,False
+Michael,Trujillo,28,B19,17:00,18:00,Ethics,4390,Linda,Henry,2,False,Read pages 21-30,False
+Kimberly,Davis,98,A16,11:00,12:00,French,4480,Wendy,Lowery,10,False,Read pages 31-40,False
+Barry,Guerra,61,A15,8:00,9:00,Music,4489,Chase,Parrish,3,False,Write a summary of the chapter,False
+Barry,Guerra,61,A15,15:00,16:00,Ethics,4496,Linda,Henry,2,True,Read pages 1-10,False
+Cassandra,Little,81,B19,16:00,17:00,Ethics,4509,Linda,Henry,2,False,Do exercises 1-5,False
+Rachel,Manning,54,A16,10:00,11:00,Geography,4599,Theresa,Thomas,6,True,Do entire page 41,True
+Michael,Trujillo,28,B19,13:00,14:00,Biology,4626,Sara,Long,12,False,Read pages 21-30,False
+Cassandra,Little,81,B19,16:00,17:00,Ethics,4629,Linda,Henry,2,True,Do tasks 5 and 7a from page 42,False
+Douglas,Wade,85,B17,9:00,10:00,Mathematics,4646,Shelia,Butler,5,True,None,False
+Michael,Jones,12,B17,14:00,15:00,Music,4771,Chase,Parrish,3,False,Read pages 11-20,True
+Cassandra,Little,81,B19,10:00,11:00,Geography,4863,Matthew,Brown,4,True,Read pages 1-10,False
+Keith,Romero,72,B19,13:00,14:00,Biology,4866,Sara,Long,12,True,Read pages 21-30,False
+Brooke,Sosa,51,B17,7:00,8:00,Geography,4884,Theresa,Thomas,6,True,Read pages 1-10,False
+Kristin,Price,16,B17,11:00,12:00,Mathematics,4888,Brian,Walker,1,True,Read pages 31-40,False
+Lisa,Haynes,83,B17,18:00,19:00,English,4895,Marcus,Gonzalez,16,True,Read pages 31-40,False
+David,Hansen,50,B15,15:00,16:00,Geography,4916,Matthew,Brown,4,True,Do exercises 11-15,False
+Nancy,Gutierrez,74,A18,14:00,15:00,PE,4939,Jackson,Shelton,18,True,Do exercises 11-15,False
+Justin,Christian,35,A18,16:00,17:00,PE,4941,Jackson,Shelton,18,True,Do exercises 1-5,True
+Rachel,Manning,54,A16,15:00,16:00,Homeroom,4964,Sara,Long,12,True,Do exercises 6-10,False
+Loretta,Welch,41,B19,9:00,10:00,PE,4982,Stephanie,Pope,0,False,Do entire page 41,False
+Joshua,Vang,79,B17,11:00,12:00,Mathematics,5008,Brian,Walker,1,True,Read pages 31-40,False
+William,Chambers,4,B18,7:00,8:00,Chemistry,5112,Wanda,Berry,7,False,Do exercises 11-15,False
+Jenny,Duarte,65,C19,17:00,18:00,PE,5159,Stephanie,Pope,0,False,Do exercises 6-10,False
+Becky,Moreno,46,A19,14:00,15:00,Mathematics,5167,Shelia,Butler,5,True,Read pages 31-40,True
+Keith,Romero,72,B19,14:00,15:00,Ethics,5227,Linda,Henry,2,False,Do exercises 11-15,False
+Brooke,Sosa,51,B17,8:00,9:00,English,5245,Mary,Williams,8,True,Do exercises 1-5,False
+Kristin,Price,16,B17,18:00,19:00,Geography,5255,Matthew,Brown,4,True,Read pages 21-30,False
+James,Simon,37,A19,13:00,14:00,Geography,5286,Matthew,Brown,4,True,Do exercises 1-5,True
+Brenda,Mccormick,70,A19,14:00,15:00,Mathematics,5287,Shelia,Butler,5,False,Read pages 1-10,True
+Loretta,Welch,41,B19,8:00,9:00,Geography,5341,Theresa,Thomas,6,True,Do entire page 41,False
+Jerome,Woods,9,B18,12:00,13:00,PE,5357,Jackson,Shelton,18,True,Do exercises 6-10,False
+Todd,Williams,24,B15,11:00,12:00,English,5392,Maria,Burke,9,False,Do tasks 5 and 7a from page 42,False
+William,Chambers,4,B18,17:00,18:00,Geography,5482,Richard,Tapia,19,False,Read pages 1-10,False
+Javier,Vaughn,67,B15,12:00,13:00,Mathematics,5513,Brian,Walker,1,False,Read pages 21-30,False
+Becky,Moreno,46,A19,14:00,15:00,Mathematics,5527,Shelia,Butler,5,False,Read pages 31-40,False
+Casey,Morrison,57,A15,18:00,19:00,Homeroom,5579,Sara,Long,12,False,Read pages 21-30,False
+Keith,Romero,72,B19,11:00,12:00,Homeroom,5584,Theresa,Thomas,6,False,Read pages 1-10,False
+Misty,Johnson,31,B18,15:00,16:00,French,5600,Wendy,Lowery,10,True,Do exercises 1-5,False
+Douglas,Wade,85,B17,15:00,16:00,Music,5612,Chase,Parrish,3,True,Write a summary of the chapter,False
+David,Hansen,50,B15,7:00,8:00,English,5628,Mary,Williams,8,True,Do exercises 11-15,False
+Nicole,Bennett,60,A15,9:00,10:00,Mathematics,5690,Brian,Walker,1,True,Do exercises 1-5,False
+Kristin,Price,16,B17,9:00,10:00,Mathematics,5725,Shelia,Butler,5,True,Read pages 11-20,False
+Douglas,Wade,85,B17,16:00,17:00,Music,5973,Chase,Parrish,3,True,Do exercises 11-15,False
+Todd,Williams,24,B15,16:00,17:00,Economics,5997,Monique,Jones,15,True,Read pages 21-30,False
+Todd,Williams,24,B15,18:00,19:00,Music,5999,Chase,Parrish,3,True,Do exercises 11-15,False
+Sherry,Moses,18,A19,14:00,15:00,Mathematics,6007,Shelia,Butler,5,True,Do exercises 1-5,True
+Brenda,Mccormick,70,A19,14:00,15:00,Mathematics,6007,Shelia,Butler,5,True,Read pages 11-20,False
+Kelly,White,59,A18,8:00,9:00,Geography,6013,Matthew,Brown,4,True,Read pages 21-30,False
+Debra,Moreno,68,A15,7:00,8:00,Geography,6048,Matthew,Brown,4,False,Read pages 31-40,False
+Martha,Marquez,78,B18,14:00,15:00,French,6079,Wendy,Lowery,10,False,Do entire page 41,False
+Brooke,Sosa,51,B17,9:00,10:00,Mathematics,6086,Shelia,Butler,5,True,None,False
+Jessica,Perry,36,B17,17:00,18:00,Music,6094,Chase,Parrish,3,True,Read pages 31-40,False
+Todd,Williams,24,B15,10:00,11:00,History,6111,Amy,Bell,11,True,Do exercises 6-10,False
+Becky,Moreno,46,A19,12:00,13:00,Music,6125,Chase,Parrish,3,True,Read pages 1-10,False
+Michael,Trujillo,28,B19,16:00,17:00,Ethics,6189,Linda,Henry,2,False,Do exercises 6-10,False
+Diana,Cameron,48,B18,17:00,18:00,Ethics,6202,Linda,Henry,2,False,Read pages 11-20,False
+Tonya,Butler,91,A18,14:00,15:00,French,6259,Wendy,Lowery,10,False,Read pages 1-10,False
+Michael,Jones,12,B17,13:00,14:00,English,6330,Maria,Burke,9,False,Do entire page 41,False
+Brooke,Sosa,51,B17,14:00,15:00,Music,6331,Gregory,Thompson,13,True,Read pages 21-30,False
+Logan,Gonzalez,25,B16,17:00,18:00,PE,6346,Jackson,Shelton,18,True,Read pages 11-20,False
+Tonya,Butler,91,A18,18:00,19:00,Geography,6383,Richard,Tapia,19,False,Do tasks 5 and 7a from page 42,False
+Michael,Green,99,A16,14:00,15:00,History,6403,Amy,Bell,11,False,Do exercises 6-10,True
+Sharon,Barton,52,A15,11:00,12:00,English,6412,Mary,Williams,8,True,Do entire page 41,False
+Loretta,Welch,41,B19,15:00,16:00,Ethics,6428,Linda,Henry,2,True,Read pages 31-40,False
+Jerome,Woods,9,B18,16:00,17:00,Geography,6441,Richard,Tapia,19,False,Read pages 31-40,True
+Kristin,Price,16,B17,10:00,11:00,English,6447,Maria,Burke,9,True,Do tasks 5 and 7a from page 42,True
+Todd,Williams,24,B15,14:00,15:00,Homeroom,6475,Maria,Burke,9,True,Do exercises 11-15,True
+Todd,Williams,24,B15,15:00,16:00,Economics,6476,Monique,Jones,15,True,Do entire page 41,False
+Sherry,Moses,18,A19,10:00,11:00,Ethics,6483,Linda,Henry,2,True,None,False
+Justin,Christian,35,A18,12:00,13:00,Ethics,6497,Linda,Henry,2,True,Do exercises 6-10,False
+Tonya,Butler,91,A18,15:00,16:00,Geography,6500,Richard,Tapia,19,True,Do tasks 5 and 7a from page 42,False
+Kimberly,Davis,98,A16,9:00,10:00,Geography,6518,Matthew,Brown,4,True,Read pages 1-10,False
+Mindy,Vasquez,90,A15,8:00,9:00,Music,6529,Chase,Parrish,3,False,Read pages 31-40,True
+Logan,Gonzalez,25,B16,14:00,15:00,Music,6583,Gregory,Thompson,13,True,Read pages 11-20,False
+Kimberly,Davis,98,A16,8:00,9:00,PE,6637,Stephanie,Pope,0,True,Do exercises 1-5,False
+Mindy,Vasquez,90,A15,13:00,14:00,Ethics,6654,Linda,Henry,2,True,Do exercises 1-5,False
+Loretta,Welch,41,B19,13:00,14:00,Biology,6666,Sara,Long,12,False,Do exercises 6-10,False
+Keith,Romero,72,B19,16:00,17:00,Ethics,6669,Linda,Henry,2,True,Do exercises 6-10,False
+Becky,Moreno,46,A19,11:00,12:00,Ethics,6724,Linda,Henry,2,True,Read pages 1-10,False
+Michael,Trujillo,28,B19,11:00,12:00,Homeroom,6784,Theresa,Thomas,6,True,Write a summary of the chapter,False
+Todd,Williams,24,B15,8:00,9:00,History,6829,Amy,Bell,11,True,Do exercises 6-10,False
+Becky,Moreno,46,A19,9:00,10:00,Ethics,6842,Linda,Henry,2,False,Write a summary of the chapter,True
+Jerome,Woods,9,B18,8:00,9:00,Homeroom,6913,Shelia,Butler,5,False,Do tasks 5 and 7a from page 42,True
+William,Chambers,4,B18,18:00,19:00,French,6923,Wendy,Lowery,10,True,Read pages 1-10,False
+Kristin,Price,16,B17,10:00,11:00,English,6927,Maria,Burke,9,True,Write a summary of the chapter,True
+Nicole,Bennett,60,A15,11:00,12:00,English,7012,Mary,Williams,8,True,Read pages 11-20,False
+Sharon,Barton,52,A15,15:00,16:00,Geography,7016,Richard,Tapia,19,True,Read pages 31-40,False
+Lisa,Haynes,83,B17,8:00,9:00,English,7045,Mary,Williams,8,True,Read pages 31-40,False
+Tonya,Butler,91,A18,10:00,11:00,PE,7095,Jackson,Shelton,18,True,Read pages 31-40,False
+Rachel,Manning,54,A16,11:00,12:00,French,7120,Wendy,Lowery,10,True,Do exercises 11-15,False
+Rachel,Manning,54,A16,13:00,14:00,Music,7122,Chase,Parrish,3,True,Do entire page 41,False
+Nicole,Bennett,60,A15,9:00,10:00,Mathematics,7130,Brian,Walker,1,True,Read pages 1-10,True
+Debra,Moreno,68,A15,10:00,11:00,Chemistry,7131,Wanda,Berry,7,True,Do entire page 41,False
+Jerome,Woods,9,B18,18:00,19:00,Ethics,7163,Linda,Henry,2,True,Write a summary of the chapter,False
+Diana,Cameron,48,B18,18:00,19:00,Ethics,7163,Linda,Henry,2,False,Write a summary of the chapter,False
+Becky,Moreno,46,A19,12:00,13:00,Music,7205,Chase,Parrish,3,False,Do exercises 6-10,False
+Justin,Christian,35,A18,7:00,8:00,Mathematics,7212,Brian,Walker,1,True,Do exercises 6-10,True
+Cassandra,Little,81,B19,8:00,9:00,Geography,7261,Theresa,Thomas,6,False,Read pages 11-20,False
+Misty,Johnson,31,B18,12:00,13:00,Geography,7277,Richard,Tapia,19,True,Do entire page 41,True
+Brooke,Sosa,51,B17,10:00,11:00,English,7287,Maria,Burke,9,True,Read pages 11-20,False
+Joshua,Vang,79,B17,10:00,11:00,English,7287,Maria,Burke,9,False,None,False
+Logan,Gonzalez,25,B16,18:00,19:00,PE,7307,Jackson,Shelton,18,False,Write a summary of the chapter,True
+Kimberly,Davis,98,A16,17:00,18:00,Music,7366,Gregory,Thompson,13,True,Read pages 21-30,False
+Jerome,Woods,9,B18,18:00,19:00,Ethics,7403,Linda,Henry,2,True,Read pages 31-40,True
+Douglas,Wade,85,B17,15:00,16:00,Music,7412,Chase,Parrish,3,False,None,False
+Rachel,Manning,54,A16,13:00,14:00,Music,7482,Chase,Parrish,3,True,Do exercises 6-10,False
+Barry,Guerra,61,A15,18:00,19:00,History,7499,Amy,Bell,11,False,None,False
+Misty,Johnson,31,B18,12:00,13:00,French,7517,Wendy,Lowery,10,True,Write a summary of the chapter,False
+Kristin,Price,16,B17,8:00,9:00,English,7525,Mary,Williams,8,True,Do tasks 5 and 7a from page 42,True
+Jessica,Perry,36,B17,12:00,13:00,Geography,7529,Theresa,Thomas,6,True,Do exercises 1-5,False
+Tonya,Butler,91,A18,18:00,19:00,Geography,7583,Richard,Tapia,19,True,Read pages 31-40,False
+Luke,Melendez,86,A16,14:00,15:00,History,7603,Amy,Bell,11,True,Do entire page 41,False
+Nicole,Bennett,60,A15,14:00,15:00,English,7615,Maria,Burke,9,True,Read pages 11-20,False
+Mindy,Vasquez,90,A15,15:00,16:00,Ethics,7616,Linda,Henry,2,True,Write a summary of the chapter,False
+Barry,Guerra,61,A15,17:00,18:00,Geography,7618,Richard,Tapia,19,False,Read pages 21-30,False
+Jerome,Woods,9,B18,18:00,19:00,French,7643,Wendy,Lowery,10,False,Read pages 1-10,False
+Nancy,Gutierrez,74,A18,10:00,11:00,Geography,7695,Richard,Tapia,19,True,Read pages 31-40,False
+Loretta,Welch,41,B19,9:00,10:00,PE,7742,Stephanie,Pope,0,False,Read pages 21-30,False
+Michael,Trujillo,28,B19,17:00,18:00,Ethics,7750,Linda,Henry,2,True,Read pages 1-10,False
+Martha,Marquez,78,B18,8:00,9:00,Homeroom,7753,Shelia,Butler,5,True,Do tasks 5 and 7a from page 42,False
+Brooke,Sosa,51,B17,10:00,11:00,English,7767,Maria,Burke,9,True,Do entire page 41,False
+Jessica,Perry,36,B17,11:00,12:00,Mathematics,7768,Brian,Walker,1,True,Write a summary of the chapter,False
+Brooke,Sosa,51,B17,12:00,13:00,Geography,7769,Theresa,Thomas,6,True,Read pages 31-40,False
+Kristin,Price,16,B17,15:00,16:00,Music,7772,Chase,Parrish,3,True,Do exercises 1-5,False
+Becky,Moreno,46,A19,15:00,16:00,Geography,7808,Theresa,Thomas,6,True,Read pages 11-20,False
+Justin,Christian,35,A18,16:00,17:00,PE,7821,Jackson,Shelton,18,True,Write a summary of the chapter,False
+Sharon,Barton,52,A15,10:00,11:00,Chemistry,7851,Wanda,Berry,7,True,None,False
+Sharon,Barton,52,A15,12:00,13:00,English,7853,Mary,Williams,8,True,None,True
+Michael,Trujillo,28,B19,14:00,15:00,Music,7867,Chase,Parrish,3,True,Read pages 1-10,True
+Keith,Romero,72,B19,15:00,16:00,Ethics,7868,Linda,Henry,2,True,Read pages 21-30,False
+Sharon,Barton,52,A15,10:00,11:00,Chemistry,7971,Wanda,Berry,7,True,Do exercises 6-10,True
+Debra,Moreno,68,A15,10:00,11:00,Chemistry,7971,Wanda,Berry,7,True,Do entire page 41,False
+Brooke,Sosa,51,B17,10:00,11:00,English,8007,Maria,Burke,9,False,Do exercises 11-15,True
+Kristin,Price,16,B17,12:00,13:00,Geography,8009,Theresa,Thomas,6,True,Read pages 1-10,False
+Sherry,Moses,18,A19,10:00,11:00,Ethics,8043,Linda,Henry,2,False,Do exercises 6-10,False
+Tonya,Butler,91,A18,15:00,16:00,Geography,8060,Richard,Tapia,19,True,Do tasks 5 and 7a from page 42,False
+Mindy,Vasquez,90,A15,12:00,13:00,English,8093,Mary,Williams,8,True,Do entire page 41,False
+Joshua,Vang,79,B17,8:00,9:00,English,8125,Mary,Williams,8,False,Do exercises 6-10,False
+Jessica,Perry,36,B17,10:00,11:00,English,8127,Maria,Burke,9,False,Do entire page 41,False
+Brenda,Mccormick,70,A19,12:00,13:00,Music,8165,Chase,Parrish,3,True,Read pages 1-10,False
+James,Simon,37,A19,13:00,14:00,Geography,8166,Matthew,Brown,4,False,Read pages 31-40,True
+Kelly,White,59,A18,17:00,18:00,French,8182,Wendy,Lowery,10,True,Read pages 31-40,False
+Michael,Trujillo,28,B19,7:00,8:00,Mathematics,8220,Shelia,Butler,5,False,Do exercises 11-15,False
+Michael,Trujillo,28,B19,15:00,16:00,Ethics,8228,Linda,Henry,2,False,Read pages 11-20,False
+Misty,Johnson,31,B18,15:00,16:00,French,8240,Wendy,Lowery,10,True,Do exercises 11-15,False
+Kristin,Price,16,B17,12:00,13:00,Geography,8249,Theresa,Thomas,6,False,Do tasks 5 and 7a from page 42,False
+Logan,Gonzalez,25,B16,16:00,17:00,English,8265,Marcus,Gonzalez,16,True,Do tasks 5 and 7a from page 42,False
+Brenda,Mccormick,70,A19,11:00,12:00,Ethics,8284,Linda,Henry,2,True,Do entire page 41,False
+Tonya,Butler,91,A18,18:00,19:00,Homeroom,8423,Wendy,Lowery,10,False,None,False
+Michael,Green,99,A16,16:00,17:00,Music,8445,Gregory,Thompson,13,True,Read pages 1-10,False
+William,Chambers,4,B18,16:00,17:00,Geography,8481,Richard,Tapia,19,True,Read pages 11-20,True
+Kristin,Price,16,B17,9:00,10:00,Mathematics,8486,Shelia,Butler,5,True,Read pages 31-40,False
+Debra,Moreno,68,A15,11:00,12:00,English,8572,Mary,Williams,8,False,Read pages 21-30,False
+Douglas,Wade,85,B17,16:00,17:00,Music,8613,Chase,Parrish,3,False,Read pages 1-10,False
+Justin,Christian,35,A18,17:00,18:00,French,8662,Wendy,Lowery,10,False,Do entire page 41,False
+Luke,Melendez,86,A16,18:00,19:00,Art,8687,Brittany,Jones,14,True,Do exercises 1-5,True
+Mindy,Vasquez,90,A15,16:00,17:00,English,8697,Maria,Burke,9,True,Write a summary of the chapter,False
+Cassandra,Little,81,B19,14:00,15:00,Music,8707,Chase,Parrish,3,False,Read pages 11-20,False
+Cassandra,Little,81,B19,16:00,17:00,Ethics,8709,Linda,Henry,2,True,Write a summary of the chapter,False
+Misty,Johnson,31,B18,11:00,12:00,PE,8716,Jackson,Shelton,18,True,Do entire page 41,True
+Michael,Jones,12,B17,14:00,15:00,Music,8731,Gregory,Thompson,13,True,Do exercises 6-10,True
+Brooke,Sosa,51,B17,18:00,19:00,Geography,8735,Matthew,Brown,4,True,Read pages 21-30,False
+Sherry,Moses,18,A19,17:00,18:00,Biology,8770,Sara,Long,12,False,Read pages 31-40,False
+Kimberly,Davis,98,A16,18:00,19:00,Art,8807,Brittany,Jones,14,True,Read pages 31-40,True
+Mindy,Vasquez,90,A15,16:00,17:00,Geography,8817,Richard,Tapia,19,True,Do exercises 1-5,False
+Martha,Marquez,78,B18,13:00,14:00,PE,8838,Jackson,Shelton,18,False,None,False
+Logan,Gonzalez,25,B16,17:00,18:00,English,8866,Marcus,Gonzalez,16,True,Read pages 11-20,False
+Todd,Williams,24,B15,17:00,18:00,Geography,8878,Matthew,Brown,4,False,Do exercises 11-15,False
+Justin,Christian,35,A18,13:00,14:00,French,8898,Wendy,Lowery,10,True,Write a summary of the chapter,False
+Kelly,White,59,A18,13:00,14:00,French,8898,Wendy,Lowery,10,False,Read pages 11-20,False
+Luke,Melendez,86,A16,14:00,15:00,History,8923,Amy,Bell,11,True,Read pages 1-10,False
+Nicole,Bennett,60,A15,15:00,16:00,History,8936,Amy,Bell,11,True,Do exercises 6-10,False
+Cassandra,Little,81,B19,16:00,17:00,Music,8949,Chase,Parrish,3,True,Read pages 21-30,False
+Jerome,Woods,9,B18,13:00,14:00,PE,8958,Jackson,Shelton,18,True,Do exercises 11-15,False
+Lisa,Haynes,83,B17,16:00,17:00,Geography,8973,Matthew,Brown,4,True,Write a summary of the chapter,False
+Becky,Moreno,46,A19,14:00,15:00,Mathematics,9007,Shelia,Butler,5,True,Read pages 21-30,False
+Casey,Morrison,57,A15,8:00,9:00,Music,9049,Chase,Parrish,3,True,Write a summary of the chapter,False
+Diana,Cameron,48,B18,13:00,14:00,French,9078,Wendy,Lowery,10,True,Do exercises 11-15,False
+Todd,Williams,24,B15,14:00,15:00,Economics,9115,Monique,Jones,15,True,Do tasks 5 and 7a from page 42,False
+Sharon,Barton,52,A15,10:00,11:00,Chemistry,9171,Wanda,Berry,7,True,Read pages 11-20,False
+Todd,Williams,24,B15,7:00,8:00,English,9228,Mary,Williams,8,False,Do exercises 1-5,False
+Loretta,Welch,41,B19,12:00,13:00,Chemistry,9305,Wanda,Berry,7,True,Do exercises 6-10,False
+Justin,Christian,35,A18,7:00,8:00,Mathematics,9372,Brian,Walker,1,True,Read pages 11-20,False
+Kelly,White,59,A18,14:00,15:00,Geography,9379,Richard,Tapia,19,True,Do exercises 6-10,False
+Rachel,Manning,54,A16,7:00,8:00,Music,9396,Chase,Parrish,3,True,Write a summary of the chapter,False
+Misty,Johnson,31,B18,14:00,15:00,French,9439,Wendy,Lowery,10,True,Do tasks 5 and 7a from page 42,False
+Kristin,Price,16,B17,16:00,17:00,Geography,9453,Matthew,Brown,4,True,Read pages 11-20,False
+Logan,Gonzalez,25,B16,7:00,8:00,French,9456,Wendy,Lowery,10,True,Read pages 31-40,False
+Logan,Gonzalez,25,B16,15:00,16:00,Art,9464,Brittany,Jones,14,True,Do exercises 1-5,False
+James,Simon,37,A19,18:00,19:00,Music,9491,Gregory,Thompson,13,True,Do exercises 6-10,False
+Rachel,Manning,54,A16,17:00,18:00,Music,9526,Gregory,Thompson,13,True,Read pages 11-20,False
+Mindy,Vasquez,90,A15,9:00,10:00,Mathematics,9530,Brian,Walker,1,True,Read pages 21-30,False
+Misty,Johnson,31,B18,18:00,19:00,Ethics,9563,Linda,Henry,2,False,Do exercises 6-10,False
+Logan,Gonzalez,25,B16,16:00,17:00,History,9585,Amy,Bell,11,True,Read pages 21-30,False
+Javier,Vaughn,67,B15,7:00,8:00,English,9588,Mary,Williams,8,False,Do tasks 5 and 7a from page 42,False
+Becky,Moreno,46,A19,7:00,8:00,PE,9600,Stephanie,Pope,0,False,Do exercises 6-10,False
+Sherry,Moses,18,A19,13:00,14:00,Geography,9606,Matthew,Brown,4,True,Read pages 21-30,False
+Justin,Christian,35,A18,7:00,8:00,Mathematics,9612,Brian,Walker,1,False,Write a summary of the chapter,False
+Nancy,Gutierrez,74,A18,7:00,8:00,Mathematics,9612,Brian,Walker,1,True,None,False
+Mindy,Vasquez,90,A15,17:00,18:00,History,9658,Amy,Bell,11,False,Do exercises 1-5,False
+William,Chambers,4,B18,7:00,8:00,Chemistry,9672,Wanda,Berry,7,True,Read pages 31-40,False
+Martha,Marquez,78,B18,8:00,9:00,Homeroom,9673,Shelia,Butler,5,True,Do exercises 1-5,False
+Jerome,Woods,9,B18,18:00,19:00,Geography,9683,Richard,Tapia,19,True,Write a summary of the chapter,False
+David,Hansen,50,B15,15:00,16:00,History,9716,Amy,Bell,11,True,Do exercises 11-15,False
+Javier,Vaughn,67,B15,16:00,17:00,Economics,9717,Monique,Jones,15,False,Read pages 1-10,False
+Todd,Williams,24,B15,18:00,19:00,Music,9719,Chase,Parrish,3,True,Read pages 21-30,False
+Becky,Moreno,46,A19,16:00,17:00,Chemistry,9729,Wanda,Berry,7,True,Read pages 11-20,True
+Justin,Christian,35,A18,15:00,16:00,Geography,9740,Richard,Tapia,19,True,Do tasks 5 and 7a from page 42,False
+Casey,Morrison,57,A15,9:00,10:00,Mathematics,9770,Brian,Walker,1,False,Do exercises 1-5,False
+Jerome,Woods,9,B18,16:00,17:00,PE,9801,Jackson,Shelton,18,True,Read pages 31-40,False
+Brooke,Sosa,51,B17,11:00,12:00,Mathematics,9808,Brian,Walker,1,True,Read pages 31-40,False
+Sherry,Moses,18,A19,14:00,15:00,Mathematics,9847,Shelia,Butler,5,True,Read pages 1-10,True
+Luke,Melendez,86,A16,10:00,11:00,Geography,9879,Theresa,Thomas,6,True,Do entire page 41,False
+Martha,Marquez,78,B18,13:00,14:00,PE,9918,Jackson,Shelton,18,True,Read pages 1-10,False
+Kristin,Price,16,B17,9:00,10:00,Mathematics,9926,Shelia,Butler,5,True,None,True
+Douglas,Wade,85,B17,11:00,12:00,Mathematics,9928,Brian,Walker,1,True,Read pages 21-30,False
+Michael,Green,99,A16,8:00,9:00,PE,9997,Stephanie,Pope,0,False,None,False
+Casey,Morrison,57,A15,8:00,9:00,Music,10009,Chase,Parrish,3,True,Read pages 21-30,True
+Debra,Moreno,68,A15,11:00,12:00,English,10012,Mary,Williams,8,True,Do exercises 6-10,False
+Cassandra,Little,81,B19,12:00,13:00,Chemistry,10025,Wanda,Berry,7,True,Do tasks 5 and 7a from page 42,False
+William,Chambers,4,B18,13:00,14:00,PE,10038,Jackson,Shelton,18,True,Do exercises 11-15,False
+Diana,Cameron,48,B18,8:00,9:00,Homeroom,10153,Shelia,Butler,5,True,Do tasks 5 and 7a from page 42,False
+Lisa,Haynes,83,B17,11:00,12:00,Mathematics,10168,Brian,Walker,1,True,None,True
+Michael,Jones,12,B17,12:00,13:00,Geography,10169,Theresa,Thomas,6,False,Do exercises 11-15,True
+David,Hansen,50,B15,8:00,9:00,Geography,10189,Richard,Tapia,19,True,Write a summary of the chapter,False
+Ronald,Hicks,69,C19,17:00,18:00,PE,10199,Stephanie,Pope,0,True,Do tasks 5 and 7a from page 42,False
+Misty,Johnson,31,B18,12:00,13:00,PE,10277,Jackson,Shelton,18,True,Do exercises 6-10,True
+Jessica,Perry,36,B17,7:00,8:00,Geography,10284,Theresa,Thomas,6,True,Read pages 11-20,False
+Logan,Gonzalez,25,B16,10:00,11:00,PE,10299,Stephanie,Pope,0,True,Read pages 31-40,True
+Brianna,Parks,29,C19,16:00,17:00,PE,10319,Stephanie,Pope,0,True,Write a summary of the chapter,False
+Sherry,Moses,18,A19,7:00,8:00,PE,10320,Stephanie,Pope,0,True,Read pages 21-30,True
+Rachel,Manning,54,A16,7:00,8:00,Music,10356,Chase,Parrish,3,True,None,False
+Nicholas,Beck,43,B18,11:00,12:00,PE,10396,Jackson,Shelton,18,False,Do tasks 5 and 7a from page 42,True
+Kristin,Price,16,B17,15:00,16:00,Geography,10411,Matthew,Brown,4,False,Do exercises 11-15,False
+Todd,Williams,24,B15,14:00,15:00,Chemistry,10434,Wanda,Berry,7,True,Do exercises 6-10,False
+Joshua,Schroeder,39,C19,17:00,18:00,Geography,10439,Matthew,Brown,4,False,Read pages 11-20,False
+Cassandra,Little,81,B19,10:00,11:00,Geography,10503,Matthew,Brown,4,True,Read pages 21-30,False
+Diana,Cameron,48,B18,18:00,19:00,Ethics,10523,Linda,Henry,2,False,Read pages 31-40,False
+Michael,Jones,12,B17,8:00,9:00,English,10525,Mary,Williams,8,True,Do exercises 1-5,False
+Jessica,Perry,36,B17,18:00,19:00,English,10535,Marcus,Gonzalez,16,True,Do exercises 11-15,False
+David,Hansen,50,B15,7:00,8:00,English,10548,Mary,Williams,8,True,None,True
+Javier,Vaughn,67,B15,7:00,8:00,English,10548,Mary,Williams,8,False,Write a summary of the chapter,False
+Michael,Green,99,A16,14:00,15:00,History,10603,Amy,Bell,11,True,Do entire page 41,False
+Jerome,Woods,9,B18,14:00,15:00,Geography,10639,Richard,Tapia,19,True,Do exercises 6-10,False
+Misty,Johnson,31,B18,14:00,15:00,Geography,10639,Richard,Tapia,19,True,Write a summary of the chapter,False
+Kelly,White,59,A18,11:00,12:00,PE,10696,Jackson,Shelton,18,True,Read pages 11-20,False
+Tonya,Butler,91,A18,17:00,18:00,PE,10702,Jackson,Shelton,18,False,Read pages 31-40,False
+Luke,Melendez,86,A16,12:00,13:00,History,10721,Amy,Bell,11,True,Do tasks 5 and 7a from page 42,False
+Luke,Melendez,86,A16,15:00,16:00,Homeroom,10724,Sara,Long,12,True,Read pages 11-20,False
+Brooke,Sosa,51,B17,13:00,14:00,English,10770,Maria,Burke,9,True,Write a summary of the chapter,False
+Brenda,Mccormick,70,A19,14:00,15:00,Mathematics,10807,Shelia,Butler,5,False,Do exercises 1-5,False
+Rachel,Manning,54,A16,17:00,18:00,Music,10846,Gregory,Thompson,13,False,Do tasks 5 and 7a from page 42,False
+Nicole,Bennett,60,A15,16:00,17:00,Ethics,10857,Linda,Henry,2,True,Read pages 11-20,False
+Loretta,Welch,41,B19,11:00,12:00,Homeroom,10864,Theresa,Thomas,6,True,None,True
+Cassandra,Little,81,B19,16:00,17:00,Music,10869,Chase,Parrish,3,True,Read pages 31-40,False
+Misty,Johnson,31,B18,7:00,8:00,Chemistry,10872,Wanda,Berry,7,False,Read pages 1-10,False
+Brooke,Sosa,51,B17,17:00,18:00,Music,10894,Chase,Parrish,3,True,Read pages 1-10,True
+Brenda,Mccormick,70,A19,14:00,15:00,Mathematics,10927,Shelia,Butler,5,False,Do tasks 5 and 7a from page 42,False
+Kelly,White,59,A18,17:00,18:00,PE,10942,Jackson,Shelton,18,True,Read pages 21-30,True
+Brenda,Mccormick,70,A19,12:00,13:00,Music,11045,Chase,Parrish,3,False,Read pages 1-10,False
+Luke,Melendez,86,A16,10:00,11:00,Geography,11079,Theresa,Thomas,6,True,Do exercises 1-5,False
+Barry,Guerra,61,A15,16:00,17:00,English,11097,Maria,Burke,9,False,Read pages 11-20,False
+Michael,Trujillo,28,B19,9:00,10:00,PE,11102,Stephanie,Pope,0,True,Read pages 1-10,False
+Sherry,Moses,18,A19,13:00,14:00,Geography,11166,Matthew,Brown,4,False,Do exercises 6-10,False
+Nicole,Bennett,60,A15,15:00,16:00,Geography,11216,Richard,Tapia,19,False,Read pages 21-30,False
+Javier,Vaughn,67,B15,14:00,15:00,Economics,11275,Monique,Jones,15,True,Read pages 31-40,True
+Tonya,Butler,91,A18,10:00,11:00,PE,11295,Jackson,Shelton,18,True,Do exercises 6-10,True
+Tonya,Butler,91,A18,13:00,14:00,PE,11298,Jackson,Shelton,18,True,Do tasks 5 and 7a from page 42,True
+Justin,Christian,35,A18,15:00,16:00,PE,11300,Jackson,Shelton,18,True,Write a summary of the chapter,False
+Casey,Morrison,57,A15,8:00,9:00,Music,11329,Chase,Parrish,3,True,Read pages 21-30,False
+Misty,Johnson,31,B18,10:00,11:00,Mathematics,11355,Brian,Walker,1,False,Do tasks 5 and 7a from page 42,False
+Jessica,Perry,36,B17,14:00,15:00,Music,11371,Gregory,Thompson,13,False,Do entire page 41,True
+Luke,Melendez,86,A16,8:00,9:00,PE,11437,Stephanie,Pope,0,True,Read pages 31-40,True
+Michael,Green,99,A16,14:00,15:00,History,11443,Amy,Bell,11,True,Read pages 31-40,False
+Casey,Morrison,57,A15,10:00,11:00,Chemistry,11451,Wanda,Berry,7,True,Do exercises 1-5,False
+Douglas,Wade,85,B17,9:00,10:00,Mathematics,11486,Shelia,Butler,5,False,Read pages 31-40,True
+Joshua,Vang,79,B17,14:00,15:00,Music,11491,Gregory,Thompson,13,True,Read pages 31-40,False
+Sherry,Moses,18,A19,8:00,9:00,Ethics,11521,Linda,Henry,2,False,Read pages 21-30,False
+Brenda,Mccormick,70,A19,15:00,16:00,Geography,11528,Theresa,Thomas,6,True,Do exercises 11-15,False
+Justin,Christian,35,A18,17:00,18:00,Homeroom,11542,Wendy,Lowery,10,False,None,False
+Cassandra,Little,81,B19,12:00,13:00,Chemistry,11585,Wanda,Berry,7,False,Read pages 31-40,False
+Misty,Johnson,31,B18,15:00,16:00,French,11600,Wendy,Lowery,10,True,Read pages 31-40,False
+Brooke,Sosa,51,B17,15:00,16:00,Music,11612,Chase,Parrish,3,True,Read pages 21-30,False
+Michael,Jones,12,B17,17:00,18:00,Music,11614,Chase,Parrish,3,True,Do tasks 5 and 7a from page 42,False
+Michael,Trujillo,28,B19,14:00,15:00,Music,11707,Chase,Parrish,3,False,Read pages 31-40,False
+Michael,Jones,12,B17,7:00,8:00,Geography,11724,Theresa,Thomas,6,False,Do tasks 5 and 7a from page 42,False
+Brooke,Sosa,51,B17,9:00,10:00,Mathematics,11726,Shelia,Butler,5,True,Read pages 11-20,True
+Javier,Vaughn,67,B15,15:00,16:00,Geography,11756,Matthew,Brown,4,False,Read pages 1-10,False
+James,Simon,37,A19,15:00,16:00,Geography,11768,Theresa,Thomas,6,False,None,True
+Justin,Christian,35,A18,8:00,9:00,Geography,11773,Matthew,Brown,4,True,None,False
+Kelly,White,59,A18,14:00,15:00,PE,11779,Jackson,Shelton,18,True,Read pages 31-40,False
+Nancy,Gutierrez,74,A18,14:00,15:00,PE,11779,Jackson,Shelton,18,True,Read pages 21-30,False
+Rachel,Manning,54,A16,15:00,16:00,Homeroom,11804,Sara,Long,12,True,Read pages 11-20,False
+Debra,Moreno,68,A15,15:00,16:00,English,11816,Maria,Burke,9,False,Do exercises 11-15,False
+Debra,Moreno,68,A15,16:00,17:00,Geography,11817,Richard,Tapia,19,True,Write a summary of the chapter,False
+James,Simon,37,A19,7:00,8:00,PE,11880,Stephanie,Pope,0,True,Read pages 11-20,False
+Michael,Green,99,A16,14:00,15:00,History,11923,Amy,Bell,11,True,Do exercises 11-15,False
+Casey,Morrison,57,A15,11:00,12:00,English,11932,Mary,Williams,8,False,Do exercises 1-5,False
+Michael,Trujillo,28,B19,17:00,18:00,Ethics,11950,Linda,Henry,2,True,Read pages 11-20,False
+Misty,Johnson,31,B18,17:00,18:00,Geography,11962,Richard,Tapia,19,True,Read pages 21-30,True
+Jessica,Perry,36,B17,11:00,12:00,Mathematics,11968,Brian,Walker,1,True,Read pages 31-40,True
+Logan,Gonzalez,25,B16,11:00,12:00,Geography,11980,Matthew,Brown,4,True,Do exercises 6-10,False
+Todd,Williams,24,B15,16:00,17:00,History,11997,Amy,Bell,11,False,Read pages 1-10,False
+Kelly,White,59,A18,8:00,9:00,Geography,12013,Matthew,Brown,4,True,None,False
+Nancy,Gutierrez,74,A18,12:00,13:00,Ethics,12017,Linda,Henry,2,True,Read pages 21-30,False
+Keith,Romero,72,B19,13:00,14:00,Biology,12066,Sara,Long,12,True,Read pages 11-20,False
+Kristin,Price,16,B17,9:00,10:00,Mathematics,12086,Shelia,Butler,5,True,Read pages 31-40,False
+Michael,Green,99,A16,11:00,12:00,French,12160,Wendy,Lowery,10,False,Read pages 21-30,False
+Joshua,Vang,79,B17,13:00,14:00,English,12210,Maria,Burke,9,True,Read pages 1-10,False
+Logan,Gonzalez,25,B16,13:00,14:00,History,12222,Amy,Bell,11,True,Do exercises 6-10,False
+David,Hansen,50,B15,17:00,18:00,Geography,12237,Matthew,Brown,4,True,Do exercises 11-15,False
+Todd,Williams,24,B15,18:00,19:00,Music,12238,Chase,Parrish,3,True,Write a summary of the chapter,True
+Kristin,Price,16,B17,16:00,17:00,Geography,12333,Matthew,Brown,4,False,None,True
+Logan,Gonzalez,25,B16,11:00,12:00,Geography,12340,Matthew,Brown,4,True,Read pages 31-40,False
+Todd,Williams,24,B15,10:00,11:00,Geography,12351,Richard,Tapia,19,True,None,False
+Javier,Vaughn,67,B15,10:00,11:00,Geography,12351,Richard,Tapia,19,False,Read pages 1-10,False
+Cassandra,Little,81,B19,12:00,13:00,Chemistry,12425,Wanda,Berry,7,True,None,False
+Keith,Romero,72,B19,16:00,17:00,Ethics,12429,Linda,Henry,2,True,Read pages 21-30,True
+Brenda,Mccormick,70,A19,16:00,17:00,Chemistry,12489,Wanda,Berry,7,True,Do exercises 11-15,True
+Luke,Melendez,86,A16,11:00,12:00,French,12520,Wendy,Lowery,10,False,Write a summary of the chapter,True
+Michael,Green,99,A16,17:00,18:00,Music,12526,Gregory,Thompson,13,True,Read pages 21-30,False
+Keith,Romero,72,B19,15:00,16:00,Ethics,12548,Linda,Henry,2,True,Do entire page 41,False
+Diana,Cameron,48,B18,15:00,16:00,French,12560,Wendy,Lowery,10,True,Read pages 31-40,False
+Sharon,Barton,52,A15,7:00,8:00,Geography,12648,Matthew,Brown,4,True,Do exercises 6-10,False
+Diana,Cameron,48,B18,9:00,10:00,French,12674,Wendy,Lowery,10,True,Read pages 21-30,False
+Michael,Jones,12,B17,16:00,17:00,Music,12693,Chase,Parrish,3,False,Write a summary of the chapter,True
+David,Hansen,50,B15,10:00,11:00,History,12711,Amy,Bell,11,False,Write a summary of the chapter,False
+Luke,Melendez,86,A16,10:00,11:00,Geography,12759,Theresa,Thomas,6,False,Read pages 11-20,False
+Mindy,Vasquez,90,A15,14:00,15:00,Ethics,12775,Linda,Henry,2,False,Read pages 21-30,False
+Michael,Trujillo,28,B19,7:00,8:00,Mathematics,12780,Shelia,Butler,5,True,Do exercises 6-10,False
+Misty,Johnson,31,B18,8:00,9:00,Homeroom,12793,Shelia,Butler,5,True,Read pages 1-10,False
+Michael,Jones,12,B17,14:00,15:00,Music,12811,Gregory,Thompson,13,True,Do tasks 5 and 7a from page 42,False
+Douglas,Wade,85,B17,18:00,19:00,English,12815,Marcus,Gonzalez,16,True,Read pages 31-40,True
+Rachel,Manning,54,A16,16:00,17:00,Music,12885,Gregory,Thompson,13,True,Do exercises 1-5,False
+Debra,Moreno,68,A15,14:00,15:00,Ethics,12895,Linda,Henry,2,False,Read pages 11-20,False
+Joshua,Vang,79,B17,13:00,14:00,English,12930,Maria,Burke,9,False,Read pages 31-40,False
+Brenda,Mccormick,70,A19,16:00,17:00,Chemistry,12969,Wanda,Berry,7,False,Do tasks 5 and 7a from page 42,False
+Nicole,Bennett,60,A15,15:00,16:00,English,13136,Maria,Burke,9,True,None,False
+Douglas,Wade,85,B17,14:00,15:00,Music,13171,Gregory,Thompson,13,True,Read pages 1-10,True
+Nancy,Gutierrez,74,A18,9:00,10:00,Chemistry,13214,Wanda,Berry,7,False,Do exercises 1-5,False
+Michael,Green,99,A16,15:00,16:00,Homeroom,13244,Sara,Long,12,True,Read pages 21-30,False
+Mindy,Vasquez,90,A15,9:00,10:00,Mathematics,13250,Brian,Walker,1,True,None,False
+Debra,Moreno,68,A15,10:00,11:00,Chemistry,13251,Wanda,Berry,7,True,Read pages 31-40,False
+Barry,Guerra,61,A15,16:00,17:00,English,13257,Maria,Burke,9,True,Do exercises 6-10,True
+Loretta,Welch,41,B19,11:00,12:00,Homeroom,13264,Theresa,Thomas,6,True,Do exercises 1-5,False
+Jerome,Woods,9,B18,10:00,11:00,Mathematics,13275,Brian,Walker,1,False,Do exercises 11-15,False
+Jerome,Woods,9,B18,12:00,13:00,PE,13277,Jackson,Shelton,18,True,Do exercises 1-5,False
+Jerome,Woods,9,B18,16:00,17:00,PE,13281,Jackson,Shelton,18,True,Read pages 11-20,False
+Brooke,Sosa,51,B17,12:00,13:00,Geography,13289,Theresa,Thomas,6,False,Read pages 1-10,False
+Kelly,White,59,A18,8:00,9:00,Geography,13333,Matthew,Brown,4,True,Read pages 31-40,False
+Nancy,Gutierrez,74,A18,16:00,17:00,Geography,13341,Richard,Tapia,19,False,Write a summary of the chapter,False
+Luke,Melendez,86,A16,10:00,11:00,Geography,13359,Theresa,Thomas,6,False,Read pages 21-30,False
+Mindy,Vasquez,90,A15,8:00,9:00,Music,13369,Chase,Parrish,3,True,Read pages 21-30,True
+David,Hansen,50,B15,13:00,14:00,Mathematics,13433,Brian,Walker,1,True,Do tasks 5 and 7a from page 42,False
+Luke,Melendez,86,A16,8:00,9:00,PE,13477,Stephanie,Pope,0,True,Do entire page 41,False
+Kimberly,Davis,98,A16,13:00,14:00,Music,13482,Chase,Parrish,3,True,Read pages 1-10,True
+Keith,Romero,72,B19,13:00,14:00,Biology,13506,Sara,Long,12,True,None,False
+Todd,Williams,24,B15,17:00,18:00,History,13558,Amy,Bell,11,True,Write a summary of the chapter,False
+James,Simon,37,A19,10:00,11:00,Ethics,13563,Linda,Henry,2,True,None,False
+Cassandra,Little,81,B19,7:00,8:00,Mathematics,13620,Shelia,Butler,5,True,Read pages 1-10,False
+Michael,Jones,12,B17,9:00,10:00,Mathematics,13646,Shelia,Butler,5,True,Read pages 21-30,False
+Sherry,Moses,18,A19,8:00,9:00,Ethics,13681,Linda,Henry,2,False,Read pages 1-10,False
+Rachel,Manning,54,A16,18:00,19:00,Art,13727,Brittany,Jones,14,True,Do exercises 6-10,False
+Nicole,Bennett,60,A15,11:00,12:00,English,13732,Mary,Williams,8,True,Read pages 31-40,True
+Misty,Johnson,31,B18,12:00,13:00,PE,13757,Jackson,Shelton,18,True,Do entire page 41,False
+Sherry,Moses,18,A19,10:00,11:00,Ethics,13803,Linda,Henry,2,False,Read pages 11-20,False
+Rachel,Manning,54,A16,11:00,12:00,French,13840,Wendy,Lowery,10,True,Read pages 21-30,False
+Michael,Green,99,A16,14:00,15:00,History,13843,Amy,Bell,11,True,None,False
+Keith,Romero,72,B19,16:00,17:00,Ethics,13869,Linda,Henry,2,True,Read pages 31-40,False
+Sharon,Barton,52,A15,8:00,9:00,Music,13969,Chase,Parrish,3,True,Do exercises 1-5,False
+Nancy,Gutierrez,74,A18,11:00,12:00,French,14056,Wendy,Lowery,10,False,Do tasks 5 and 7a from page 42,False
+Justin,Christian,35,A18,17:00,18:00,PE,14062,Jackson,Shelton,18,True,Do exercises 6-10,True
+Sharon,Barton,52,A15,7:00,8:00,Geography,14088,Matthew,Brown,4,True,Read pages 11-20,True
+Diana,Cameron,48,B18,8:00,9:00,Homeroom,14113,Shelia,Butler,5,True,Do exercises 6-10,False
+Brooke,Sosa,51,B17,18:00,19:00,English,14135,Marcus,Gonzalez,16,True,Do exercises 11-15,False
+Sherry,Moses,18,A19,8:00,9:00,Ethics,14161,Linda,Henry,2,True,Read pages 1-10,False
+Nancy,Gutierrez,74,A18,11:00,12:00,Geography,14176,Richard,Tapia,19,True,None,False
+Nancy,Gutierrez,74,A18,16:00,17:00,PE,14181,Jackson,Shelton,18,True,Do exercises 6-10,False
+Nicole,Bennett,60,A15,7:00,8:00,Geography,14208,Matthew,Brown,4,False,Do tasks 5 and 7a from page 42,False
+Douglas,Wade,85,B17,10:00,11:00,English,14247,Maria,Burke,9,True,None,False
+Logan,Gonzalez,25,B16,13:00,14:00,History,14262,Amy,Bell,11,False,Write a summary of the chapter,True
+Kelly,White,59,A18,7:00,8:00,Mathematics,14292,Brian,Walker,1,True,Read pages 11-20,False
+Justin,Christian,35,A18,18:00,19:00,Homeroom,14303,Wendy,Lowery,10,False,Read pages 1-10,False
+Luke,Melendez,86,A16,15:00,16:00,Homeroom,14324,Sara,Long,12,True,None,False
+Debra,Moreno,68,A15,17:00,18:00,Geography,14338,Richard,Tapia,19,True,Do exercises 1-5,False
+Cassandra,Little,81,B19,11:00,12:00,Homeroom,14344,Theresa,Thomas,6,True,Do exercises 11-15,False
+David,Hansen,50,B15,15:00,16:00,Geography,14396,Richard,Tapia,19,True,Write a summary of the chapter,False
+Brenda,Mccormick,70,A19,17:00,18:00,Biology,14410,Sara,Long,12,True,Read pages 21-30,False
+Cassandra,Little,81,B19,8:00,9:00,Geography,14461,Theresa,Thomas,6,True,Read pages 11-20,True
+Diana,Cameron,48,B18,18:00,19:00,Ethics,14483,Linda,Henry,2,False,Do tasks 5 and 7a from page 42,False
+Jessica,Perry,36,B17,8:00,9:00,English,14485,Mary,Williams,8,True,Do exercises 11-15,False
+Michael,Jones,12,B17,12:00,13:00,Geography,14489,Theresa,Thomas,6,True,None,False
+Nancy,Gutierrez,74,A18,16:00,17:00,French,14541,Wendy,Lowery,10,False,Read pages 21-30,False
+Martha,Marquez,78,B18,17:00,18:00,French,14602,Wendy,Lowery,10,True,Write a summary of the chapter,False
+Michael,Jones,12,B17,11:00,12:00,Mathematics,14608,Brian,Walker,1,True,Read pages 1-10,False
+Becky,Moreno,46,A19,15:00,16:00,Geography,14648,Theresa,Thomas,6,True,Write a summary of the chapter,False
+Kelly,White,59,A18,12:00,13:00,Ethics,14657,Linda,Henry,2,False,Read pages 21-30,False
+Martha,Marquez,78,B18,14:00,15:00,Geography,14719,Richard,Tapia,19,True,Do entire page 41,False
+Kristin,Price,16,B17,8:00,9:00,English,14725,Mary,Williams,8,True,Write a summary of the chapter,False
+Jessica,Perry,36,B17,11:00,12:00,Mathematics,14728,Brian,Walker,1,False,Write a summary of the chapter,False
+Sherry,Moses,18,A19,15:00,16:00,Geography,14768,Theresa,Thomas,6,True,Do tasks 5 and 7a from page 42,False
+Brenda,Mccormick,70,A19,15:00,16:00,Geography,14768,Theresa,Thomas,6,True,Write a summary of the chapter,False
+Michael,Trujillo,28,B19,11:00,12:00,Homeroom,14824,Theresa,Thomas,6,True,Read pages 1-10,True
+Luke,Melendez,86,A16,11:00,12:00,History,14920,Amy,Bell,11,True,Read pages 21-30,False
+Keith,Romero,72,B19,8:00,9:00,Geography,14941,Theresa,Thomas,6,True,Read pages 11-20,False
+Brooke,Sosa,51,B17,10:00,11:00,English,14967,Maria,Burke,9,False,Do exercises 6-10,False
+Lisa,Haynes,83,B17,11:00,12:00,Mathematics,14968,Brian,Walker,1,False,Write a summary of the chapter,False
+Kristin,Price,16,B17,18:00,19:00,Geography,14975,Matthew,Brown,4,True,Do exercises 1-5,False
+Logan,Gonzalez,25,B16,11:00,12:00,Geography,14980,Matthew,Brown,4,False,Do exercises 6-10,False
+Javier,Vaughn,67,B15,11:00,12:00,English,14992,Maria,Burke,9,False,Read pages 11-20,True
+Justin,Christian,35,A18,11:00,12:00,French,15016,Wendy,Lowery,10,True,Do tasks 5 and 7a from page 42,False
+Barry,Guerra,61,A15,17:00,18:00,History,15058,Amy,Bell,11,False,Do tasks 5 and 7a from page 42,False
+William,Chambers,4,B18,14:00,15:00,French,15079,Wendy,Lowery,10,False,Do exercises 6-10,False
+Misty,Johnson,31,B18,18:00,19:00,Ethics,15083,Linda,Henry,2,False,Do entire page 41,False
+Barry,Guerra,61,A15,16:00,17:00,English,15177,Maria,Burke,9,True,Read pages 31-40,False
+Diana,Cameron,48,B18,17:00,18:00,PE,15202,Jackson,Shelton,18,False,Do tasks 5 and 7a from page 42,False
+Joshua,Vang,79,B17,7:00,8:00,Geography,15204,Theresa,Thomas,6,False,Read pages 1-10,True
+Joshua,Vang,79,B17,8:00,9:00,English,15205,Mary,Williams,8,False,Do entire page 41,False
+Brenda,Mccormick,70,A19,9:00,10:00,Ethics,15242,Linda,Henry,2,True,Write a summary of the chapter,False
+Michael,Green,99,A16,9:00,10:00,Geography,15278,Matthew,Brown,4,False,Write a summary of the chapter,True
+Rachel,Manning,54,A16,18:00,19:00,Art,15287,Brittany,Jones,14,True,Read pages 31-40,True
+Sharon,Barton,52,A15,11:00,12:00,English,15292,Mary,Williams,8,True,Do tasks 5 and 7a from page 42,True
+Brenda,Mccormick,70,A19,15:00,16:00,Geography,15368,Theresa,Thomas,6,True,Read pages 21-30,False
+Sharon,Barton,52,A15,16:00,17:00,History,15417,Amy,Bell,11,True,Do exercises 1-5,True
+Loretta,Welch,41,B19,7:00,8:00,Mathematics,15420,Shelia,Butler,5,False,Read pages 21-30,False
+Michael,Jones,12,B17,10:00,11:00,English,15447,Maria,Burke,9,True,Write a summary of the chapter,False
+Becky,Moreno,46,A19,8:00,9:00,Ethics,15481,Linda,Henry,2,True,Read pages 21-30,False
+James,Simon,37,A19,16:00,17:00,Chemistry,15489,Wanda,Berry,7,True,Read pages 1-10,False
+Rachel,Manning,54,A16,12:00,13:00,History,15521,Amy,Bell,11,False,Read pages 21-30,False
+Cassandra,Little,81,B19,12:00,13:00,Chemistry,15545,Wanda,Berry,7,True,Read pages 1-10,False
+Kristin,Price,16,B17,15:00,16:00,Music,15571,Chase,Parrish,3,True,Read pages 21-30,False
+David,Hansen,50,B15,15:00,16:00,Geography,15595,Matthew,Brown,4,True,Do exercises 11-15,False
+Becky,Moreno,46,A19,13:00,14:00,Geography,15606,Matthew,Brown,4,True,Read pages 21-30,False
+Justin,Christian,35,A18,12:00,13:00,Ethics,15617,Linda,Henry,2,True,Write a summary of the chapter,False
+Rachel,Manning,54,A16,17:00,18:00,Music,15646,Gregory,Thompson,13,True,Read pages 31-40,False
+Brenda,Mccormick,70,A19,9:00,10:00,Ethics,15722,Linda,Henry,2,True,Read pages 21-30,False
+James,Simon,37,A19,16:00,17:00,Chemistry,15729,Wanda,Berry,7,True,Read pages 1-10,False
+Tonya,Butler,91,A18,15:00,16:00,French,15740,Wendy,Lowery,10,True,Write a summary of the chapter,False
+Nicole,Bennett,60,A15,15:00,16:00,History,15776,Amy,Bell,11,True,Write a summary of the chapter,False
+Jessica,Perry,36,B17,8:00,9:00,English,15805,Mary,Williams,8,False,None,False
+Joshua,Vang,79,B17,12:00,13:00,Geography,15809,Theresa,Thomas,6,False,Do exercises 6-10,False
+Kimberly,Davis,98,A16,10:00,11:00,Geography,15879,Theresa,Thomas,6,True,Do exercises 11-15,False
+Michael,Green,99,A16,16:00,17:00,Music,15885,Gregory,Thompson,13,False,Read pages 11-20,False
+Nicole,Bennett,60,A15,13:00,14:00,Ethics,15894,Linda,Henry,2,False,Do exercises 1-5,False
+Mindy,Vasquez,90,A15,18:00,19:00,Geography,15899,Richard,Tapia,19,False,Write a summary of the chapter,True
+Loretta,Welch,41,B19,18:00,19:00,German,15911,Gina,Cross,17,True,None,True
+William,Chambers,4,B18,13:00,14:00,French,15918,Wendy,Lowery,10,True,Do tasks 5 and 7a from page 42,False
+Kimberly,Davis,98,A16,11:00,12:00,French,16000,Wendy,Lowery,10,True,Read pages 1-10,False
+Kimberly,Davis,98,A16,14:00,15:00,History,16003,Amy,Bell,11,True,Read pages 1-10,False
+Keith,Romero,72,B19,13:00,14:00,Biology,16146,Sara,Long,12,True,None,False
+Jerome,Woods,9,B18,17:00,18:00,Geography,16162,Matthew,Brown,4,False,Do exercises 11-15,False
+Jerome,Woods,9,B18,18:00,19:00,Geography,16163,Richard,Tapia,19,False,Do entire page 41,False
+Todd,Williams,24,B15,14:00,15:00,Chemistry,16195,Wanda,Berry,7,True,Write a summary of the chapter,True
+Casey,Morrison,57,A15,7:00,8:00,Geography,16248,Matthew,Brown,4,False,Do exercises 6-10,True
+Cassandra,Little,81,B19,11:00,12:00,Homeroom,16264,Theresa,Thomas,6,True,Do exercises 1-5,False
+Misty,Johnson,31,B18,11:00,12:00,PE,16276,Jackson,Shelton,18,True,Read pages 31-40,True
+William,Chambers,4,B18,16:00,17:00,Geography,16281,Matthew,Brown,4,True,Read pages 21-30,False
+Douglas,Wade,85,B17,13:00,14:00,English,16290,Maria,Burke,9,True,Do exercises 6-10,False
+Sherry,Moses,18,A19,11:00,12:00,Ethics,16324,Linda,Henry,2,True,None,False
+Nancy,Gutierrez,74,A18,10:00,11:00,PE,16335,Jackson,Shelton,18,True,Read pages 1-10,False
+Tonya,Butler,91,A18,12:00,13:00,Ethics,16337,Linda,Henry,2,False,Do exercises 6-10,False
+Rachel,Manning,54,A16,12:00,13:00,History,16361,Amy,Bell,11,False,Read pages 1-10,False
+Debra,Moreno,68,A15,7:00,8:00,Geography,16368,Matthew,Brown,4,True,Read pages 21-30,False
+Mindy,Vasquez,90,A15,16:00,17:00,English,16377,Maria,Burke,9,True,None,False
+Diana,Cameron,48,B18,7:00,8:00,Chemistry,16392,Wanda,Berry,7,True,Do exercises 6-10,False
+William,Chambers,4,B18,17:00,18:00,Geography,16402,Richard,Tapia,19,False,Read pages 11-20,True
+Douglas,Wade,85,B17,16:00,17:00,Music,16413,Chase,Parrish,3,True,Write a summary of the chapter,False
+Tonya,Butler,91,A18,14:00,15:00,Geography,16459,Richard,Tapia,19,True,None,False
+Kimberly,Davis,98,A16,14:00,15:00,History,16483,Amy,Bell,11,True,Write a summary of the chapter,False
+Barry,Guerra,61,A15,14:00,15:00,English,16495,Maria,Burke,9,False,Do tasks 5 and 7a from page 42,False
+Tonya,Butler,91,A18,13:00,14:00,PE,16578,Jackson,Shelton,18,False,Read pages 1-10,False
+Sharon,Barton,52,A15,8:00,9:00,Music,16609,Chase,Parrish,3,False,Do exercises 11-15,False
+Logan,Gonzalez,25,B16,8:00,9:00,Homeroom,16657,Wanda,Berry,7,True,Do entire page 41,True
+Cassandra,Little,81,B19,10:00,11:00,Geography,16743,Matthew,Brown,4,False,None,False
+Brooke,Sosa,51,B17,9:00,10:00,Mathematics,16766,Shelia,Butler,5,False,Write a summary of the chapter,False
+Logan,Gonzalez,25,B16,13:00,14:00,History,16782,Amy,Bell,11,True,Read pages 21-30,False
+Javier,Vaughn,67,B15,11:00,12:00,English,16792,Maria,Burke,9,True,Read pages 31-40,False
+Kimberly,Davis,98,A16,8:00,9:00,PE,16837,Stephanie,Pope,0,True,Read pages 1-10,False
+Luke,Melendez,86,A16,11:00,12:00,French,16840,Wendy,Lowery,10,True,Read pages 21-30,True
+Luke,Melendez,86,A16,18:00,19:00,Art,16847,Brittany,Jones,14,True,Read pages 31-40,False
+Michael,Trujillo,28,B19,12:00,13:00,Chemistry,16865,Wanda,Berry,7,False,Do entire page 41,False
+Nicholas,Beck,43,B18,14:00,15:00,French,16879,Wendy,Lowery,10,True,Read pages 1-10,False
+Kristin,Price,16,B17,17:00,18:00,Music,16894,Chase,Parrish,3,True,Do entire page 41,False
+Javier,Vaughn,67,B15,9:00,10:00,English,16910,Mary,Williams,8,False,Do exercises 1-5,False
+Brianna,Parks,29,C19,16:00,17:00,PE,16919,Stephanie,Pope,0,True,Do entire page 41,True
+James,Simon,37,A19,8:00,9:00,Ethics,16921,Linda,Henry,2,True,Do exercises 6-10,False
+Sherry,Moses,18,A19,11:00,12:00,Ethics,16924,Linda,Henry,2,True,Do entire page 41,False
+James,Simon,37,A19,15:00,16:00,Geography,16928,Theresa,Thomas,6,True,Do entire page 41,False
+Mindy,Vasquez,90,A15,15:00,16:00,History,16976,Amy,Bell,11,False,Read pages 11-20,False
+William,Chambers,4,B18,13:00,14:00,French,16998,Wendy,Lowery,10,True,Do exercises 11-15,True
+Martha,Marquez,78,B18,13:00,14:00,French,16998,Wendy,Lowery,10,False,Write a summary of the chapter,True
+Douglas,Wade,85,B17,13:00,14:00,English,17010,Maria,Burke,9,True,None,True
+Logan,Gonzalez,25,B16,10:00,11:00,PE,17019,Stephanie,Pope,0,True,Read pages 31-40,False
+Logan,Gonzalez,25,B16,15:00,16:00,Music,17024,Gregory,Thompson,13,True,Write a summary of the chapter,False
+James,Simon,37,A19,12:00,13:00,Music,17045,Chase,Parrish,3,True,Do tasks 5 and 7a from page 42,True
+Kelly,White,59,A18,11:00,12:00,French,17056,Wendy,Lowery,10,True,Do exercises 1-5,False
+Justin,Christian,35,A18,17:00,18:00,PE,17062,Jackson,Shelton,18,True,Read pages 31-40,False
+Rachel,Manning,54,A16,8:00,9:00,PE,17077,Stephanie,Pope,0,True,Read pages 21-30,False
+Luke,Melendez,86,A16,16:00,17:00,Music,17085,Gregory,Thompson,13,True,Read pages 21-30,False
+Casey,Morrison,57,A15,12:00,13:00,English,17093,Mary,Williams,8,False,Do exercises 6-10,False
+Debra,Moreno,68,A15,17:00,18:00,History,17098,Amy,Bell,11,True,Do exercises 1-5,False
+Nicholas,Beck,43,B18,11:00,12:00,PE,17116,Jackson,Shelton,18,False,Read pages 31-40,False
+Justin,Christian,35,A18,11:00,12:00,PE,17176,Jackson,Shelton,18,False,None,False
+Kelly,White,59,A18,17:00,18:00,Homeroom,17182,Wendy,Lowery,10,False,Read pages 1-10,True
+Nicole,Bennett,60,A15,7:00,8:00,Geography,17208,Matthew,Brown,4,True,Read pages 11-20,True
+Barry,Guerra,61,A15,11:00,12:00,English,17212,Mary,Williams,8,True,Read pages 21-30,False
+Debra,Moreno,68,A15,12:00,13:00,English,17213,Mary,Williams,8,True,Read pages 31-40,False
+Diana,Cameron,48,B18,10:00,11:00,Mathematics,17235,Brian,Walker,1,True,Read pages 31-40,False
+William,Chambers,4,B18,13:00,14:00,French,17238,Wendy,Lowery,10,False,Do tasks 5 and 7a from page 42,False
+Nicholas,Beck,43,B18,15:00,16:00,PE,17240,Jackson,Shelton,18,True,Do exercises 6-10,False
+Michael,Jones,12,B17,14:00,15:00,Music,17251,Gregory,Thompson,13,False,Read pages 1-10,False
+Brooke,Sosa,51,B17,15:00,16:00,Music,17252,Chase,Parrish,3,True,Do entire page 41,False
+Kristin,Price,16,B17,16:00,17:00,Music,17253,Chase,Parrish,3,False,None,False
+Javier,Vaughn,67,B15,16:00,17:00,History,17277,Amy,Bell,11,False,Read pages 11-20,False
+Casey,Morrison,57,A15,17:00,18:00,History,17338,Amy,Bell,11,True,Do exercises 1-5,False
+Todd,Williams,24,B15,7:00,8:00,English,17388,Mary,Williams,8,True,None,False
+Todd,Williams,24,B15,11:00,12:00,English,17392,Maria,Burke,9,True,Do exercises 6-10,True
+Becky,Moreno,46,A19,12:00,13:00,Music,17405,Chase,Parrish,3,True,Write a summary of the chapter,False
+Kelly,White,59,A18,10:00,11:00,PE,17415,Jackson,Shelton,18,False,Do tasks 5 and 7a from page 42,False
+Rachel,Manning,54,A16,13:00,14:00,Music,17442,Chase,Parrish,3,True,None,False
+Casey,Morrison,57,A15,17:00,18:00,History,17458,Amy,Bell,11,False,Read pages 21-30,False
+Casey,Morrison,57,A15,18:00,19:00,History,17459,Amy,Bell,11,False,Read pages 1-10,False
+Misty,Johnson,31,B18,17:00,18:00,Geography,17482,Richard,Tapia,19,True,Write a summary of the chapter,False
+Diana,Cameron,48,B18,17:00,18:00,Geography,17482,Richard,Tapia,19,True,Read pages 31-40,True
+Lisa,Haynes,83,B17,12:00,13:00,Geography,17489,Theresa,Thomas,6,False,None,True
+Becky,Moreno,46,A19,9:00,10:00,Ethics,17522,Linda,Henry,2,False,Read pages 31-40,False
+Justin,Christian,35,A18,14:00,15:00,Geography,17539,Richard,Tapia,19,False,Do tasks 5 and 7a from page 42,False
+Michael,Green,99,A16,13:00,14:00,Music,17562,Chase,Parrish,3,True,Do exercises 6-10,False
+James,Simon,37,A19,14:00,15:00,Mathematics,17647,Shelia,Butler,5,True,Write a summary of the chapter,True
+Brenda,Mccormick,70,A19,17:00,18:00,Biology,17650,Sara,Long,12,True,Read pages 11-20,False
+Michael,Trujillo,28,B19,18:00,19:00,German,17711,Gina,Cross,17,True,Read pages 11-20,False
+Brooke,Sosa,51,B17,11:00,12:00,Mathematics,17727,Brian,Walker,1,True,Read pages 31-40,False
+Becky,Moreno,46,A19,14:00,15:00,Mathematics,17767,Shelia,Butler,5,True,Read pages 21-30,False
+Justin,Christian,35,A18,16:00,17:00,PE,17781,Jackson,Shelton,18,True,Do entire page 41,False
+Michael,Trujillo,28,B19,14:00,15:00,Ethics,17827,Linda,Henry,2,True,Read pages 31-40,False
+Kristin,Price,16,B17,9:00,10:00,Mathematics,17846,Shelia,Butler,5,True,Do exercises 6-10,False
+Logan,Gonzalez,25,B16,18:00,19:00,PE,17867,Jackson,Shelton,18,True,Write a summary of the chapter,False
+Javier,Vaughn,67,B15,11:00,12:00,English,17872,Maria,Burke,9,True,Read pages 21-30,False
+Michael,Trujillo,28,B19,14:00,15:00,Music,17947,Chase,Parrish,3,True,Read pages 21-30,False
+Brooke,Sosa,51,B17,8:00,9:00,English,17965,Mary,Williams,8,True,Read pages 21-30,False
+Justin,Christian,35,A18,15:00,16:00,French,18020,Wendy,Lowery,10,True,None,False
+Michael,Green,99,A16,16:00,17:00,Music,18045,Gregory,Thompson,13,False,Read pages 11-20,False
+Kimberly,Davis,98,A16,18:00,19:00,Art,18047,Brittany,Jones,14,False,Do exercises 6-10,False
+Debra,Moreno,68,A15,11:00,12:00,English,18052,Mary,Williams,8,False,Read pages 31-40,False
+Loretta,Welch,41,B19,9:00,10:00,PE,18062,Stephanie,Pope,0,True,None,True
+Keith,Romero,72,B19,12:00,13:00,Chemistry,18065,Wanda,Berry,7,True,Do tasks 5 and 7a from page 42,True
+Lisa,Haynes,83,B17,10:00,11:00,English,18087,Maria,Burke,9,True,None,True
+Douglas,Wade,85,B17,17:00,18:00,Music,18094,Chase,Parrish,3,False,Do tasks 5 and 7a from page 42,True
+Sherry,Moses,18,A19,11:00,12:00,Ethics,18124,Linda,Henry,2,True,Read pages 21-30,True
+Kimberly,Davis,98,A16,16:00,17:00,Music,18165,Gregory,Thompson,13,True,Do exercises 11-15,False
+Debra,Moreno,68,A15,8:00,9:00,Music,18169,Chase,Parrish,3,False,Read pages 21-30,False
+Sharon,Barton,52,A15,15:00,16:00,History,18176,Amy,Bell,11,True,Do exercises 11-15,False
+Nicole,Bennett,60,A15,15:00,16:00,History,18176,Amy,Bell,11,True,Do exercises 11-15,False
+Cassandra,Little,81,B19,8:00,9:00,Geography,18181,Theresa,Thomas,6,True,Write a summary of the chapter,False
+Martha,Marquez,78,B18,11:00,12:00,PE,18196,Jackson,Shelton,18,False,Do exercises 6-10,False
+Michael,Jones,12,B17,13:00,14:00,English,18210,Maria,Burke,9,True,Write a summary of the chapter,False
+Lisa,Haynes,83,B17,17:00,18:00,Music,18214,Chase,Parrish,3,False,Do exercises 1-5,False
+Kristin,Price,16,B17,18:00,19:00,English,18215,Marcus,Gonzalez,16,True,Read pages 21-30,False
+Todd,Williams,24,B15,11:00,12:00,English,18232,Maria,Burke,9,False,None,False
+Brenda,Mccormick,70,A19,16:00,17:00,Chemistry,18249,Wanda,Berry,7,True,Write a summary of the chapter,False
+Becky,Moreno,46,A19,18:00,19:00,Music,18251,Gregory,Thompson,13,True,Read pages 1-10,True
+Kelly,White,59,A18,18:00,19:00,PE,18263,Jackson,Shelton,18,True,Do tasks 5 and 7a from page 42,True
+Luke,Melendez,86,A16,15:00,16:00,Homeroom,18284,Sara,Long,12,True,Read pages 11-20,True
+Nicholas,Beck,43,B18,10:00,11:00,Mathematics,18315,Brian,Walker,1,False,Write a summary of the chapter,True
+Misty,Johnson,31,B18,18:00,19:00,Ethics,18323,Linda,Henry,2,False,Write a summary of the chapter,False
+James,Simon,37,A19,14:00,15:00,Mathematics,18367,Shelia,Butler,5,True,Do exercises 6-10,False
+Rachel,Manning,54,A16,8:00,9:00,PE,18397,Stephanie,Pope,0,False,Read pages 21-30,False
+Kimberly,Davis,98,A16,11:00,12:00,French,18400,Wendy,Lowery,10,False,Do exercises 1-5,False
+Martha,Marquez,78,B18,11:00,12:00,PE,18436,Jackson,Shelton,18,False,Write a summary of the chapter,False
+Martha,Marquez,78,B18,13:00,14:00,French,18438,Wendy,Lowery,10,True,Write a summary of the chapter,False
+Joshua,Vang,79,B17,9:00,10:00,Mathematics,18446,Shelia,Butler,5,True,Do exercises 1-5,False
+Logan,Gonzalez,25,B16,8:00,9:00,Homeroom,18457,Wanda,Berry,7,True,Read pages 1-10,False
+Kelly,White,59,A18,8:00,9:00,Geography,18493,Matthew,Brown,4,True,Write a summary of the chapter,False
+Keith,Romero,72,B19,11:00,12:00,Homeroom,18544,Theresa,Thomas,6,True,None,True
+Diana,Cameron,48,B18,17:00,18:00,Geography,18562,Richard,Tapia,19,True,Read pages 31-40,False
+James,Simon,37,A19,11:00,12:00,Ethics,18604,Linda,Henry,2,True,Read pages 11-20,False
+Nancy,Gutierrez,74,A18,14:00,15:00,Geography,18619,Richard,Tapia,19,False,Do exercises 6-10,False
+Tonya,Butler,91,A18,18:00,19:00,Homeroom,18623,Wendy,Lowery,10,True,Do exercises 11-15,False
+Nicole,Bennett,60,A15,10:00,11:00,Chemistry,18651,Wanda,Berry,7,True,None,False
+Michael,Trujillo,28,B19,13:00,14:00,Biology,18666,Sara,Long,12,True,Write a summary of the chapter,False
+Nicole,Bennett,60,A15,15:00,16:00,English,18776,Maria,Burke,9,True,Do entire page 41,False
+Debra,Moreno,68,A15,15:00,16:00,English,18776,Maria,Burke,9,False,None,False
+Nicholas,Beck,43,B18,15:00,16:00,PE,18800,Jackson,Shelton,18,True,Read pages 1-10,True
+Javier,Vaughn,67,B15,7:00,8:00,English,18827,Mary,Williams,8,True,Read pages 1-10,False
+Martha,Marquez,78,B18,10:00,11:00,Mathematics,18915,Brian,Walker,1,True,Do entire page 41,False
+Lisa,Haynes,83,B17,8:00,9:00,English,18924,Mary,Williams,8,True,Do exercises 6-10,False
+Mindy,Vasquez,90,A15,14:00,15:00,English,19015,Maria,Burke,9,True,None,False
+Debra,Moreno,68,A15,15:00,16:00,Geography,19016,Richard,Tapia,19,True,Read pages 1-10,False
+Kristin,Price,16,B17,13:00,14:00,English,19050,Maria,Burke,9,False,Read pages 31-40,False
+Michael,Green,99,A16,12:00,13:00,French,19241,Wendy,Lowery,10,True,Read pages 11-20,False
+Debra,Moreno,68,A15,18:00,19:00,History,19259,Amy,Bell,11,False,Do exercises 11-15,True
+Logan,Gonzalez,25,B16,18:00,19:00,Geography,19307,Richard,Tapia,19,True,None,False
+David,Hansen,50,B15,7:00,8:00,English,19308,Mary,Williams,8,False,Do exercises 11-15,False
+Kelly,White,59,A18,10:00,11:00,PE,19335,Jackson,Shelton,18,True,Do exercises 11-15,True
+Justin,Christian,35,A18,17:00,18:00,French,19342,Wendy,Lowery,10,True,Do exercises 6-10,False
+Justin,Christian,35,A18,18:00,19:00,PE,19343,Jackson,Shelton,18,True,Read pages 31-40,True
+Luke,Melendez,86,A16,12:00,13:00,History,19361,Amy,Bell,11,True,Read pages 21-30,False
+Jessica,Perry,36,B17,15:00,16:00,Music,19412,Chase,Parrish,3,True,Do entire page 41,False
+Logan,Gonzalez,25,B16,18:00,19:00,Music,19427,Chase,Parrish,3,True,Write a summary of the chapter,True
+Sherry,Moses,18,A19,12:00,13:00,Music,19445,Chase,Parrish,3,False,Read pages 11-20,False
+Kelly,White,59,A18,16:00,17:00,Geography,19461,Richard,Tapia,19,False,Read pages 21-30,True
+Barry,Guerra,61,A15,8:00,9:00,Music,19489,Chase,Parrish,3,True,Read pages 31-40,False
+Barry,Guerra,61,A15,15:00,16:00,History,19496,Amy,Bell,11,True,Write a summary of the chapter,True
+Jerome,Woods,9,B18,12:00,13:00,PE,19517,Jackson,Shelton,18,False,Write a summary of the chapter,False
+Martha,Marquez,78,B18,14:00,15:00,PE,19519,Jackson,Shelton,18,True,Do entire page 41,False
+Michael,Jones,12,B17,12:00,13:00,Geography,19529,Theresa,Thomas,6,False,Do exercises 1-5,True
+Lisa,Haynes,83,B17,15:00,16:00,Music,19532,Chase,Parrish,3,False,None,False
+Logan,Gonzalez,25,B16,18:00,19:00,Music,19547,Chase,Parrish,3,True,Read pages 1-10,False
+Luke,Melendez,86,A16,10:00,11:00,Geography,19599,Theresa,Thomas,6,True,Read pages 31-40,False
+Rachel,Manning,54,A16,14:00,15:00,History,19603,Amy,Bell,11,True,Read pages 1-10,False
+Luke,Melendez,86,A16,16:00,17:00,Music,19605,Gregory,Thompson,13,True,Do entire page 41,False
+Nicholas,Beck,43,B18,9:00,10:00,French,19634,Wendy,Lowery,10,True,Read pages 11-20,False
+Logan,Gonzalez,25,B16,11:00,12:00,Geography,19660,Matthew,Brown,4,True,Read pages 21-30,False
+Nicole,Bennett,60,A15,10:00,11:00,Chemistry,19731,Wanda,Berry,7,False,Do exercises 1-5,False
+Barry,Guerra,61,A15,17:00,18:00,Geography,19738,Richard,Tapia,19,True,Do tasks 5 and 7a from page 42,True
+Douglas,Wade,85,B17,11:00,12:00,Mathematics,19768,Brian,Walker,1,False,Do exercises 11-15,False
+Javier,Vaughn,67,B15,12:00,13:00,Mathematics,19793,Brian,Walker,1,False,Do exercises 11-15,False
+Justin,Christian,35,A18,9:00,10:00,Chemistry,19814,Wanda,Berry,7,True,Read pages 21-30,False
+Barry,Guerra,61,A15,13:00,14:00,Ethics,19854,Linda,Henry,2,False,Write a summary of the chapter,False
+Douglas,Wade,85,B17,12:00,13:00,Geography,19889,Theresa,Thomas,6,True,Read pages 11-20,True
+Lisa,Haynes,83,B17,17:00,18:00,Music,19894,Chase,Parrish,3,False,Do exercises 6-10,False
+Becky,Moreno,46,A19,13:00,14:00,Geography,19926,Matthew,Brown,4,True,Read pages 1-10,True
+Mindy,Vasquez,90,A15,12:00,13:00,English,19973,Mary,Williams,8,False,Read pages 11-20,False
+Todd,Williams,24,B15,7:00,8:00,English,20028,Mary,Williams,8,False,Do tasks 5 and 7a from page 42,False
+Kelly,White,59,A18,18:00,19:00,PE,20063,Jackson,Shelton,18,True,Read pages 11-20,True
+Luke,Melendez,86,A16,14:00,15:00,History,20083,Amy,Bell,11,False,Do exercises 6-10,False
+Michael,Trujillo,28,B19,7:00,8:00,Mathematics,20100,Shelia,Butler,5,True,Read pages 11-20,False
+Joshua,Vang,79,B17,12:00,13:00,Geography,20129,Theresa,Thomas,6,True,Read pages 21-30,False
+Michael,Jones,12,B17,17:00,18:00,Music,20134,Chase,Parrish,3,True,Do exercises 6-10,False
+Brenda,Mccormick,70,A19,8:00,9:00,Ethics,20161,Linda,Henry,2,True,None,True
+Tonya,Butler,91,A18,10:00,11:00,French,20175,Wendy,Lowery,10,True,Do exercises 11-15,False
+Sharon,Barton,52,A15,8:00,9:00,Music,20209,Chase,Parrish,3,False,Do entire page 41,False
+Casey,Morrison,57,A15,12:00,13:00,English,20213,Mary,Williams,8,True,Do entire page 41,True
+Loretta,Welch,41,B19,17:00,18:00,Ethics,20230,Linda,Henry,2,False,Read pages 21-30,False
+Martha,Marquez,78,B18,14:00,15:00,Geography,20239,Richard,Tapia,19,True,Read pages 1-10,False
+William,Chambers,4,B18,18:00,19:00,Ethics,20243,Linda,Henry,2,True,Do tasks 5 and 7a from page 42,True
+Tonya,Butler,91,A18,11:00,12:00,French,20296,Wendy,Lowery,10,True,Do tasks 5 and 7a from page 42,False
+Luke,Melendez,86,A16,14:00,15:00,History,20323,Amy,Bell,11,False,Read pages 11-20,True
+Sharon,Barton,52,A15,7:00,8:00,Geography,20328,Matthew,Brown,4,True,Write a summary of the chapter,False
+Martha,Marquez,78,B18,9:00,10:00,Geography,20354,Richard,Tapia,19,True,Read pages 1-10,True
+Jerome,Woods,9,B18,16:00,17:00,French,20361,Wendy,Lowery,10,True,Read pages 21-30,False
+Douglas,Wade,85,B17,14:00,15:00,Music,20371,Gregory,Thompson,13,True,Write a summary of the chapter,False
+Sherry,Moses,18,A19,9:00,10:00,Ethics,20402,Linda,Henry,2,True,Do entire page 41,False
+Tonya,Butler,91,A18,18:00,19:00,Geography,20423,Richard,Tapia,19,False,None,False
+Barry,Guerra,61,A15,15:00,16:00,English,20456,Maria,Burke,9,True,Read pages 31-40,False
+Cassandra,Little,81,B19,17:00,18:00,Ethics,20470,Linda,Henry,2,False,Do exercises 1-5,False
+William,Chambers,4,B18,13:00,14:00,PE,20478,Jackson,Shelton,18,True,Do tasks 5 and 7a from page 42,False
+Casey,Morrison,57,A15,12:00,13:00,English,20573,Mary,Williams,8,True,Do exercises 11-15,False
+Brooke,Sosa,51,B17,10:00,11:00,English,20607,Maria,Burke,9,True,Do tasks 5 and 7a from page 42,False
+Debra,Moreno,68,A15,9:00,10:00,Mathematics,20690,Brian,Walker,1,False,Write a summary of the chapter,False
+Keith,Romero,72,B19,8:00,9:00,Geography,20701,Theresa,Thomas,6,True,Do entire page 41,False
+Jerome,Woods,9,B18,10:00,11:00,Mathematics,20715,Brian,Walker,1,True,Write a summary of the chapter,False
+Misty,Johnson,31,B18,10:00,11:00,Mathematics,20715,Brian,Walker,1,True,Read pages 31-40,False
+David,Hansen,50,B15,10:00,11:00,History,20751,Amy,Bell,11,True,Read pages 31-40,False
+James,Simon,37,A19,14:00,15:00,Mathematics,20767,Shelia,Butler,5,True,Read pages 1-10,False
+Michael,Green,99,A16,7:00,8:00,Music,20796,Chase,Parrish,3,False,Read pages 31-40,False
+Michael,Green,99,A16,12:00,13:00,History,20801,Amy,Bell,11,True,Read pages 21-30,False
+Keith,Romero,72,B19,10:00,11:00,Geography,20823,Matthew,Brown,4,True,Read pages 11-20,False
+David,Hansen,50,B15,14:00,15:00,Chemistry,20875,Wanda,Berry,7,False,Do exercises 1-5,False
+Becky,Moreno,46,A19,8:00,9:00,Ethics,20881,Linda,Henry,2,True,Do exercises 1-5,True
+Becky,Moreno,46,A19,12:00,13:00,Music,20885,Chase,Parrish,3,False,Do entire page 41,False
+Kelly,White,59,A18,11:00,12:00,Geography,20896,Richard,Tapia,19,True,Do exercises 1-5,False
+Kristin,Price,16,B17,17:00,18:00,Music,20974,Chase,Parrish,3,True,Read pages 21-30,False
+Michael,Jones,12,B17,8:00,9:00,English,21085,Mary,Williams,8,True,Do exercises 1-5,False
+Javier,Vaughn,67,B15,11:00,12:00,English,21112,Maria,Burke,9,True,Do tasks 5 and 7a from page 42,True
+Sharon,Barton,52,A15,13:00,14:00,Ethics,21174,Linda,Henry,2,True,Read pages 11-20,False
+Jerome,Woods,9,B18,11:00,12:00,Geography,21196,Richard,Tapia,19,True,Do entire page 41,False
+Michael,Green,99,A16,9:00,10:00,Geography,21278,Matthew,Brown,4,False,None,False
+Luke,Melendez,86,A16,12:00,13:00,French,21281,Wendy,Lowery,10,True,None,True
+William,Chambers,4,B18,12:00,13:00,PE,21317,Jackson,Shelton,18,True,Do exercises 11-15,True
+Joshua,Vang,79,B17,7:00,8:00,Geography,21324,Theresa,Thomas,6,True,Read pages 31-40,False
+Ronald,Hicks,69,C19,16:00,17:00,PE,21359,Stephanie,Pope,0,True,Write a summary of the chapter,True
+Justin,Christian,35,A18,18:00,19:00,Geography,21383,Richard,Tapia,19,True,Do exercises 1-5,False
+Kimberly,Davis,98,A16,9:00,10:00,Geography,21398,Matthew,Brown,4,True,Do exercises 1-5,False
+Loretta,Welch,41,B19,13:00,14:00,Biology,21426,Sara,Long,12,True,Do entire page 41,False
+Jerome,Woods,9,B18,7:00,8:00,Chemistry,21432,Wanda,Berry,7,True,Read pages 11-20,False
+Brenda,Mccormick,70,A19,12:00,13:00,Music,21485,Chase,Parrish,3,False,Read pages 1-10,True
+Sherry,Moses,18,A19,14:00,15:00,Mathematics,21487,Shelia,Butler,5,True,Do exercises 1-5,False
+Tonya,Butler,91,A18,13:00,14:00,PE,21498,Jackson,Shelton,18,False,Read pages 31-40,False
+Nancy,Gutierrez,74,A18,16:00,17:00,PE,21501,Jackson,Shelton,18,False,Do exercises 1-5,False
+Luke,Melendez,86,A16,18:00,19:00,Art,21527,Brittany,Jones,14,True,Do tasks 5 and 7a from page 42,False
+Brooke,Sosa,51,B17,10:00,11:00,English,21567,Maria,Burke,9,False,Read pages 1-10,True
+Logan,Gonzalez,25,B16,12:00,13:00,Music,21581,Gregory,Thompson,13,False,Do tasks 5 and 7a from page 42,False
+Kelly,White,59,A18,9:00,10:00,Chemistry,21614,Wanda,Berry,7,False,Do exercises 1-5,False
+Tonya,Butler,91,A18,11:00,12:00,Geography,21616,Richard,Tapia,19,False,Do exercises 1-5,True
+James,Simon,37,A19,7:00,8:00,PE,21720,Stephanie,Pope,0,True,Do exercises 11-15,False
+Nancy,Gutierrez,74,A18,13:00,14:00,Geography,21738,Richard,Tapia,19,True,Do exercises 11-15,True
+Rachel,Manning,54,A16,11:00,12:00,French,21760,Wendy,Lowery,10,True,Do exercises 1-5,True
+Barry,Guerra,61,A15,17:00,18:00,History,21778,Amy,Bell,11,True,Read pages 21-30,False
+Keith,Romero,72,B19,16:00,17:00,Ethics,21789,Linda,Henry,2,True,Do entire page 41,False
+Jerome,Woods,9,B18,7:00,8:00,Chemistry,21792,Wanda,Berry,7,True,Read pages 1-10,True
+Misty,Johnson,31,B18,9:00,10:00,French,21794,Wendy,Lowery,10,True,Do exercises 11-15,False
+Douglas,Wade,85,B17,7:00,8:00,Geography,21804,Theresa,Thomas,6,True,Write a summary of the chapter,False
+Michael,Green,99,A16,14:00,15:00,History,21883,Amy,Bell,11,True,Read pages 11-20,False
+Keith,Romero,72,B19,13:00,14:00,Biology,21906,Sara,Long,12,True,Do entire page 41,False
+Nicholas,Beck,43,B18,15:00,16:00,PE,21920,Jackson,Shelton,18,False,Read pages 31-40,False
+Brooke,Sosa,51,B17,16:00,17:00,Music,21933,Chase,Parrish,3,False,Read pages 11-20,False
+David,Hansen,50,B15,9:00,10:00,English,21950,Mary,Williams,8,False,Read pages 21-30,False
+Sherry,Moses,18,A19,17:00,18:00,Biology,21970,Sara,Long,12,True,Do exercises 1-5,False
+Michael,Green,99,A16,7:00,8:00,Music,21996,Chase,Parrish,3,True,Read pages 31-40,False
+Casey,Morrison,57,A15,7:00,8:00,Geography,22008,Matthew,Brown,4,True,Do exercises 6-10,True
+Sharon,Barton,52,A15,18:00,19:00,History,22019,Amy,Bell,11,False,Do entire page 41,True
+Debra,Moreno,68,A15,18:00,19:00,History,22019,Amy,Bell,11,False,Write a summary of the chapter,False
+William,Chambers,4,B18,8:00,9:00,Homeroom,22033,Shelia,Butler,5,False,Do tasks 5 and 7a from page 42,False
+Diana,Cameron,48,B18,12:00,13:00,PE,22157,Jackson,Shelton,18,True,Do exercises 6-10,True
+Becky,Moreno,46,A19,13:00,14:00,Geography,22206,Matthew,Brown,4,False,Do exercises 6-10,False
+Tonya,Butler,91,A18,18:00,19:00,French,22223,Wendy,Lowery,10,True,Do entire page 41,False
+Kimberly,Davis,98,A16,15:00,16:00,Homeroom,22244,Sara,Long,12,True,Write a summary of the chapter,False
+Rachel,Manning,54,A16,17:00,18:00,Music,22246,Gregory,Thompson,13,True,Read pages 1-10,False
+Javier,Vaughn,67,B15,13:00,14:00,Chemistry,22314,Wanda,Berry,7,False,Read pages 21-30,False
+Nicholas,Beck,43,B18,10:00,11:00,Mathematics,22395,Brian,Walker,1,False,Write a summary of the chapter,True
+Douglas,Wade,85,B17,7:00,8:00,Geography,22404,Theresa,Thomas,6,True,Read pages 1-10,False
+Jessica,Perry,36,B17,8:00,9:00,English,22405,Mary,Williams,8,True,Read pages 31-40,False
+Brenda,Mccormick,70,A19,17:00,18:00,Biology,22450,Sara,Long,12,True,Do entire page 41,False
+Luke,Melendez,86,A16,11:00,12:00,French,22480,Wendy,Lowery,10,True,Do entire page 41,False
+William,Chambers,4,B18,9:00,10:00,Geography,22514,Richard,Tapia,19,False,Do exercises 11-15,False
+Javier,Vaughn,67,B15,7:00,8:00,English,22548,Mary,Williams,8,False,Read pages 21-30,False
+Kelly,White,59,A18,15:00,16:00,French,22580,Wendy,Lowery,10,False,Do exercises 6-10,False
+Debra,Moreno,68,A15,12:00,13:00,English,22613,Mary,Williams,8,True,Write a summary of the chapter,True
+Barry,Guerra,61,A15,18:00,19:00,History,22619,Amy,Bell,11,True,Read pages 1-10,False
+Joshua,Vang,79,B17,16:00,17:00,Music,22653,Chase,Parrish,3,True,Read pages 21-30,False
+Barry,Guerra,61,A15,12:00,13:00,English,22733,Mary,Williams,8,True,None,False
+Cassandra,Little,81,B19,14:00,15:00,Music,22747,Chase,Parrish,3,True,Do exercises 6-10,False
+Michael,Jones,12,B17,9:00,10:00,Mathematics,22766,Shelia,Butler,5,True,Do exercises 6-10,False
+Javier,Vaughn,67,B15,8:00,9:00,Geography,22789,Richard,Tapia,19,True,Do exercises 1-5,False
+Barry,Guerra,61,A15,10:00,11:00,Chemistry,22851,Wanda,Berry,7,False,Do tasks 5 and 7a from page 42,False
+Sharon,Barton,52,A15,11:00,12:00,English,22852,Mary,Williams,8,True,None,False
+Casey,Morrison,57,A15,12:00,13:00,English,22853,Mary,Williams,8,True,Do tasks 5 and 7a from page 42,False
+Loretta,Welch,41,B19,8:00,9:00,Geography,22861,Theresa,Thomas,6,False,Do exercises 6-10,False
+Cassandra,Little,81,B19,11:00,12:00,Homeroom,22864,Theresa,Thomas,6,True,Do entire page 41,False
+Michael,Trujillo,28,B19,17:00,18:00,Ethics,22870,Linda,Henry,2,True,Do exercises 6-10,False
+Kelly,White,59,A18,16:00,17:00,PE,22941,Jackson,Shelton,18,True,Write a summary of the chapter,False
+Rachel,Manning,54,A16,16:00,17:00,Music,22965,Gregory,Thompson,13,False,Read pages 11-20,True
+Misty,Johnson,31,B18,10:00,11:00,Mathematics,22995,Brian,Walker,1,True,Do tasks 5 and 7a from page 42,False
+Misty,Johnson,31,B18,14:00,15:00,French,22999,Wendy,Lowery,10,True,Read pages 1-10,False
+Joshua,Vang,79,B17,18:00,19:00,English,23015,Marcus,Gonzalez,16,True,Read pages 1-10,True
+Logan,Gonzalez,25,B16,9:00,10:00,Geography,23018,Theresa,Thomas,6,False,None,False
+Todd,Williams,24,B15,13:00,14:00,Chemistry,23034,Wanda,Berry,7,True,Do exercises 11-15,False
+Tonya,Butler,91,A18,18:00,19:00,PE,23063,Jackson,Shelton,18,True,Do exercises 11-15,True
+Cassandra,Little,81,B19,8:00,9:00,Geography,23101,Theresa,Thomas,6,True,Do exercises 1-5,False
+Michael,Green,99,A16,15:00,16:00,Homeroom,23204,Sara,Long,12,True,Read pages 21-30,False
+Casey,Morrison,57,A15,8:00,9:00,Music,23209,Chase,Parrish,3,True,Read pages 11-20,False
+Mindy,Vasquez,90,A15,10:00,11:00,Chemistry,23211,Wanda,Berry,7,True,Do entire page 41,False
+Sharon,Barton,52,A15,14:00,15:00,Ethics,23215,Linda,Henry,2,True,Do exercises 6-10,False
+Lisa,Haynes,83,B17,18:00,19:00,English,23255,Marcus,Gonzalez,16,False,Do tasks 5 and 7a from page 42,False
+Logan,Gonzalez,25,B16,7:00,8:00,French,23256,Wendy,Lowery,10,False,Do exercises 6-10,False
+Nancy,Gutierrez,74,A18,8:00,9:00,Geography,23293,Matthew,Brown,4,False,Read pages 11-20,False
+Casey,Morrison,57,A15,7:00,8:00,Geography,23328,Matthew,Brown,4,True,Do entire page 41,True
+Casey,Morrison,57,A15,14:00,15:00,Ethics,23335,Linda,Henry,2,True,Write a summary of the chapter,True
+Misty,Johnson,31,B18,11:00,12:00,Geography,23356,Richard,Tapia,19,False,Read pages 21-30,False
+Becky,Moreno,46,A19,10:00,11:00,Ethics,23403,Linda,Henry,2,True,Do entire page 41,False
+Tonya,Butler,91,A18,18:00,19:00,Geography,23423,Richard,Tapia,19,True,Read pages 31-40,True
+Barry,Guerra,61,A15,16:00,17:00,English,23457,Maria,Burke,9,True,Do tasks 5 and 7a from page 42,False
+Debra,Moreno,68,A15,18:00,19:00,Homeroom,23459,Sara,Long,12,True,Read pages 31-40,True
+Diana,Cameron,48,B18,15:00,16:00,PE,23480,Jackson,Shelton,18,False,Read pages 1-10,True
+David,Hansen,50,B15,18:00,19:00,History,23518,Amy,Bell,11,False,Do tasks 5 and 7a from page 42,False
+Tonya,Butler,91,A18,17:00,18:00,Homeroom,23542,Wendy,Lowery,10,True,Do tasks 5 and 7a from page 42,True
+Brooke,Sosa,51,B17,7:00,8:00,Geography,23604,Theresa,Thomas,6,True,Read pages 11-20,False
+Sherry,Moses,18,A19,13:00,14:00,Geography,23646,Matthew,Brown,4,True,Do entire page 41,False
+Becky,Moreno,46,A19,16:00,17:00,Chemistry,23649,Wanda,Berry,7,False,Read pages 1-10,True
+Kelly,White,59,A18,9:00,10:00,Chemistry,23654,Wanda,Berry,7,True,Do exercises 11-15,False
+Mindy,Vasquez,90,A15,10:00,11:00,Chemistry,23691,Wanda,Berry,7,True,Read pages 1-10,False
+Jerome,Woods,9,B18,10:00,11:00,Mathematics,23715,Brian,Walker,1,False,Read pages 31-40,False
+Martha,Marquez,78,B18,18:00,19:00,Ethics,23723,Linda,Henry,2,False,Do tasks 5 and 7a from page 42,False
+Tonya,Butler,91,A18,17:00,18:00,PE,23782,Jackson,Shelton,18,False,Read pages 21-30,False
+Misty,Johnson,31,B18,12:00,13:00,French,23837,Wendy,Lowery,10,True,None,True
+Martha,Marquez,78,B18,18:00,19:00,Geography,23843,Richard,Tapia,19,True,Do exercises 6-10,False
+Lisa,Haynes,83,B17,9:00,10:00,Mathematics,23846,Shelia,Butler,5,False,Read pages 31-40,False
+Lisa,Haynes,83,B17,10:00,11:00,English,23847,Maria,Burke,9,True,Do entire page 41,True
+David,Hansen,50,B15,8:00,9:00,Geography,23869,Richard,Tapia,19,False,Read pages 31-40,True
+Keith,Romero,72,B19,12:00,13:00,Chemistry,23945,Wanda,Berry,7,True,Do tasks 5 and 7a from page 42,False
+Michael,Trujillo,28,B19,16:00,17:00,Ethics,23949,Linda,Henry,2,True,Read pages 21-30,False
+Nicholas,Beck,43,B18,15:00,16:00,PE,23960,Jackson,Shelton,18,True,Do entire page 41,False
+Diana,Cameron,48,B18,17:00,18:00,Geography,23962,Richard,Tapia,19,False,Do entire page 41,False
+Michael,Jones,12,B17,17:00,18:00,Music,23974,Chase,Parrish,3,False,Do tasks 5 and 7a from page 42,False
+Cassandra,Little,81,B19,9:00,10:00,PE,24062,Stephanie,Pope,0,True,Do entire page 41,False
+Cassandra,Little,81,B19,10:00,11:00,Geography,24063,Matthew,Brown,4,True,Read pages 1-10,False
+Nicholas,Beck,43,B18,14:00,15:00,French,24079,Wendy,Lowery,10,True,Do entire page 41,False
+Kristin,Price,16,B17,18:00,19:00,Geography,24095,Matthew,Brown,4,True,Do exercises 6-10,False
+James,Simon,37,A19,13:00,14:00,Geography,24126,Matthew,Brown,4,False,Read pages 11-20,False
+Kelly,White,59,A18,7:00,8:00,Mathematics,24132,Brian,Walker,1,True,Write a summary of the chapter,False
+Nancy,Gutierrez,74,A18,16:00,17:00,Geography,24141,Richard,Tapia,19,True,Do tasks 5 and 7a from page 42,True
+Nicole,Bennett,60,A15,15:00,16:00,Geography,24176,Richard,Tapia,19,True,Do entire page 41,False
+Martha,Marquez,78,B18,7:00,8:00,Chemistry,24192,Wanda,Berry,7,True,Read pages 11-20,False
+William,Chambers,4,B18,12:00,13:00,PE,24197,Jackson,Shelton,18,False,Do exercises 6-10,False
+Joshua,Vang,79,B17,11:00,12:00,Mathematics,24208,Brian,Walker,1,True,Do exercises 6-10,False
+Michael,Jones,12,B17,16:00,17:00,Music,24213,Chase,Parrish,3,False,Read pages 1-10,False
+Todd,Williams,24,B15,16:00,17:00,History,24237,Amy,Bell,11,False,Read pages 31-40,False
+Debra,Moreno,68,A15,13:00,14:00,Ethics,24294,Linda,Henry,2,True,Do exercises 6-10,False
+Barry,Guerra,61,A15,17:00,18:00,History,24298,Amy,Bell,11,True,Read pages 11-20,False
+Brooke,Sosa,51,B17,7:00,8:00,Geography,24324,Theresa,Thomas,6,False,Do exercises 6-10,False
+Michael,Jones,12,B17,13:00,14:00,English,24330,Maria,Burke,9,False,Do exercises 11-15,True
+Douglas,Wade,85,B17,15:00,16:00,Music,24332,Chase,Parrish,3,True,Read pages 21-30,False
+Loretta,Welch,41,B19,11:00,12:00,Homeroom,24424,Theresa,Thomas,6,False,Do exercises 6-10,False
+Lisa,Haynes,83,B17,10:00,11:00,English,24447,Maria,Burke,9,True,Do tasks 5 and 7a from page 42,False
+David,Hansen,50,B15,18:00,19:00,Music,24479,Chase,Parrish,3,False,Read pages 11-20,True
+Casey,Morrison,57,A15,8:00,9:00,Music,24529,Chase,Parrish,3,True,Do entire page 41,False
+Debra,Moreno,68,A15,16:00,17:00,English,24537,Maria,Burke,9,True,Read pages 21-30,False
+Nicole,Bennett,60,A15,17:00,18:00,History,24538,Amy,Bell,11,True,Write a summary of the chapter,False
+Casey,Morrison,57,A15,18:00,19:00,History,24539,Amy,Bell,11,True,Do exercises 6-10,False
+Keith,Romero,72,B19,7:00,8:00,Mathematics,24540,Shelia,Butler,5,True,Read pages 21-30,False
+Sherry,Moses,18,A19,17:00,18:00,Biology,24610,Sara,Long,12,True,Do exercises 11-15,False
+Nancy,Gutierrez,74,A18,12:00,13:00,Ethics,24617,Linda,Henry,2,False,Do entire page 41,True
+Debra,Moreno,68,A15,10:00,11:00,Chemistry,24651,Wanda,Berry,7,True,Read pages 11-20,False
+Keith,Romero,72,B19,16:00,17:00,Ethics,24669,Linda,Henry,2,True,None,True
+William,Chambers,4,B18,11:00,12:00,Geography,24676,Richard,Tapia,19,True,Read pages 11-20,True
+Diana,Cameron,48,B18,11:00,12:00,Geography,24676,Richard,Tapia,19,True,Do entire page 41,False
+Nicholas,Beck,43,B18,12:00,13:00,PE,24677,Jackson,Shelton,18,False,Do exercises 6-10,False
+Diana,Cameron,48,B18,16:00,17:00,PE,24681,Jackson,Shelton,18,True,Read pages 21-30,True
+Douglas,Wade,85,B17,16:00,17:00,Music,24693,Chase,Parrish,3,False,None,False
+Jerome,Woods,9,B18,12:00,13:00,PE,24797,Jackson,Shelton,18,True,Read pages 11-20,False
+Douglas,Wade,85,B17,13:00,14:00,English,24809,Maria,Burke,9,False,Read pages 31-40,False
+David,Hansen,50,B15,7:00,8:00,English,24827,Mary,Williams,8,True,Do exercises 1-5,False
+James,Simon,37,A19,11:00,12:00,Ethics,24844,Linda,Henry,2,True,Do exercises 1-5,False
+Kelly,White,59,A18,7:00,8:00,Mathematics,24852,Brian,Walker,1,True,Do exercises 11-15,False
+Kimberly,Davis,98,A16,10:00,11:00,Geography,24879,Theresa,Thomas,6,True,Write a summary of the chapter,False
+Luke,Melendez,86,A16,14:00,15:00,History,24883,Amy,Bell,11,True,Write a summary of the chapter,False
+Misty,Johnson,31,B18,13:00,14:00,French,24918,Wendy,Lowery,10,False,Do exercises 6-10,False
+Martha,Marquez,78,B18,17:00,18:00,French,24922,Wendy,Lowery,10,False,Do exercises 11-15,False
+Douglas,Wade,85,B17,10:00,11:00,English,24927,Maria,Burke,9,True,Do exercises 6-10,False
+Justin,Christian,35,A18,17:00,18:00,Homeroom,24982,Wendy,Lowery,10,True,Do tasks 5 and 7a from page 42,False
+Michael,Green,99,A16,14:00,15:00,History,25003,Amy,Bell,11,True,Do exercises 6-10,False
+Casey,Morrison,57,A15,8:00,9:00,Music,25009,Chase,Parrish,3,True,Do entire page 41,False
+Keith,Romero,72,B19,14:00,15:00,Music,25027,Chase,Parrish,3,True,Do exercises 6-10,True
+Todd,Williams,24,B15,17:00,18:00,Geography,25078,Matthew,Brown,4,False,Do entire page 41,True
+Sherry,Moses,18,A19,8:00,9:00,Ethics,25081,Linda,Henry,2,True,Read pages 21-30,False
+Justin,Christian,35,A18,14:00,15:00,Geography,25099,Richard,Tapia,19,True,Write a summary of the chapter,False
+William,Chambers,4,B18,18:00,19:00,Geography,25163,Richard,Tapia,19,False,Do exercises 11-15,True
+Diana,Cameron,48,B18,18:00,19:00,Geography,25163,Richard,Tapia,19,True,Do exercises 11-15,False
+Brooke,Sosa,51,B17,8:00,9:00,English,25165,Mary,Williams,8,True,Do exercises 1-5,False
+Javier,Vaughn,67,B15,7:00,8:00,English,25188,Mary,Williams,8,True,Write a summary of the chapter,False
+Lisa,Haynes,83,B17,7:00,8:00,Geography,25284,Theresa,Thomas,6,True,Read pages 21-30,False
+Lisa,Haynes,83,B17,10:00,11:00,English,25287,Maria,Burke,9,False,Read pages 1-10,False
+Logan,Gonzalez,25,B16,18:00,19:00,PE,25307,Jackson,Shelton,18,False,Read pages 1-10,False
+David,Hansen,50,B15,8:00,9:00,Geography,25309,Richard,Tapia,19,True,Do entire page 41,False
+James,Simon,37,A19,10:00,11:00,Ethics,25323,Linda,Henry,2,True,Do exercises 6-10,False
+Sherry,Moses,18,A19,13:00,14:00,Geography,25326,Matthew,Brown,4,True,Do exercises 11-15,False
+Brenda,Mccormick,70,A19,17:00,18:00,Biology,25330,Sara,Long,12,True,Read pages 21-30,False
+Tonya,Butler,91,A18,13:00,14:00,French,25338,Wendy,Lowery,10,False,None,False
+Kimberly,Davis,98,A16,8:00,9:00,PE,25357,Stephanie,Pope,0,True,Read pages 1-10,False
+Kimberly,Davis,98,A16,13:00,14:00,Music,25362,Chase,Parrish,3,True,Write a summary of the chapter,False
+Barry,Guerra,61,A15,11:00,12:00,English,25372,Mary,Williams,8,True,Do entire page 41,True
+Joshua,Vang,79,B17,10:00,11:00,English,25407,Maria,Burke,9,True,Write a summary of the chapter,True
+Javier,Vaughn,67,B15,13:00,14:00,Economics,25434,Monique,Jones,15,True,Read pages 31-40,False
+Brenda,Mccormick,70,A19,14:00,15:00,Mathematics,25447,Shelia,Butler,5,True,Do tasks 5 and 7a from page 42,False
+Nicole,Bennett,60,A15,8:00,9:00,Music,25489,Chase,Parrish,3,True,Do exercises 1-5,False
+Martha,Marquez,78,B18,12:00,13:00,PE,25517,Jackson,Shelton,18,True,Do entire page 41,False
+Brenda,Mccormick,70,A19,9:00,10:00,Ethics,25562,Linda,Henry,2,True,Do exercises 1-5,True
+Brenda,Mccormick,70,A19,11:00,12:00,Ethics,25564,Linda,Henry,2,True,Read pages 31-40,False
+Kelly,White,59,A18,12:00,13:00,Ethics,25577,Linda,Henry,2,True,Read pages 31-40,False
+Lisa,Haynes,83,B17,7:00,8:00,Geography,25644,Theresa,Thomas,6,True,Read pages 11-20,False
+Loretta,Welch,41,B19,10:00,11:00,Geography,25743,Matthew,Brown,4,False,Read pages 11-20,True
+Cassandra,Little,81,B19,14:00,15:00,Music,25747,Chase,Parrish,3,False,Read pages 21-30,False
+Jerome,Woods,9,B18,10:00,11:00,Mathematics,25755,Brian,Walker,1,True,Do exercises 6-10,False
+Martha,Marquez,78,B18,17:00,18:00,Geography,25762,Richard,Tapia,19,True,Do exercises 6-10,False
+Rachel,Manning,54,A16,16:00,17:00,Music,25845,Gregory,Thompson,13,True,Do exercises 1-5,False
+Douglas,Wade,85,B17,14:00,15:00,Music,25891,Chase,Parrish,3,False,Do exercises 11-15,False
+James,Simon,37,A19,16:00,17:00,Chemistry,25929,Wanda,Berry,7,True,Read pages 31-40,False
+Luke,Melendez,86,A16,8:00,9:00,PE,25957,Stephanie,Pope,0,True,Do tasks 5 and 7a from page 42,False
+Rachel,Manning,54,A16,12:00,13:00,History,25961,Amy,Bell,11,False,Do exercises 11-15,False
+Michael,Green,99,A16,12:00,13:00,History,25961,Amy,Bell,11,False,Do entire page 41,False
+Michael,Green,99,A16,16:00,17:00,Music,25965,Gregory,Thompson,13,True,Do entire page 41,False
+Debra,Moreno,68,A15,8:00,9:00,Music,25969,Chase,Parrish,3,True,Read pages 21-30,False
+Casey,Morrison,57,A15,17:00,18:00,History,25978,Amy,Bell,11,True,Read pages 31-40,False
+Keith,Romero,72,B19,18:00,19:00,Ethics,25991,Linda,Henry,2,True,Do exercises 6-10,False
+Brooke,Sosa,51,B17,10:00,11:00,English,26007,Maria,Burke,9,True,Do entire page 41,False
+Joshua,Vang,79,B17,16:00,17:00,Geography,26013,Matthew,Brown,4,True,Read pages 1-10,True

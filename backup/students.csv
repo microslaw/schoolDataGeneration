@@ -1,13 +1,60 @@
 sID,Name,Surname,CityDistrict,Birthdate,Gender,ClassName,iq,Pesel
-0,Tyler,Burton,Gdansk centrum,2012-09-08,Male,A18,73,12290831097
-1,Samantha,Proctor,Gdynia centrum,2011-05-06,Female,A17,123,11250698154
-3,Joshua,Jones,Zaspa,2012-01-04,Male,B17,77,12210432447
-4,Whitney,Smith,Gdynia centrum,2007-08-24,Female,C14,111,07282434112
-5,Jeffery,Foster,Orunia,2009-02-25,Male,A14,101,09222518675
-7,Sharon,Garrett,Orunia,2008-12-07,Female,C15,103,08320779492
-10,Steve,Austin,Przymorze,2007-07-15,Male,B14,81,07271548973
-11,Terri,Smith,Stocznia,2008-09-19,Female,B14,101,08291926174
-12,Stephanie,Ramirez,Wrzeszcz,2009-05-24,Female,A15,76,09252489104
-13,Nicholas,Bell,Zaspa,2009-07-29,Other,C16,118,09272969076
-15,Gabriel,Mccoy,Wejherowo,2011-10-24,Male,A18,111,11302437089
-16,Joshua,Rogers,Przymorze,2010-01-17,Male,C15,88,10211749969
+0,Nathaniel,Alexander,Gdynia centrum,2006-11-03,Male,C14,126,06310306169
+1,Alexander,Dougherty,Wejherowo,2010-11-22,Male,C17,107,10312260169
+4,William,Chambers,Orunia,2010-10-06,Other,B18,86,10300632102
+5,Benjamin,Barnes,Jasien,2008-03-28,Male,B14,93,08232881791
+6,Tara,Combs,Gdynia centrum,2006-06-27,Female,C14,112,06262712956
+8,Jamie,Walls,Reda,2011-05-20,Female,C19,113,11252000006
+9,Jerome,Woods,Orlowo,2010-07-18,Other,B18,121,10271889104
+10,Kristin,Alexander,Gdynia centrum,2008-05-04,Female,C15,115,08250442438
+12,Michael,Jones,Lostowice,2010-04-12,Male,B17,101,10241263111
+14,Kristi,Phillips,Stocznia,2008-02-01,Female,A14,95,08220104188
+16,Kristin,Price,Redlowo,2010-07-03,Female,B17,126,10270361148
+18,Sherry,Moses,Stocznia,2012-11-21,Other,A19,102,12312105150
+23,Malik,Harris,Gdynia centrum,2008-12-27,Male,C15,77,08322717809
+24,Todd,Williams,Redlowo,2008-04-28,Male,B15,123,08242807337
+25,Logan,Gonzalez,Stocznia,2009-10-17,Male,B16,98,09301703105
+28,Michael,Trujillo,Stocznia,2012-06-29,Male,B19,84,12262955151
+29,Brianna,Parks,Gdansk centrum,2013-05-12,Other,C19,77,13251299120
+31,Misty,Johnson,Wejherowo,2011-01-08,Female,B18,108,11210882076
+33,Sherry,Haney,Stocznia,2009-12-20,Female,C17,96,09322056942
+35,Justin,Christian,Gdynia centrum,2011-01-12,Male,A18,112,11211231875
+36,Jessica,Perry,Gdansk centrum,2010-12-18,Female,B17,86,10321849546
+37,James,Simon,Wrzeszcz,2011-10-23,Other,A19,92,11302338360
+39,Joshua,Schroeder,Przymorze,2013-01-19,Male,C19,95,13211913583
+41,Loretta,Welch,Jasien,2011-08-01,Female,B19,100,11280181382
+43,Nicholas,Beck,Redlowo,2010-10-18,Male,B18,113,10301848331
+44,Tammy,Flores,Stocznia,2009-03-13,Female,C15,89,09231397396
+46,Becky,Moreno,Wrzeszcz,2012-08-12,Female,A19,126,12281288366
+48,Diana,Cameron,Gdansk centrum,2010-11-09,Female,B18,123,10310951564
+50,David,Hansen,Lostowice,2008-05-26,Male,B15,97,08252688829
+51,Brooke,Sosa,Stocznia,2010-10-01,Female,B17,101,10300152342
+52,Sharon,Barton,Reda,2008-08-28,Other,A15,113,08282866256
+53,Rodney,Carter,Orunia,2006-08-27,Male,B14,125,06282769777
+54,Rachel,Manning,Zaspa,2010-05-02,Female,A16,93,10250232786
+57,Casey,Morrison,Reda,2008-01-04,Female,A15,116,08210435872
+59,Kelly,White,Orunia,2012-03-12,Female,A18,111,12231292444
+60,Nicole,Bennett,Wejherowo,2007-10-18,Female,A15,93,07301872784
+61,Barry,Guerra,Zaspa,2008-01-19,Male,A15,72,08211951617
+63,Carol,Martin,Gdansk centrum,2007-09-29,Female,A14,79,07292952120
+65,Jenny,Duarte,Jasien,2012-03-10,Female,C19,85,12231069244
+67,Javier,Vaughn,Stocznia,2008-09-06,Other,B15,98,08290624140
+68,Debra,Moreno,Jasien,2009-02-08,Female,A15,91,09220899838
+69,Ronald,Hicks,Wejherowo,2013-03-02,Male,C19,81,13230299041
+70,Brenda,Mccormick,Gdynia centrum,2012-07-07,Female,A19,93,12270789924
+72,Keith,Romero,Gdansk centrum,2012-07-05,Male,B19,107,12270568631
+74,Nancy,Gutierrez,Zaspa,2010-08-16,Female,A18,114,10281635824
+78,Martha,Marquez,Wejherowo,2011-05-13,Female,B18,125,11251325730
+79,Joshua,Vang,Przymorze,2010-07-24,Male,B17,91,10272417089
+81,Cassandra,Little,Wrzeszcz,2013-03-04,Female,B19,110,13230435136
+83,Lisa,Haynes,Redlowo,2011-04-16,Female,B17,86,11241644754
+84,Edwin,Henderson,Orunia,2007-12-19,Male,B14,103,07321901545
+85,Douglas,Wade,Wejherowo,2010-11-21,Other,B17,97,10312167730
+86,Luke,Melendez,Stocznia,2010-02-11,Male,A16,95,10221129723
+90,Mindy,Vasquez,Reda,2008-10-27,Other,A15,75,08302732112
+91,Tonya,Butler,Zaspa,2012-05-06,Female,A18,86,12250664730
+92,Joe,Castillo,Gdansk centrum,2007-06-24,Male,C14,113,07262497227
+96,Wesley,Clark,Jasien,2009-05-19,Male,C16,120,09251949349
+97,Richard,Harper,Orlowo,2010-06-27,Male,C18,108,10262742531
+98,Kimberly,Davis,Reda,2010-04-07,Female,A16,71,10240709862
+99,Michael,Green,Przymorze,2008-05-28,Male,A16,97,08252813533
