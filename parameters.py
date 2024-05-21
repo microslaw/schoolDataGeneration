@@ -1,8 +1,8 @@
-classroom_count = 10  # How many classrooms are there in the school
-teacher_count = 20  # How many teachers work in the school
-course_count = 100  # How many courses are there in the school
-class_count = 3  # How many classes per year are there in the school; If max_school_years = 6, will generate 60 classes
-student_count = 100  # How many students are there in the school
+classroom_count = 364  # How many classrooms are there in the school
+teacher_count = 400  # How many teachers work in the school
+course_count = 400  # How many courses are there in the school
+class_count = 10  # How many classes per year are there in the school; If max_school_years = 6, will generate 60 classes
+student_count = 1000  # How many students are there in the school
 
 # Count's of tuples below are determined by different parameters. Setting count other than 0, will cutoff remaining tuples
 # This may break the integrity of the data
@@ -41,7 +41,7 @@ attendance_prob = 0.99 # probability of a student attending a meeting without be
 excused_prob = 0.7 # probability of a student recorded as not attending a meeting, has been excused
 late_prob = 0.2 # probability of a student recorded as not attending a meeting, but being late
 
-start_date = "2020-09-01" # first day of generated data
+start_date = "2010-09-01" # first day of generated data
 end_date =  "2021-08-01" # last day of generated data
 end_date2 = "2022-08-01" # last day of generated data for the second snapshot
 

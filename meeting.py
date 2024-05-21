@@ -143,38 +143,44 @@ def generate(
 
     startTimer = time.time()
     for date in dates:
-
-        #if date is the last day before summer break, change the year
-        if date.month == 9 and prevDate.month == 6:
-            year += 1
-            present_classes = df_classes.copy()
-            present_classes["courses"] = present_classes.apply(lambda row: {cID for cID in row["courses"] if cID in courseYearDict[year + row["Year"]]}, axis=1)
-
-
-        prevDate = date
-        dailySchedule = dailyScheduleBase.copy()
-        teachersSchedule = getAllTeachersCombinations(df_courses["tID"].unique(), schoolStart, schoolEnd)
-        roomsSchedule = getAllRoomsCombinations(df_rooms["RoomNumber"].unique(), schoolStart, schoolEnd)
+        try:
+            #if date is the last day before summer break, change the year
+            if date.month == 9 and prevDate.month == 6:
+                year += 1
+                present_classes = df_classes.copy()
+                present_classes["courses"] = present_classes.apply(lambda row: {cID for cID in row["courses"] if cID in courseYearDict[year + row["Year"]]}, axis=1)
 
 
+            prevDate = date
+            dailySchedule = dailyScheduleBase.copy()
+            teachersSchedule = getAllTeachersCombinations(df_courses["tID"].unique(), schoolStart, schoolEnd)
+            roomsSchedule = getAllRoomsCombinations(df_rooms["RoomNumber"].unique(), schoolStart, schoolEnd)
 
-        for index, row in present_classes.iterrows():
 
-            singleClass = row["ClassName"]
-            singleClassCourses = row["courses"]
-            singleClassCourses = {cID : tID for cID, tID in df_courses[["cID", "tID"]].values if cID in singleClassCourses}
 
-            classSchedule = scheduleClassDay(
-                dailySchedule,
-                teachersSchedule,
-                roomsSchedule,
-                schoolStart,
-                schoolEnd,
-                singleClassCourses,
-            )
+            for index, row in present_classes.iterrows():
 
-            classSchedule["ClassName"] = singleClass
-            dailySchedule = pd.concat([dailySchedule, classSchedule])
+                singleClass = row["ClassName"]
+                singleClassCourses = row["courses"]
+                singleClassCourses = {cID : tID for cID, tID in df_courses[["cID", "tID"]].values if cID in singleClassCourses}
+
+                classSchedule = scheduleClassDay(
+                    dailySchedule,
+                    teachersSchedule,
+                    roomsSchedule,
+                    schoolStart,
+                    schoolEnd,
+                    singleClassCourses,
+                )
+
+                classSchedule["ClassName"] = singleClass
+                dailySchedule = pd.concat([dailySchedule, classSchedule])
+        except Exception as e:
+            with open("error_log.txt", "a") as f:
+                f.write(f"Error at {str(date)}: {str(e)}\n")
+        finally:
+            pass
+
         dailySchedule["Date"] = date
         df = pd.concat([df, dailySchedule])
 

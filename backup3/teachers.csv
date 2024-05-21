@@ -1,0 +1,282 @@
+tID,Name,Surname,CityDistrict,Birthdate,Gender,Subject,Pesel
+0,Robert,Yoder,Orunia,1993-04-26,Male,PE,93042660457
+4,Zachary,Murphy,Jasien,1995-09-05,Male,History,95090559637
+5,Christopher,Kelly,Redlowo,1999-03-21,Male,Polish,99032117479
+6,Janet,Stewart,Wrzeszcz,1997-08-08,Female,Polish,97080826020
+7,Jonathan,Bowman,Orunia,1966-03-15,Male,Mathematics,66031559053
+8,Dustin,Stephens,Jasien,1966-10-10,Male,Economics,66101020213
+10,Wesley,Bryant,Przymorze,1963-10-13,Male,Sociology,63101305663
+12,Mindy,Long,Gdynia centrum,1988-03-25,Other,Ethics,88032500578
+13,Tyler,Wolf,Stocznia,1967-02-25,Male,Art,67022517663
+16,Benjamin,Sutton,Gdynia centrum,1990-09-22,Male,Religion,90092280521
+17,Victoria,Blair,Wrzeszcz,1992-01-01,Female,French,92010154200
+19,Mark,Taylor,Wrzeszcz,1984-01-26,Male,Chemistry,84012646201
+20,Jeffrey,Wong,Wejherowo,1980-11-01,Male,Philosophy,80110123167
+24,John,Ross,Przymorze,1965-05-29,Male,PE,65052979343
+26,Roger,Rodriguez,Gdansk centrum,1991-03-19,Male,Religion,91031965485
+27,David,Collins,Zaspa,1970-08-01,Male,Ethics,70080172681
+28,Kimberly,Smith,Przymorze,1972-02-11,Female,Informatics,72021122294
+29,John,Hall,Gdynia centrum,1974-12-19,Male,Chemistry,74121932015
+30,William,Cordova,Wrzeszcz,1960-07-04,Male,PE,60070432947
+31,Anthony,Greene,Zaspa,1974-03-21,Male,Art,74032108161
+33,Ashlee,Webb,Reda,1975-08-04,Female,Music,75080489192
+34,Lisa,Bishop,Jasien,1976-10-08,Female,Psychology,76100866416
+35,John,Martinez,Orlowo,1965-09-27,Male,Art,65092713499
+36,Cynthia,Price,Gdansk centrum,1983-03-08,Female,German,83030859998
+37,Miranda,Dorsey,Przymorze,1983-01-10,Female,Geography,83011023570
+38,Brian,Martinez,Zaspa,1994-08-11,Other,English,94081149536
+39,Brian,Mccarthy,Zaspa,1969-11-27,Male,Sociology,69112707439
+43,Michael,Brown,Wejherowo,1965-07-31,Male,Ethics,65073181529
+46,Ashley,Calhoun,Redlowo,1963-06-10,Female,English,63061076880
+47,Michele,Scott,Przymorze,1988-10-13,Other,Polish,88101398758
+48,Brandy,Mason,Przymorze,1978-06-22,Other,Sociology,78062244608
+49,Diana,Richardson,Wrzeszcz,1994-02-10,Female,Psychology,94021004858
+51,Mark,Lee,Jasien,1961-07-14,Other,PE,61071486474
+52,Nichole,Martin,Lostowice,1991-03-14,Female,History,91031403774
+54,Haley,Hernandez,Wrzeszcz,1989-07-02,Female,Geography,89070240004
+56,Joe,Smith,Gdynia centrum,1995-10-27,Male,Psychology,95102781053
+57,Zachary,Saunders,Zaspa,1970-03-16,Male,French,70031626853
+59,Jennifer,Sanders,Lostowice,1976-08-24,Female,Art,76082498026
+60,Ethan,Williams,Orunia,1971-12-12,Male,Biology,71121228309
+61,Zachary,Thompson,Orunia,1981-01-06,Male,Chemistry,81010601149
+62,Danielle,Orozco,Stocznia,1978-03-14,Female,English,78031482498
+64,Jeanne,Parrish,Stocznia,1988-02-15,Female,Sociology,88021589082
+66,Noah,Butler,Reda,1971-05-27,Male,Sociology,71052717131
+69,Heather,Wolf,Przymorze,1972-03-23,Female,Religion,72032391992
+70,Heidi,Pierce,Wrzeszcz,1958-06-13,Female,Music,58061313172
+71,Tracy,Ortiz,Wejherowo,1964-10-16,Female,Music,64101655348
+72,Lisa,Cooper,Wrzeszcz,1958-07-01,Female,Religion,58070150030
+74,Brian,Williams,Wrzeszcz,1959-05-11,Male,Music,59051115559
+75,Shannon,Griffin,Gdynia centrum,1974-07-10,Female,French,74071048280
+78,Michelle,Wilson,Gdansk centrum,1969-07-29,Female,German,69072979218
+81,Cynthia,Wilson,Przymorze,1959-07-17,Female,Physics,59071785176
+82,Julie,Hicks,Przymorze,1991-02-19,Female,Philosophy,91021929744
+83,Danielle,Johnson,Wrzeszcz,1968-02-03,Female,Chemistry,68020366388
+84,Donna,Rose,Stocznia,1991-07-17,Female,Polish,91071753054
+85,Paul,Benton,Gdynia centrum,1987-09-03,Male,German,87090323913
+86,Leah,Whitaker,Stocznia,1988-10-20,Female,PE,88102088912
+87,Gregory,Wagner,Gdynia centrum,1960-02-15,Male,German,60021531671
+88,Michael,Payne,Orlowo,1965-02-26,Male,Geography,65022603689
+91,Jose,Morton,Przymorze,1964-06-02,Male,Geography,64060257081
+92,Teresa,Lopez,Stocznia,1993-04-07,Female,German,93040744398
+94,Alan,Fitzgerald,Stocznia,1987-02-12,Male,Sociology,87021260923
+95,Adam,Klein,Orlowo,1990-11-21,Male,Ethics,90112195919
+96,Benjamin,Sutton,Orlowo,1984-09-02,Male,History,84090241643
+97,Aaron,Hampton,Gdansk centrum,1986-04-30,Male,Geography,86043087083
+98,Jeffrey,Clark,Przymorze,1977-05-29,Male,Sociology,77052930921
+102,Jessica,Garcia,Wejherowo,1965-06-07,Female,Economics,65060730382
+103,Rebecca,Bonilla,Redlowo,1963-04-22,Female,Sociology,63042237726
+104,Katherine,Parker,Przymorze,1966-09-09,Female,Chemistry,66090977274
+106,Ricky,Valentine,Wejherowo,1997-12-19,Male,Ethics,97121918475
+107,Brandon,Walker,Gdynia centrum,1991-09-09,Male,Sociology,91090903421
+108,Gregory,Macias,Wejherowo,1964-02-23,Male,Philosophy,64022393219
+109,Amy,Hendricks,Wejherowo,1980-03-17,Other,Art,80031778078
+110,Dylan,Weaver,Redlowo,1983-01-02,Male,Mathematics,83010292385
+111,Cynthia,Smith,Orunia,1981-05-11,Female,German,81051130130
+113,Robert,Thomas,Jasien,1964-03-22,Male,Polish,64032247115
+114,Jason,Diaz,Zaspa,1982-07-24,Male,Physics,82072411005
+115,Timothy,Acevedo,Lostowice,1963-07-21,Male,Informatics,63072162847
+117,Melissa,Rogers,Reda,1965-10-08,Female,Music,65100863216
+118,Benjamin,Flowers,Gdynia centrum,1993-03-26,Other,History,93032660374
+119,Antonio,Martinez,Stocznia,1959-04-12,Male,Sociology,59041234229
+120,Larry,Montgomery,Wejherowo,1978-12-10,Male,English,78121056103
+121,Julie,Harrell,Zaspa,1987-12-02,Female,Biology,87120244806
+122,Brittany,Flores,Orlowo,1960-12-13,Other,Biology,60121367108
+123,Jordan,Brown,Gdynia centrum,1966-11-19,Male,Informatics,66111997679
+124,Kristi,Hall,Reda,1994-02-21,Female,Chemistry,94022162090
+127,Theresa,Hoover,Stocznia,1992-09-27,Other,Art,92092739538
+129,Emily,Thompson,Gdynia centrum,1980-02-23,Female,Mathematics,80022377682
+130,Thomas,Phillips,Jasien,1970-03-09,Male,Psychology,70030949815
+133,Daniel,Jones,Orlowo,1975-05-12,Male,Biology,75051296465
+135,Nicholas,Wells,Przymorze,1980-05-06,Male,Informatics,80050676445
+136,Robert,Lewis,Orunia,1968-05-21,Male,Polish,68052125231
+137,Eddie,Ochoa,Redlowo,1978-06-09,Male,Polish,78060991583
+138,Stanley,Clayton,Reda,1979-01-08,Male,Philosophy,79010851867
+139,Henry,Jones,Orlowo,1984-02-04,Male,French,84020426577
+140,Donald,Rivera,Wrzeszcz,1992-04-21,Other,Mathematics,92042179028
+141,Victor,Cox,Jasien,1986-09-03,Male,Geography,86090333439
+142,Michael,Perez,Gdansk centrum,1972-03-30,Other,Art,72033076082
+143,Erika,Mcintosh,Wrzeszcz,1967-04-20,Female,Informatics,67042054986
+144,Chad,Rogers,Gdynia centrum,1969-08-10,Male,German,69081044705
+145,Ashley,Hayes,Wrzeszcz,1991-03-03,Female,Geography,91030306520
+146,Danielle,Mcguire,Orlowo,1989-12-07,Female,PE,89120737930
+147,Christopher,Dunn,Gdynia centrum,1960-06-19,Male,Music,60061979643
+149,Amber,Hudson,Stocznia,1998-10-18,Female,Music,98101852070
+150,Emily,Bishop,Orlowo,1979-05-26,Other,Polish,79052645148
+151,Elizabeth,Myers,Przymorze,1959-01-08,Female,Ethics,59010836854
+152,Robert,Huff,Wejherowo,1985-10-11,Male,Polish,85101179229
+153,Kim,Anderson,Gdynia centrum,1958-12-23,Female,Informatics,58122331866
+154,Angel,Stephens,Wejherowo,1979-12-10,Male,English,79121030305
+156,Nicholas,Martinez,Stocznia,1975-03-17,Male,PE,75031704509
+162,Richard,Hall,Reda,1976-01-22,Male,Religion,76012200973
+164,Chelsea,Moore,Redlowo,1981-12-10,Female,PE,81121079258
+165,Benjamin,White,Stocznia,1969-09-13,Male,PE,69091376873
+168,Mark,Contreras,Lostowice,1983-08-07,Male,Mathematics,83080703409
+170,John,Barnes,Orunia,1988-04-18,Male,Ethics,88041844325
+171,Kristine,Ballard,Reda,1967-07-11,Female,Religion,67071192200
+173,Bonnie,Wallace,Gdansk centrum,1984-02-11,Female,French,84021191138
+174,Sara,Fritz,Orunia,1998-07-14,Female,Biology,98071466720
+175,Justin,Mccoy,Wrzeszcz,1995-12-28,Male,Informatics,95122839607
+176,John,Reyes,Wejherowo,1967-06-23,Male,Ethics,67062315017
+177,Briana,Gardner,Orunia,1991-06-14,Female,Sociology,91061442546
+179,Brittany,Macdonald,Reda,1990-02-09,Other,History,90020916168
+182,Heather,Walker,Reda,1966-09-18,Female,Sociology,66091831846
+183,Charlene,George,Gdansk centrum,1972-01-17,Other,Ethics,72011757330
+184,Nicholas,Williams,Wejherowo,1965-01-29,Male,Religion,65012969351
+185,Jeanette,Nelson,Gdansk centrum,1970-06-29,Female,Informatics,70062982856
+186,Randy,Brown,Stocznia,1963-09-30,Male,Sociology,63093039771
+188,Jennifer,Mccullough,Przymorze,1997-09-16,Female,Polish,97091628398
+189,Scott,Hendricks,Jasien,1963-04-25,Male,History,63042512105
+190,Eric,Flores,Gdynia centrum,1982-01-24,Male,Religion,82012448479
+192,Charles,Young,Wrzeszcz,1994-04-28,Male,Polish,94042878629
+193,Christopher,Curry,Zaspa,1968-12-17,Male,History,68121772649
+194,Amanda,Harris,Orlowo,1976-05-03,Female,Music,76050326864
+196,Thomas,Duncan,Przymorze,1985-02-01,Other,Biology,85020126638
+199,Brandon,Johnson,Gdansk centrum,1991-09-20,Male,Informatics,91092016287
+200,Lisa,Dixon,Stocznia,1964-01-03,Other,English,64010326730
+201,Makayla,Williams,Gdansk centrum,1970-05-02,Female,Biology,70050213656
+202,Amanda,Boyd,Orunia,1995-12-03,Female,Music,95120395042
+203,Rodney,Rubio,Gdynia centrum,1972-11-09,Male,Informatics,72110914795
+204,Erica,Campbell,Przymorze,1992-07-20,Female,Music,92072056462
+205,Kevin,Reyes,Jasien,1980-01-31,Male,Biology,80013181817
+206,Jeremy,Grant,Redlowo,1979-08-30,Male,Art,79083096533
+207,Alyssa,Barnes,Lostowice,1967-05-09,Female,Religion,67050985770
+210,Patricia,Phillips,Wrzeszcz,1983-01-28,Female,Chemistry,83012828986
+211,Aaron,Friedman,Wrzeszcz,1975-02-11,Male,French,75021199627
+212,Jason,Santiago,Gdynia centrum,1969-03-05,Male,Psychology,69030504593
+213,Mackenzie,Patterson,Orunia,1997-07-08,Female,Ethics,97070898692
+215,Amanda,Mullen,Stocznia,1987-02-01,Female,Sociology,87020177026
+216,Gregory,Johnston,Jasien,1987-04-04,Male,Biology,87040412657
+217,Tammie,Thompson,Stocznia,1981-11-16,Female,Psychology,81111687636
+218,Paula,Gallagher,Gdansk centrum,1973-05-06,Female,Biology,73050636242
+219,Rhonda,Rodriguez,Gdynia centrum,1983-04-25,Female,Philosophy,83042525440
+220,Maurice,Wallace,Reda,1961-08-24,Male,Ethics,61082473605
+222,Kenneth,Jacobson,Lostowice,1963-01-06,Male,English,63010691629
+224,Erik,Miller,Zaspa,1961-12-10,Male,Religion,61121005807
+225,Donald,Buck,Jasien,1997-12-27,Male,History,97122734551
+226,Kent,Hodges,Zaspa,1990-07-17,Male,Informatics,90071764933
+227,Shannon,Larson,Orunia,1961-04-24,Male,Economics,61042431119
+228,David,Erickson,Gdansk centrum,1991-04-08,Male,Economics,91040862777
+229,Kenneth,Johnson,Wejherowo,1973-04-29,Male,Biology,73042950455
+230,Sarah,Smith,Orunia,1964-11-06,Other,Physics,64110632212
+231,Richard,Anthony,Orunia,1989-10-24,Male,Sociology,89102468133
+232,Elizabeth,Morgan,Stocznia,1972-12-17,Female,Mathematics,72121735780
+233,Robert,Ruiz,Orunia,1968-10-18,Male,Informatics,68101801897
+234,Brian,Davies,Lostowice,1991-10-31,Male,Chemistry,91103109457
+235,Cory,Gould,Orlowo,1974-07-04,Male,Polish,74070432597
+236,Emily,Holmes,Stocznia,1981-07-27,Female,Informatics,81072757950
+238,Jordan,Manning,Zaspa,1962-09-16,Female,Mathematics,62091605974
+239,Jacob,Henderson,Wrzeszcz,1992-05-04,Male,Music,92050483157
+240,Erin,Woodard,Przymorze,1976-01-07,Female,Polish,76010765826
+242,Joshua,Velazquez,Stocznia,1961-10-11,Male,Philosophy,61101148607
+243,Melissa,Ali,Zaspa,1987-07-30,Female,Polish,87073007060
+246,Nicole,Wright,Wrzeszcz,1979-04-18,Female,Informatics,79041894186
+247,Hannah,Crawford,Wejherowo,1965-11-14,Female,Geography,65111420820
+250,Dorothy,Jones,Redlowo,1985-10-02,Female,Music,85100248242
+251,Steve,Scott,Wejherowo,1995-04-21,Male,Music,95042167275
+252,Elizabeth,Dunn,Orunia,1962-02-08,Female,PE,62020835038
+253,Barbara,Robinson,Reda,1998-04-03,Female,PE,98040356468
+254,Amanda,Barrett,Jasien,1996-12-16,Female,Art,96121676456
+255,Ronald,Lawson,Orunia,1974-01-23,Male,Biology,74012357197
+256,Nicholas,Pierce,Gdansk centrum,1987-08-23,Male,Sociology,87082365893
+257,Samantha,Martin,Zaspa,1995-04-15,Female,PE,95041588518
+258,Ryan,Davis,Redlowo,1972-04-30,Male,Religion,72043020489
+260,Beth,Robinson,Orunia,1958-09-11,Female,Philosophy,58091115322
+262,Melissa,Griffin,Gdansk centrum,1983-12-29,Female,Polish,83122913640
+263,Tina,Nelson,Zaspa,1992-05-01,Female,Religion,92050131396
+264,Joshua,Cox,Orlowo,1970-05-04,Male,Geography,70050461119
+265,Austin,Fritz,Zaspa,1984-01-24,Male,Informatics,84012464143
+266,Deborah,Larson,Wejherowo,1966-10-05,Female,Informatics,66100560694
+267,Roy,Wright,Przymorze,1970-07-25,Male,PE,70072517083
+268,Ashley,Fowler,Orunia,1970-04-15,Female,Philosophy,70041506758
+269,Kathleen,Good,Reda,1982-10-27,Female,Informatics,82102766830
+271,Sarah,Jones,Stocznia,1959-07-11,Female,PE,59071155834
+272,Lori,Shah,Przymorze,1982-01-26,Female,Music,82012647282
+273,David,Wilson,Zaspa,1958-12-21,Male,PE,58122199539
+274,Allison,Spencer,Lostowice,1998-12-18,Female,Economics,98121868682
+275,Jessica,Boone,Jasien,1966-06-07,Female,Art,66060717374
+276,Carlos,Bell,Reda,1977-10-01,Male,Economics,77100117425
+277,Samantha,Haley,Zaspa,1982-04-29,Other,Polish,82042963866
+279,Noah,Evans,Wejherowo,1972-09-29,Male,Ethics,72092954301
+281,Joshua,Heath,Orlowo,1967-10-06,Male,Psychology,67100632865
+282,Kendra,Gibbs,Jasien,1973-09-07,Female,Art,73090731246
+283,Michael,Harris,Stocznia,1969-03-02,Male,Music,69030266167
+284,Sherry,Smith,Lostowice,1981-07-22,Other,Informatics,81072268712
+286,Jennifer,Welch,Stocznia,1966-09-07,Female,Ethics,66090747484
+287,Louis,Jones,Redlowo,1983-09-09,Male,Ethics,83090917379
+288,George,Guerra,Redlowo,1984-07-14,Male,Geography,84071414535
+289,David,Shields,Gdynia centrum,1987-01-26,Other,Mathematics,87012617334
+290,Tonya,Hughes,Orunia,1961-04-29,Female,Psychology,61042911422
+291,Leslie,Watkins,Zaspa,1987-02-28,Female,Biology,87022897886
+292,Katie,Carson,Orunia,1975-04-19,Female,Informatics,75041917324
+293,Heidi,Crawford,Przymorze,1997-09-03,Female,German,97090304042
+294,Brittany,Kelley,Gdansk centrum,1991-02-26,Female,English,91022679050
+296,David,Logan,Wrzeszcz,1988-03-16,Male,French,88031621309
+297,Melanie,Lopez,Redlowo,1988-08-22,Female,Chemistry,88082298064
+299,Mark,Lewis,Orlowo,1975-02-04,Male,Philosophy,75020471821
+300,Kaitlyn,Ruiz,Redlowo,1982-05-15,Female,Art,82051593408
+301,Jason,Washington,Redlowo,1991-03-08,Male,Psychology,91030824203
+304,James,Fuller,Reda,1959-09-14,Male,History,59091409519
+305,Jasmine,Contreras,Jasien,1981-08-21,Female,Ethics,81082138434
+306,Holly,West,Orlowo,1963-10-21,Female,Geography,63102167364
+308,Elizabeth,Jacobs,Przymorze,1976-08-25,Female,Ethics,76082502938
+309,Teresa,Lopez,Gdynia centrum,1992-09-02,Female,Polish,92090207098
+310,Meredith,Schneider,Gdynia centrum,1968-09-26,Female,Art,68092699330
+311,Charles,Bishop,Orunia,1972-07-28,Male,Biology,72072873839
+314,Maria,Cisneros,Orlowo,1977-08-20,Female,Physics,77082037846
+315,George,Rodgers,Gdansk centrum,1959-02-24,Male,Ethics,59022424059
+316,Mackenzie,Nielsen,Redlowo,1978-07-03,Female,Biology,78070391036
+318,Lori,Herrera,Jasien,1995-02-27,Female,French,95022772818
+319,Ronald,Sanchez,Orunia,1998-10-28,Male,French,98102882147
+320,Jessica,Haney,Stocznia,1985-10-15,Female,Economics,85101597542
+323,Karl,Robinson,Orlowo,1981-04-21,Male,Geography,81042157429
+324,Michael,Hughes,Gdynia centrum,1983-01-14,Male,Physics,83011468461
+326,Michael,Jones,Lostowice,1984-09-20,Male,French,84092011291
+328,Laurie,Horne,Redlowo,1974-10-26,Female,Philosophy,74102611638
+329,Thomas,Sherman,Lostowice,1972-02-25,Male,Mathematics,72022511495
+330,Jessica,Martinez,Reda,1996-01-08,Female,Sociology,96010872294
+332,Lauren,Levine,Zaspa,1986-11-26,Female,Psychology,86112630762
+335,Michael,Cherry,Jasien,1996-12-14,Male,Geography,96121436203
+337,Pamela,Shaw,Zaspa,1979-06-15,Female,English,79061503952
+338,Lee,Price,Wejherowo,1979-10-30,Male,Chemistry,79103022749
+341,Denise,Sanchez,Lostowice,1959-04-29,Female,Geography,59042951520
+342,Jessica,White,Gdansk centrum,1983-10-23,Female,Physics,83102374406
+343,Olivia,Ortiz,Gdynia centrum,1964-10-17,Female,Informatics,64101794468
+345,John,White,Lostowice,1968-05-01,Male,Philosophy,68050125675
+346,Michael,Hill,Orlowo,1982-03-14,Male,Economics,82031492395
+348,Luis,Lopez,Gdansk centrum,1982-11-23,Other,Religion,82112360762
+349,Katherine,Sanchez,Orunia,1980-12-21,Female,Economics,80122123294
+350,Eric,Robinson,Redlowo,1983-12-07,Male,Ethics,83120711213
+351,Brandon,Mckinney,Przymorze,1960-04-16,Male,History,60041602581
+353,Melissa,Hoover,Gdansk centrum,1965-05-30,Other,Philosophy,65053030290
+354,Deborah,Smith,Wejherowo,1995-11-24,Female,Art,95112459504
+355,Ronald,Parsons,Przymorze,1991-08-04,Male,PE,91080451651
+356,Michael,Williams,Zaspa,1997-06-15,Male,English,97061565353
+357,Jeffrey,Roy,Orunia,1971-01-21,Male,German,71012197981
+359,Cory,Elliott,Stocznia,1973-10-19,Male,Polish,73101952483
+361,Fernando,Schneider,Gdynia centrum,1992-01-27,Male,History,92012766791
+365,Alicia,Massey,Wrzeszcz,1971-03-24,Female,Physics,71032415052
+366,John,Smith,Stocznia,1983-04-05,Male,History,83040558983
+367,Jessica,Robinson,Orlowo,1982-05-01,Female,Ethics,82050168596
+368,Susan,Day,Gdynia centrum,1971-10-05,Female,Geography,71100526758
+369,Timothy,Martinez,Gdansk centrum,1963-04-29,Male,Ethics,63042922531
+371,Melanie,Brown,Lostowice,1991-01-10,Female,Music,91011022892
+372,Sarah,Mueller,Redlowo,1965-06-07,Female,German,65060741632
+374,Mark,Knapp,Zaspa,1991-03-23,Male,Philosophy,91032319909
+375,Oscar,Austin,Przymorze,1984-04-14,Male,Philosophy,84041464515
+376,Mark,Callahan,Jasien,1962-08-28,Male,Philosophy,62082889375
+377,James,Evans,Jasien,1998-02-16,Male,Chemistry,98021666465
+379,Kim,Wilcox,Wejherowo,1969-08-02,Female,German,69080208978
+381,Erik,Cook,Stocznia,1987-03-22,Male,Mathematics,87032218251
+382,Michele,Johnson,Redlowo,1989-03-02,Female,Mathematics,89030201816
+383,Debbie,Espinoza,Reda,1971-01-04,Other,Philosophy,71010444348
+384,Heather,Horne,Reda,1976-12-02,Female,English,76120253980
+385,Lance,Castro,Redlowo,1997-07-05,Male,Mathematics,97070522747
+387,Stacey,Salas,Gdansk centrum,1976-12-25,Other,Biology,76122510850
+390,Tiffany,Mills,Orunia,1986-07-14,Other,Ethics,86071436030
+392,Megan,Williams,Gdansk centrum,1990-12-01,Female,Economics,90120155868
+394,Chloe,Friedman,Gdansk centrum,1966-11-13,Female,Geography,66111343612
+396,Jackie,Gaines,Przymorze,1984-02-28,Female,Art,84022865044
+397,Margaret,Klein,Jasien,1975-05-14,Female,Psychology,75051472976
+398,Misty,Alexander,Lostowice,1972-01-09,Female,Economics,72010908400
+399,Dylan,Daniel,Redlowo,1964-08-12,Male,Informatics,64081279105
